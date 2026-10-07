@@ -425,6 +425,27 @@
         "textSource": {
           "type": "string",
           "description": "原文去哪里查"
+        },
+        "readText": {
+          "type": "object",
+          "required": ["title"],
+          "properties": {
+            "title": { "type": "string", "description": "原文篇名，用于生成检索链接" },
+            "links": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["label", "url"],
+                "properties": {
+                  "label": { "type": "string" },
+                  "url": { "type": "string", "pattern": "^https://" }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false,
+          "description": "读原文：App 不收录原文，只给外部阅读入口"
         }
       },
       "additionalProperties": false

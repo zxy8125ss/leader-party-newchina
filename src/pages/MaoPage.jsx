@@ -3,7 +3,7 @@ import { events, stages, personById } from '../lib/data.js';
 import { formatDate, ageText, KIND_NAME, kindOf } from '../lib/format.js';
 import { getAllRead } from '../lib/db.js';
 import { useDb } from '../lib/hooks.js';
-import { Link, LevelBadge } from '../components/common.jsx';
+import { Link, LevelBadge, ReadText } from '../components/common.jsx';
 
 const KINDS = ['all', 'life', 'event', 'work', 'poem'];
 const maoItems = events.filter((e) => e.lanes.includes('mao'));
@@ -63,6 +63,7 @@ export default function MaoPage({ query }) {
                       {e.quotes?.[0] && <span className="life-quote">“{e.quotes[0].text}”</span>}
                       {e.insight && <span className="life-insight"><em>{k === 'poem' ? '诗中心境' : k === 'work' ? '核心观点' : '他的思考'}</em>{e.insight}</span>}
                     </Link>
+                    {e.readText && <div className="life-read"><ReadText readText={e.readText} compact /></div>}
                   </li>
                 );
               })}
@@ -70,7 +71,7 @@ export default function MaoPage({ query }) {
           </section>
         );
       })}
-      <p className="muted small">毛泽东作品仍在著作权保护期内：著作只摘录简短原句，诗词不收原文，改为背景、意象与读法的注解。读原作请查《毛泽东选集》《毛泽东诗词集》。</p>
+      <p className="muted small">毛泽东作品仍在著作权保护期内：著作只摘录简短原句，诗词不收原文，改为背景、意象与读法的注解。每篇都有“读原文”入口，在外部网页打开；以《毛泽东选集》《毛泽东诗词集》为准。</p>
     </div>
   );
 }

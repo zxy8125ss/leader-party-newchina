@@ -390,3 +390,12 @@ a.stage-link:hover { border-color: var(--red); text-decoration: none; }
 .life-quote { font-family: var(--serif); color: var(--ink); font-size: .98rem; }
 .ann-tag { font-family: var(--sans); font-weight: 400; font-size: .7rem; color: #6E5A8A; border: 1px solid #6E5A8A; border-radius: 3px; padding: 0 5px; margin-left: 8px; vertical-align: 2px; }
 @media (max-width: 767px) { .annotation dl > div { grid-template-columns: 1fr; gap: 2px; } }
+
+/* 读原文 */
+.read-text { margin: 14px 0; padding: 12px 14px; border: 1px solid var(--line, #d8cbb3); border-left: 4px solid var(--red, #a3271f); background: #fffaf0; border-radius: 6px; }
+.read-text h4 { margin: 0 0 8px; }
+.read-links { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
+.read-btn { display: inline-block; padding: 6px 12px; border-radius: 4px; background: var(--red, #a3271f); color: #fff !important; text-decoration: none; font-size: 14px; }
+.read-btn.alt { background: transparent; color: var(--red, #a3271f) !important; border: 1px solid var(--red, #a3271f); }
+.read-btn.sm { padding: 2px 10px; font-size: 13px; }
+.life-read { grid-column: 2; margin-top: -10px; text-align: right; }

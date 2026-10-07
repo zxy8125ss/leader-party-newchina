@@ -71,3 +71,27 @@ export { shortDate };
 export function Empty({ children }) {
   return <div className="empty">{children}</div>;
 }
+
+// 读原文：App 不收录原文，给出外部阅读入口（直达页面 + 检索）
+export function ReadText({ readText, compact }) {
+  if (!readText) return null;
+  const q = encodeURIComponent(`毛泽东 ${readText.title} 原文`);
+  const links = [
+    ...(readText.links || []),
+    { label: '百度搜原文', url: `https://www.baidu.com/s?wd=${q}`, search: true },
+    { label: '必应搜原文', url: `https://cn.bing.com/search?q=${q}`, search: true },
+  ];
+  if (compact) {
+    const first = links[0];
+    return <a className="read-btn sm" href={first.url} target="_blank" rel="noreferrer" onClick={(ev) => ev.stopPropagation()}>读原文 ↗</a>;
+  }
+  return (
+    <section className="read-text">
+      <h4>读原文：《{readText.title}》</h4>
+      <div className="read-links">
+        {links.map((l) => <a key={l.url} className={`read-btn ${l.search ? 'alt' : ''}`} href={l.url} target="_blank" rel="noreferrer">{l.label} ↗</a>)}
+      </div>
+      <p className="muted small">在外部网页打开，需要联网。{readText.links?.length ? '马克思主义文库收录《毛泽东选集》全文，国内网络可能打不开，可改用搜索。' : ''}搜索结果来自第三方网站，请以《毛泽东选集》《毛泽东诗词集》等正式出版物为准。</p>
+    </section>
+  );
+}

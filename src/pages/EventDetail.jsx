@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { eventById, events, intlById, personById, locationById, stageById, LEVEL_NAME } from '../lib/data.js';
 import { formatDate, ageText, KIND_NAME, kindOf } from '../lib/format.js';
 import { markRead, getNote, saveNote, isFavorite, toggleFavorite, addReport } from '../lib/db.js';
-import { LaneTags, LevelBadge, Link, SourceBlock, Empty } from '../components/common.jsx';
+import { LaneTags, LevelBadge, Link, SourceBlock, Empty, ReadText } from '../components/common.jsx';
 
 export default function EventDetail({ id, query }) {
   const e = eventById[id];
@@ -51,6 +51,7 @@ export default function EventDetail({ id, query }) {
       </div>
 
       <section className="ed-summary"><p>{e.summary}</p></section>
+      <ReadText readText={e.readText} />
       {e.quotes?.length > 0 && <section className="ed-quotes">{e.quotes.map((q, i) => <blockquote key={i}>“{q.text}”<cite>——{q.author}《{q.work}》，{q.year}</cite></blockquote>)}</section>}
       {e.insight && <section className="ed-insight"><h4>{kindOf(e) === 'poem' ? '诗中心境' : kindOf(e) === 'work' ? '核心观点' : '毛泽东的思考'}</h4><p>{e.insight}</p></section>}
 
@@ -69,7 +70,7 @@ export default function EventDetail({ id, query }) {
         <section className="ed-section annotation">
           <h2>注解</h2>
           <dl>{e.annotation.map((a, i) => <div key={i}><dt>{a.label}</dt><dd>{a.text}</dd></div>)}</dl>
-          {e.textSource && <p className="muted small">{e.textSource}作品仍在著作权保护期内，App 只作转述与注解，不收录原文。</p>}
+          {e.textSource && <p className="muted small">{e.textSource}作品仍在著作权保护期内，App 只作转述与注解，原文请点上方“读原文”。</p>}
         </section>
       )}
 

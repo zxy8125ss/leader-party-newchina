@@ -140,7 +140,10 @@
         "text": "全诗围绕“离乡—立志—不归”展开，可与他后来“四海为家”的一生对照着读。"
       }
     ],
-    "textSource": "原文见毛泽东早期诗文的整理本（如《毛泽东早期文稿》），App 不收录全文。"
+    "textSource": "原文见毛泽东早期诗文的整理本（如《毛泽东早期文稿》），App 不收录全文。",
+    "readText": {
+      "title": "七绝·呈父亲"
+    }
   },
   {
     "id": "E1911-XHGM",
@@ -664,7 +667,10 @@
         "text": "这是毛泽东少有的直接抒写家人感情的文字，可与同年他在湖南的政治活动对照，看一个青年的家国两面。"
       }
     ],
-    "textSource": "原文见毛泽东早期诗文的整理本（如《毛泽东早期文稿》），App 不收录全文。"
+    "textSource": "原文见毛泽东早期诗文的整理本（如《毛泽东早期文稿》），App 不收录全文。",
+    "readText": {
+      "title": "四言诗·祭母文"
+    }
   },
   {
     "id": "E1920-YKHJH",
@@ -1089,7 +1095,10 @@
         "text": "上半写离别时的不舍，下半转向投身革命的决心；常被看作毛泽东词作中最具个人情感色彩的一首。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "贺新郎·别友"
+    }
   },
   {
     "id": "E1924-GMDYD",
@@ -1378,7 +1387,10 @@
         "text": "核心是上阕结尾的一个设问：在这广阔天地之间，谁来主宰国家的命运。下阕的回忆就是对这个问题的回答——有抱负的青年一代。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "沁园春·长沙"
+    }
   },
   {
     "id": "E1925-SHJJ",
@@ -1456,7 +1468,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他把“谁是我们的敌人？谁是我们的朋友？”作为革命的首要问题，主张团结真正的朋友去攻击真正的敌人。"
+    "insight": "他把“谁是我们的敌人？谁是我们的朋友？”作为革命的首要问题，主张团结真正的朋友去攻击真正的敌人。",
+    "readText": {
+      "title": "中国社会各阶级的分析",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19251201.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1926-BF",
@@ -1616,7 +1637,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他认为农民运动是中国革命的重要力量，批驳指责农民运动“糟得很”的论调，主张依靠贫农。"
+    "insight": "他认为农民运动是中国革命的重要力量，批驳指责农民运动“糟得很”的论调，主张依靠贫农。",
+    "readText": {
+      "title": "湖南农民运动考察报告",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-192703.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1927-HHL",
@@ -1702,7 +1732,10 @@
         "text": "全词以苍茫的江山景色衬托心中的忧虑，结尾又转为激昂；是理解他在大革命失败前夕心境的一首作品。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "菩萨蛮·黄鹤楼"
+    }
   },
   {
     "id": "E1927-SYE",
@@ -2454,7 +2487,10 @@
         "text": "上阕写敌军围困与我军坚守，下阕写早已严密防守、炮声中敌军退走；语言平实，节奏明快。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "西江月·井冈山"
+    }
   },
   {
     "id": "E1928-HSZQ",
@@ -2517,7 +2553,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他认为，中国是政治经济发展不平衡的半殖民地国家，白色政权之间长期分裂和战争，使一小块或若干小块红色政权能够在四周白色政权包围中生存和发展。"
+    "insight": "他认为，中国是政治经济发展不平衡的半殖民地国家，白色政权之间长期分裂和战争，使一小块或若干小块红色政权能够在四周白色政权包围中生存和发展。",
+    "readText": {
+      "title": "中国的红色政权为什么能够存在？",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19281005.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1928-JGSDZ",
@@ -2569,7 +2614,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "报告强调，根据地的存在需要有相当力量的正式红军、便于作战的地势和足够给养等条件，红军中要加强党的领导和政治工作。"
+    "insight": "报告强调，根据地的存在需要有相当力量的正式红军、便于作战的地势和足够给养等条件，红军中要加强党的领导和政治工作。",
+    "readText": {
+      "title": "井冈山的斗争",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19281125.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1929-GTHY",
@@ -2721,7 +2775,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他认为红色政权和红军会逐步发展，革命高潮即将到来，批评悲观情绪；小块根据地的星星之火终将燎原。"
+    "insight": "他认为红色政权和红军会逐步发展，革命高潮即将到来，批评悲观情绪；小块根据地的星星之火终将燎原。",
+    "readText": {
+      "title": "星星之火，可以燎原",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19300105.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1930-FDBBZY",
@@ -2789,7 +2852,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出要从实际情况出发，通过调查研究了解中国的实际，反对照搬书本和上级指示的教条主义作风。"
+    "insight": "他提出要从实际情况出发，通过调查研究了解中国的实际，反对照搬书本和上级指示的教条主义作风。",
+    "readText": {
+      "title": "反对本本主义",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1930-FWJ",
@@ -3622,7 +3694,10 @@
         "text": "上阕写清晨行军，下阕写战后登关远眺；在胜利中仍带着沉重，透露出一切重新开始的决心。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "忆秦娥·娄山关"
+    }
   },
   {
     "id": "E1935-QLCZ",
@@ -3703,7 +3778,10 @@
         "text": "首联总写红军不畏艰难的远征，中间两联写五岭、乌蒙山、金沙江、大渡河等地，尾联写翻过岷山雪岭后的喜悦。可对照地图页的长征路线找到这些地名。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "七律·长征"
+    }
   },
   {
     "id": "E1935-DDSB",
@@ -4012,7 +4090,10 @@
         "text": "下阕的评点是全词重心：历代帝王各有不足，真正创造历史的要看今天的人。可与《沁园春·长沙》里“谁来主宰国家命运”的设问对照阅读。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "沁园春·雪"
+    }
   },
   {
     "id": "E1936-SNFW",
@@ -4201,7 +4282,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他总结反“围剿”和长征的经验教训，阐述中国革命战争的特点和战略防御、运动战等原则，批评“左”倾军事错误。"
+    "insight": "他总结反“围剿”和长征的经验教训，阐述中国革命战争的特点和战略防御、运动战等原则，批评“左”倾军事错误。",
+    "readText": {
+      "title": "中国革命战争的战略问题",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193612.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1936-XASB",
@@ -4357,7 +4447,20 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "《实践论》强调认识来源于实践、又要回到实践中检验；《矛盾论》阐述用矛盾分析的方法看问题，抓住主要矛盾。两文都意在克服党内的教条主义。"
+    "insight": "《实践论》强调认识来源于实践、又要回到实践中检验；《矛盾论》阐述用矛盾分析的方法看问题，抓住主要矛盾。两文都意在克服党内的教条主义。",
+    "readText": {
+      "title": "实践论",
+      "links": [
+        {
+          "label": "马克思主义文库·实践论",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm"
+        },
+        {
+          "label": "马克思主义文库·矛盾论",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193708.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1937-QQSB",
@@ -4786,7 +4889,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他认为抗日战争是持久战，中国不能速胜，也不会亡国，最后胜利属于中国；兵民是胜利之本。"
+    "insight": "他认为抗日战争是持久战，中国不能速胜，也不会亡国，最后胜利属于中国；兵民是胜利之本。",
+    "readText": {
+      "title": "论持久战",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193805b.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1938-LJLZ",
@@ -4906,7 +5018,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他认为统一战线、武装斗争、党的建设是党在中国革命中战胜敌人的三个主要法宝。"
+    "insight": "他认为统一战线、武装斗争、党的建设是党在中国革命中战胜敌人的三个主要法宝。",
+    "readText": {
+      "title": "《共产党人》发刊词",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391004.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1940-XMZZYL",
@@ -4956,7 +5077,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出中国革命要分两步走，先进行新民主主义革命，再进行社会主义革命，并阐述了新民主主义的政治、经济和文化。"
+    "insight": "他提出中国革命要分两步走，先进行新民主主义革命，再进行社会主义革命，并阐述了新民主主义的政治、经济和文化。",
+    "readText": {
+      "title": "新民主主义论",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-194001.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1940-BTDZ",
@@ -5219,7 +5349,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出文艺首先要为工农兵服务，文艺工作者要深入群众、改造思想。"
+    "insight": "他提出文艺首先要为工农兵服务，文艺工作者要深入群众、改造思想。",
+    "readText": {
+      "title": "在延安文艺座谈会上的讲话",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-194205.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1944-WRMFW",
@@ -5283,7 +5422,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出共产党和八路军、新四军是为着解放人民的，要全心全意为人民的利益工作；为人民利益而死，就比泰山还重。"
+    "insight": "他提出共产党和八路军、新四军是为着解放人民的，要全心全意为人民的利益工作；为人民利益而死，就比泰山还重。",
+    "readText": {
+      "title": "为人民服务",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19440908.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1945-QD",
@@ -5417,7 +5565,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他用愚公移山的故事比喻中国共产党要坚持不懈地推翻压在中国人民头上的大山，依靠人民群众取得胜利。"
+    "insight": "他用愚公移山的故事比喻中国共产党要坚持不懈地推翻压在中国人民头上的大山，依靠人民群众取得胜利。",
+    "readText": {
+      "title": "愚公移山",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19450611.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1945-KZSL",
@@ -6081,7 +6238,10 @@
         "text": "前四句写渡江的气势和南京易手，后四句是议论，主张乘胜追击、把革命进行到底，不要像历史上的楚霸王那样沽名钓誉、半途而止。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "七律·人民解放军占领南京"
+    }
   },
   {
     "id": "E1949-DJZY",
@@ -6220,7 +6380,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他阐述新中国要实行工人阶级领导、以工农联盟为基础的人民民主专政，对人民内部实行民主、对反动派实行专政。"
+    "insight": "他阐述新中国要实行工人阶级领导、以工农联盟为基础的人民民主专政，对人民内部实行民主、对反动派实行专政。",
+    "readText": {
+      "title": "论人民民主专政",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490630.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1949-ZZXS",
@@ -6896,7 +7065,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出要以苏联的经验为鉴戒，调动一切积极因素，探索适合中国情况的建设道路。"
+    "insight": "他提出要以苏联的经验为鉴戒，调动一切积极因素，探索适合中国情况的建设道路。",
+    "readText": {
+      "title": "论十大关系",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19560425.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1956-YY",
@@ -6965,7 +7143,10 @@
         "text": "上阕写游泳时的感受和对时光流逝的感慨，下阕转到长江大桥和三峡工程的设想，表达建设新中国的豪情。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "水调歌头·游泳"
+    }
   },
   {
     "id": "E1956-BD",
@@ -7112,7 +7293,16 @@
     ],
     "contentVersion": 1,
     "kind": "work",
-    "insight": "他提出社会主义社会存在敌我之间和人民内部两类性质不同的矛盾，人民内部矛盾要用民主的方法、说服教育的方法解决。"
+    "insight": "他提出社会主义社会存在敌我之间和人民内部两类性质不同的矛盾，人民内部矛盾要用民主的方法、说服教育的方法解决。",
+    "readText": {
+      "title": "关于正确处理人民内部矛盾的问题",
+      "links": [
+        {
+          "label": "马克思主义文库",
+          "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19570227.htm"
+        }
+      ]
+    }
   },
   {
     "id": "E1957-FYP",
@@ -7390,7 +7580,10 @@
         "text": "前半回忆当年家乡农民运动的斗争和牺牲，后半写眼前的丰收景象；牺牲换来新生活的意思贯穿全诗。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "七律·到韶山"
+    }
   },
   {
     "id": "E1959-LSHY",
@@ -7692,7 +7885,10 @@
         "text": "上阕用夸张的比喻讽刺对手自不量力；下阕表达抓紧时间、不能懈怠的紧迫感和战胜困难的信心。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "满江红·和郭沫若同志"
+    }
   },
   {
     "id": "E1964-YZD",
@@ -7898,7 +8094,10 @@
         "text": "上阕写重游旧地看到的新变化，下阕回顾当年斗争并引出结论：世上没有攀登不了的高峰，只要肯下决心。"
       }
     ],
-    "textSource": "原文见中央文献出版社《毛泽东诗词集》。"
+    "textSource": "原文见中央文献出版社《毛泽东诗词集》。",
+    "readText": {
+      "title": "水调歌头·重上井冈山"
+    }
   },
   {
     "id": "E1966-WYLTZ",
