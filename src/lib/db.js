@@ -26,6 +26,16 @@ export async function saveNote(eventId, text) {
   emit('notes');
 }
 
+// 我的原文（用户自己录入，只存本机）
+export const getText = async (eventId) => (await db()).get('texts', eventId);
+export const getAllTexts = async () => (await db()).getAll('texts');
+export async function saveText(eventId, text) {
+  const d = await db();
+  if (!text.trim()) await d.delete('texts', eventId);
+  else await d.put('texts', { eventId, text, updatedAt: now() });
+  emit('texts');
+}
+
 // 收藏
 export const isFavorite = async (eventId) => !!(await (await db()).get('favorites', eventId));
 export const getAllFavorites = async () => (await db()).getAll('favorites');
@@ -92,9 +102,9 @@ export async function deleteReport(id) {
 // 备份
 export async function exportBackup() {
   const d = await db();
-  const [notes, favorites, wrong, read, progress, reports] = await Promise.all([
+  const [notes, favorites, wrong, read, progress, reports, texts] = await Promise.all([
     d.getAll('notes'), d.getAll('favorites'), d.getAll('wrongQuestions'), d.getAll('readEvents'),
-    d.get('readingProgress', 'last'), d.getAll('errorReports'),
+    d.get('readingProgress', 'last'), d.getAll('errorReports'), d.getAll('texts'),
   ]);
   return {
     app: BACKUP_APP, version: BACKUP_VERSION, exportedAt: new Date().toISOString(), contentVersion: CONTENT_VERSION,
@@ -103,6 +113,7 @@ export async function exportBackup() {
     readEvents: Object.fromEntries(read.map((r) => [r.eventId, r])),
     readingProgress: progress || {},
     errorReports: reports,
+    texts: Object.fromEntries(texts.map((t) => [t.eventId, t])),
   };
 }
 
@@ -113,7 +124,7 @@ export async function importBackup(obj, mode) {
   const check = inspectBackup(obj);
   if (!check.ok) throw new Error(check.error);
   const d = await db();
-  const stores = ['notes', 'favorites', 'wrongQuestions', 'readEvents', 'readingProgress', 'errorReports'];
+  const stores = ['notes', 'favorites', 'wrongQuestions', 'readEvents', 'readingProgress', 'errorReports', 'texts'];
   const tx = d.transaction(stores, 'readwrite');
   if (mode === 'overwrite') for (const s of stores) await tx.objectStore(s).clear();
   const putNewer = async (store, item, key, timeField) => {
@@ -121,6 +132,7 @@ export async function importBackup(obj, mode) {
     if (!old || (item[timeField] || 0) >= (old[timeField] || 0)) await tx.objectStore(store).put(item);
   };
   for (const n of Object.values(obj.notes || {})) await putNewer('notes', n, 'eventId', 'updatedAt');
+  for (const t of Object.values(obj.texts || {})) await putNewer('texts', t, 'eventId', 'updatedAt');
   for (const f of obj.favorites || []) await putNewer('favorites', f, 'eventId', 'createdAt');
   for (const w of obj.wrongQuestions || []) await putNewer('wrongQuestions', w, 'questionId', 'lastAnsweredAt');
   for (const r of Object.values(obj.readEvents || {})) await putNewer('readEvents', r, 'eventId', 'lastOpenedAt');

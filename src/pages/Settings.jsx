@@ -75,7 +75,7 @@ export function Settings() {
         </div>
         {pending && (
           <div className="confirm">
-            <p>备份文件包含：笔记 {pending.counts.notes} 条、收藏 {pending.counts.favorites} 个、错题 {pending.counts.wrongQuestions} 道、阅读记录 {pending.counts.readEvents} 条、报错 {pending.counts.errorReports} 条。</p>
+            <p>备份文件包含：笔记 {pending.counts.notes} 条、原文 {pending.counts.texts} 篇、收藏 {pending.counts.favorites} 个、错题 {pending.counts.wrongQuestions} 道、阅读记录 {pending.counts.readEvents} 条、报错 {pending.counts.errorReports} 条。</p>
             <p className="small">合并：保留现有数据，同一事件取较新的一份。覆盖：清空本机数据后导入。</p>
             <div className="stage-actions">
               <button className="btn btn-primary" onClick={() => doImport('merge')}>合并导入</button>

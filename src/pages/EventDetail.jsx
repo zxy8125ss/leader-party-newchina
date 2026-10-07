@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { eventById, events, intlById, personById, locationById, stageById, LEVEL_NAME } from '../lib/data.js';
 import { formatDate, ageText, KIND_NAME, kindOf } from '../lib/format.js';
-import { markRead, getNote, saveNote, isFavorite, toggleFavorite, addReport } from '../lib/db.js';
+import { markRead, getNote, saveNote, getText, saveText, isFavorite, toggleFavorite, addReport } from '../lib/db.js';
 import { LaneTags, LevelBadge, Link, SourceBlock, Empty, ReadText } from '../components/common.jsx';
 
 export default function EventDetail({ id, query }) {
@@ -52,6 +52,7 @@ export default function EventDetail({ id, query }) {
 
       <section className="ed-summary"><p>{e.summary}</p></section>
       <ReadText readText={e.readText} />
+      {e.readText && <MyText eventId={e.id} title={e.readText.title} />}
       {e.quotes?.length > 0 && <section className="ed-quotes">{e.quotes.map((q, i) => <blockquote key={i}>“{q.text}”<cite>——{q.author}《{q.work}》，{q.year}</cite></blockquote>)}</section>}
       {e.insight && <section className="ed-insight"><h4>{kindOf(e) === 'poem' ? '诗中心境' : kindOf(e) === 'work' ? '核心观点' : '毛泽东的思考'}</h4><p>{e.insight}</p></section>}
 
@@ -123,6 +124,38 @@ export default function EventDetail({ id, query }) {
       <NoteBox eventId={e.id} />
       {reporting && <ReportDialog eventId={e.id} title={e.title} onClose={() => setReporting(false)} />}
     </article>
+  );
+}
+
+// 我的原文：用户从书或网页复制进来，只存本机，离线也能对照注解看
+function MyText({ eventId, title }) {
+  const [text, setText] = useState(null);
+  const [edit, setEdit] = useState(false);
+  const [draft, setDraft] = useState('');
+  useEffect(() => { getText(eventId).then((t) => { setText(t?.text || ''); setEdit(false); }); }, [eventId]);
+  if (text === null) return null;
+  if (!edit && text) return (
+    <section className="my-text">
+      <div className="my-text-head"><h4>原文 · 《{title}》<span className="muted small">（我录入的，只存本机）</span></h4>
+        <button className="btn btn-ghost" onClick={() => { setDraft(text); setEdit(true); }}>修改</button></div>
+      <div className="my-text-body">{text}</div>
+    </section>
+  );
+  if (!edit) return (
+    <section className="my-text empty-text">
+      <button className="btn" onClick={() => { setDraft(''); setEdit(true); }}>＋ 把原文存进 App</button>
+      <span className="muted small">从书或上面打开的网页复制原文粘贴进来，以后离线也能对照注解看。只存本机，可随备份导出。</span>
+    </section>
+  );
+  return (
+    <section className="my-text">
+      <h4>录入原文 · 《{title}》</h4>
+      <textarea rows={10} value={draft} onChange={(ev) => setDraft(ev.target.value)} placeholder="粘贴原文，保留换行" autoFocus />
+      <div className="modal-actions">
+        <button className="btn btn-ghost" onClick={() => setEdit(false)}>取消</button>
+        <button className="btn btn-primary" onClick={async () => { await saveText(eventId, draft); setText(draft.trim() ? draft : ''); setEdit(false); }}>保存</button>
+      </div>
+    </section>
   );
 }
 
