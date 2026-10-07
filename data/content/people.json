@@ -1,147 +1,1205 @@
 [
   {
-    "id": "P-MAO", "name": "毛泽东", "born": "1893-12-26", "died": "1976-09-09", "tier": "core",
+    "id": "P-MAO",
+    "name": "毛泽东",
+    "born": "1893-12-26",
+    "died": "1976-09-09",
+    "tier": "core",
     "activePeriod": "1910年代—1976",
     "roles": [
-      { "period": "1927", "title": "中共湖南省委前敌委员会书记，领导秋收起义" },
-      { "period": "1931—1934", "title": "中华苏维埃共和国临时中央政府主席、中央执行委员会主席" },
-      { "period": "1935（遵义会议）", "title": "增选为中央政治局常委" },
-      { "period": "1936-12", "title": "统一的中央革命军事委员会主席" }
+      {
+        "period": "1927",
+        "title": "中共湖南省委前敌委员会书记，领导秋收起义"
+      },
+      {
+        "period": "1931—1934",
+        "title": "中华苏维埃共和国临时中央政府主席、中央执行委员会主席"
+      },
+      {
+        "period": "1935（遵义会议）",
+        "title": "增选为中央政治局常委"
+      },
+      {
+        "period": "1936-12",
+        "title": "统一的中央革命军事委员会主席"
+      },
+      {
+        "period": "1949-09",
+        "title": "中央人民政府主席"
+      },
+      {
+        "period": "1954-09",
+        "title": "中华人民共和国主席"
+      },
+      {
+        "period": "1956-09",
+        "title": "中共中央委员会主席"
+      }
     ],
     "relationToMao": "本人。",
     "turningPoints": [
-      { "eventId": "E1927-QSQY", "note": "领导秋收起义，转向农村" },
-      { "eventId": "E1932-NDHY", "note": "离开红军领导岗位" },
-      { "eventId": "E1935-ZYHY", "note": "重新进入中央核心领导层" }
+      {
+        "eventId": "E1927-QSQY",
+        "note": "领导秋收起义，转向农村"
+      },
+      {
+        "eventId": "E1932-NDHY",
+        "note": "离开红军领导岗位"
+      },
+      {
+        "eventId": "E1935-ZYHY",
+        "note": "重新进入中央核心领导层"
+      },
+      {
+        "eventId": "E1921-ZGYD",
+        "note": "出席一大，党的创始人之一"
+      },
+      {
+        "eventId": "E1945-QD",
+        "note": "毛泽东思想确立为党的指导思想"
+      },
+      {
+        "eventId": "E1949-KGDD",
+        "note": "宣告新中国成立"
+      },
+      {
+        "eventId": "E1966-WYLTZ",
+        "note": "发动“文化大革命”"
+      }
     ],
-    "eventIds": ["E1927-BQHY", "E1927-QSQY", "E1927-SWGB", "E1927-JGSGJD", "E1928-JGSHS", "E1929-GTHY", "E1930-XXZH", "E1930-FWJ", "E1930-YKHXS", "E1931-ZHSWA", "E1932-NDHY", "E1934-LPHY", "E1935-ZYHY", "E1935-SDCS", "E1935-DDSB", "E1935-WYB", "E1936-CZSL", "E1936-XASB"],
+    "eventIds": [
+      "E1893-MZDDS",
+      "E1911-XHGM",
+      "E1913-DYSF",
+      "E1918-XMXH",
+      "E1918-BJBD",
+      "E1919-WSYD",
+      "E1920-GCDZZ",
+      "E1921-ZGYD",
+      "E1924-GMDYD",
+      "E1925-SHJJ",
+      "E1927-HNNY",
+      "E1927-QYW",
+      "E1927-BQHY",
+      "E1927-QSQY",
+      "E1927-SWGB",
+      "E1927-JGSGJD",
+      "E1928-JGSHS",
+      "E1929-GTHY",
+      "E1930-XXZH",
+      "E1930-FWJ",
+      "E1930-YKHXS",
+      "E1931-ZHSWA",
+      "E1932-NDHY",
+      "E1934-LPHY",
+      "E1935-ZYHY",
+      "E1935-SDCS",
+      "E1935-DDSB",
+      "E1935-WYB",
+      "E1936-CZSL",
+      "E1936-XASB",
+      "E1937-LCHY",
+      "E1938-LCJZ",
+      "E1938-LJLZ",
+      "E1942-YAZF",
+      "E1945-QD",
+      "E1945-KZSL",
+      "E1945-CQTP",
+      "E1947-ZZSB",
+      "E1947-YJG",
+      "E1948-SDZY",
+      "E1949-QJEZ",
+      "E1949-DJZY",
+      "E1949-LRMZZ",
+      "E1949-ZZXS",
+      "E1949-KGDD",
+      "E1950-KMYC",
+      "E1953-GDSQ",
+      "E1954-XF",
+      "E1956-LSDGX",
+      "E1956-BD",
+      "E1957-FYP",
+      "E1958-DYJ",
+      "E1959-LSHY",
+      "E1962-QQRDH",
+      "E1966-WYLTZ",
+      "E1966-BJSYZ",
+      "E1969-JD",
+      "E1971-JYS",
+      "E1972-NKSFH",
+      "E1975-ZD",
+      "E1976-TAMSJ",
+      "E1976-MZDSS"
+    ],
     "relations": [],
-    "sourceIds": ["SRC-DSJ-1927", "SRC-DSJ-1931", "SRC-DSJ-1934", "SRC-DSJ-1936", "SRC-12371-ZYHY"],
+    "sourceIds": [
+      "SRC-DSJ-1927",
+      "SRC-DSJ-1931",
+      "SRC-DSJ-1934",
+      "SRC-DSJ-1936",
+      "SRC-12371-ZYHY",
+      "SRC-NB-MZD",
+      "SRC-DSJ-1956",
+      "SRC-JY1981"
+    ],
     "imageId": null
   },
   {
-    "id": "P-ZHOU", "name": "周恩来", "born": "1898", "died": "1976", "tier": "core",
+    "id": "P-ZHOU",
+    "name": "周恩来",
+    "born": "1898",
+    "died": "1976",
+    "tier": "core",
     "activePeriod": "1920年代—1976",
     "roles": [
-      { "period": "1927-08", "title": "参与领导南昌起义" },
-      { "period": "1931-01", "title": "中央政治局常委；苏区中央局书记" },
-      { "period": "1935（遵义会议后）", "title": "党内委托的军事指挥最后决心负责者；与毛泽东、王稼祥组成三人小组" },
-      { "period": "1936—1937", "title": "与张学良会谈；参与西安事变后谈判和国共合作谈判" }
+      {
+        "period": "1927-08",
+        "title": "参与领导南昌起义"
+      },
+      {
+        "period": "1931-01",
+        "title": "中央政治局常委；苏区中央局书记"
+      },
+      {
+        "period": "1935（遵义会议后）",
+        "title": "党内委托的军事指挥最后决心负责者；与毛泽东、王稼祥组成三人小组"
+      },
+      {
+        "period": "1936—1937",
+        "title": "与张学良会谈；参与西安事变后谈判和国共合作谈判"
+      },
+      {
+        "period": "1976-01-08",
+        "title": "逝世"
+      }
     ],
     "relationToMao": "长征途中支持毛泽东转兵贵州的主张，遵义会议后与毛泽东共同指挥红军，此后长期合作。",
     "turningPoints": [
-      { "eventId": "E1927-NCQY", "note": "领导南昌起义" },
-      { "eventId": "E1935-ZYHY", "note": "遵义会议后继续负责军事指挥" }
+      {
+        "eventId": "E1927-NCQY",
+        "note": "领导南昌起义"
+      },
+      {
+        "eventId": "E1935-ZYHY",
+        "note": "遵义会议后继续负责军事指挥"
+      }
     ],
-    "eventIds": ["E1927-NCQY", "E1934-LPHY", "E1935-ZYHY", "E1935-SDCS", "E1936-XASB"],
-    "relations": [{ "personId": "P-MAO", "type": "战友", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1927", "SRC-DSJ-1931", "SRC-DSJ-1936", "SRC-12371-ZYHY"],
+    "eventIds": [
+      "E1927-NCQY",
+      "E1934-LPHY",
+      "E1935-ZYHY",
+      "E1935-SDCS",
+      "E1936-XASB",
+      "E1937-GGHZ",
+      "E1945-QD",
+      "E1945-CQTP",
+      "E1947-ZZSB",
+      "E1949-QJEZ",
+      "E1953-GDSQ",
+      "E1954-XF",
+      "E1956-BD",
+      "E1962-QQRDH",
+      "E1964-SGXDH",
+      "E1971-JYS",
+      "E1972-NKSFH",
+      "E1975-ZD",
+      "E1976-ZELSS",
+      "E1976-TAMSJ"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "战友",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1927",
+      "SRC-DSJ-1931",
+      "SRC-DSJ-1936",
+      "SRC-12371-ZYHY",
+      "SRC-DSJ100-2"
+    ],
     "imageId": null
   },
   {
-    "id": "P-ZHU", "name": "朱德", "born": "1886", "died": "1976", "tier": "core",
+    "id": "P-ZHU",
+    "name": "朱德",
+    "born": "1886",
+    "died": "1976",
+    "tier": "core",
     "activePeriod": "1920年代—1976",
     "roles": [
-      { "period": "1927-08", "title": "参与领导南昌起义" },
-      { "period": "1928", "title": "率部进入湘南，在井冈山与毛泽东会师，组成红四军" },
-      { "period": "1930—1935", "title": "与毛泽东指挥反“围剿”；遵义会议后与周恩来指挥军事" },
-      { "period": "1937-08", "title": "八路军总指挥" }
+      {
+        "period": "1927-08",
+        "title": "参与领导南昌起义"
+      },
+      {
+        "period": "1928",
+        "title": "率部进入湘南，在井冈山与毛泽东会师，组成红四军"
+      },
+      {
+        "period": "1930—1935",
+        "title": "与毛泽东指挥反“围剿”；遵义会议后与周恩来指挥军事"
+      },
+      {
+        "period": "1937-08",
+        "title": "八路军总指挥"
+      },
+      {
+        "period": "1949-09",
+        "title": "中央人民政府副主席"
+      }
     ],
     "relationToMao": "井冈山会师后与毛泽东共同领导红四军，红军时期并称“朱毛”。",
-    "turningPoints": [{ "eventId": "E1928-JGSHS", "note": "与毛泽东会师" }],
-    "eventIds": ["E1927-NCQY", "E1928-JGSHS", "E1929-GTHY", "E1930-FWJ", "E1935-ZYHY", "E1935-SDCS", "E1936-CZSL"],
-    "relations": [{ "personId": "P-MAO", "type": "战友", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1927", "SRC-DSJ-1928", "SRC-DSJ-1931", "SRC-DSJ-1937", "SRC-12371-ZYHY"],
+    "turningPoints": [
+      {
+        "eventId": "E1928-JGSHS",
+        "note": "与毛泽东会师"
+      }
+    ],
+    "eventIds": [
+      "E1927-NCQY",
+      "E1928-JGSHS",
+      "E1929-GTHY",
+      "E1930-FWJ",
+      "E1935-ZYHY",
+      "E1935-SDCS",
+      "E1936-CZSL",
+      "E1937-GGHZ",
+      "E1945-QD",
+      "E1945-KZSL",
+      "E1949-DJZY",
+      "E1949-ZZXS",
+      "E1949-KGDD",
+      "E1956-BD"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "战友",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1927",
+      "SRC-DSJ-1928",
+      "SRC-DSJ-1931",
+      "SRC-DSJ-1937",
+      "SRC-12371-ZYHY",
+      "SRC-DSJ-1949"
+    ],
     "imageId": null
   },
   {
-    "id": "P-QU", "name": "瞿秋白", "born": "1899", "died": "1935", "tier": "core",
+    "id": "P-QU",
+    "name": "瞿秋白",
+    "born": "1899",
+    "died": "1935",
+    "tier": "core",
     "activePeriod": "1920年代—1935",
-    "roles": [{ "period": "1927-08", "title": "八七会议后以其为首的中央临时政治局负责人、常委" }],
+    "roles": [
+      {
+        "period": "1927-08",
+        "title": "八七会议后以其为首的中央临时政治局负责人、常委"
+      }
+    ],
     "relationToMao": "八七会议上毛泽东提出“政权是由枪杆子中取得的”，会议由瞿秋白等主持并确定武装反抗方针。",
-    "turningPoints": [{ "eventId": "E1927-BQHY", "note": "主持八七会议，主持中央工作" }],
-    "eventIds": ["E1927-BQHY"],
-    "relations": [{ "personId": "P-MAO", "type": "同事", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1927", "SRC-12371-0807"],
+    "turningPoints": [
+      {
+        "eventId": "E1927-BQHY",
+        "note": "主持八七会议，主持中央工作"
+      }
+    ],
+    "eventIds": [
+      "E1924-GMDYD",
+      "E1927-BQHY"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "同事",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1927",
+      "SRC-12371-0807"
+    ],
     "imageId": null
   },
   {
-    "id": "P-ZHANG-WT", "name": "张闻天", "born": "1900", "died": "1976", "tier": "core",
+    "id": "P-ZHANG-WT",
+    "name": "张闻天",
+    "born": "1900",
+    "died": "1976",
+    "tier": "core",
     "activePeriod": "1920年代—1976",
     "roles": [
-      { "period": "1931-09", "title": "临时中央政治局成员" },
-      { "period": "1935-02", "title": "扎西会议后代替博古在党内负总责" }
+      {
+        "period": "1931-09",
+        "title": "临时中央政治局成员"
+      },
+      {
+        "period": "1935-02",
+        "title": "扎西会议后代替博古在党内负总责"
+      }
     ],
     "relationToMao": "长征途中支持毛泽东的军事主张，遵义会议后在党内负总责，与毛泽东合作。",
-    "turningPoints": [{ "eventId": "E1935-ZYHY", "note": "会后不久在党内负总责" }],
-    "eventIds": ["E1935-ZYHY", "E1935-WYB"],
-    "relations": [{ "personId": "P-MAO", "type": "合作", "stageIds": ["S03"] }, { "personId": "P-BO", "type": "接替", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1931", "SRC-12371-ZYHY"],
+    "turningPoints": [
+      {
+        "eventId": "E1935-ZYHY",
+        "note": "会后不久在党内负总责"
+      }
+    ],
+    "eventIds": [
+      "E1935-ZYHY",
+      "E1935-WYB"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "合作",
+        "stageIds": [
+          "S03"
+        ]
+      },
+      {
+        "personId": "P-BO",
+        "type": "接替",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1931",
+      "SRC-12371-ZYHY"
+    ],
     "imageId": null
   },
   {
-    "id": "P-BO", "name": "博古（秦邦宪）", "born": "1907", "died": "1946", "tier": "core",
+    "id": "P-BO",
+    "name": "博古（秦邦宪）",
+    "born": "1907",
+    "died": "1946",
+    "tier": "core",
     "activePeriod": "1920年代—1946",
     "roles": [
-      { "period": "1931-09—1935", "title": "临时中央政治局负责人" },
-      { "period": "1937", "title": "参与国共合作谈判" }
+      {
+        "period": "1931-09—1935",
+        "title": "临时中央政治局负责人"
+      },
+      {
+        "period": "1937",
+        "title": "参与国共合作谈判"
+      }
     ],
     "relationToMao": "第五次反“围剿”期间与李德掌握军事指挥，遵义会议后被取消最高军事指挥权。",
-    "turningPoints": [{ "eventId": "E1935-ZYHY", "note": "被取消最高军事指挥权" }],
-    "eventIds": ["E1934-CZKS", "E1934-LPHY", "E1935-ZYHY"],
-    "relations": [{ "personId": "P-MAO", "type": "路线分歧", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1931", "SRC-DSJ-1937", "SRC-12371-ZYHY"],
+    "turningPoints": [
+      {
+        "eventId": "E1935-ZYHY",
+        "note": "被取消最高军事指挥权"
+      }
+    ],
+    "eventIds": [
+      "E1934-CZKS",
+      "E1934-LPHY",
+      "E1935-ZYHY"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "路线分歧",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1931",
+      "SRC-DSJ-1937",
+      "SRC-12371-ZYHY"
+    ],
     "imageId": null
   },
   {
-    "id": "P-PENG", "name": "彭德怀", "born": "1898", "died": "1974", "tier": "core",
+    "id": "P-PENG",
+    "name": "彭德怀",
+    "born": "1898",
+    "died": "1974",
+    "tier": "core",
     "activePeriod": "1920年代—1974",
     "roles": [
-      { "period": "1928", "title": "领导平江起义，率红五军到井冈山" },
-      { "period": "1937-08", "title": "八路军副总指挥" }
+      {
+        "period": "1928",
+        "title": "领导平江起义，率红五军到井冈山"
+      },
+      {
+        "period": "1937-08",
+        "title": "八路军副总指挥"
+      },
+      {
+        "period": "1950-10",
+        "title": "中国人民志愿军司令员兼政治委员"
+      },
+      {
+        "period": "1959-07",
+        "title": "在庐山会议后期遭到错误批判"
+      }
     ],
     "relationToMao": "1928年率部上井冈山与红四军会合，长期在毛泽东领导下作战。",
-    "turningPoints": [{ "eventId": "E1928-JGSHS", "note": "率红五军与红四军会合" }],
-    "eventIds": ["E1928-JGSHS", "E1935-ZYHY"],
-    "relations": [{ "personId": "P-MAO", "type": "部属", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1928", "SRC-DSJ-1937", "SRC-12371-ZYHY"],
+    "turningPoints": [
+      {
+        "eventId": "E1928-JGSHS",
+        "note": "率红五军与红四军会合"
+      },
+      {
+        "eventId": "E1959-LSHY",
+        "note": "遭错误批判"
+      }
+    ],
+    "eventIds": [
+      "E1928-JGSHS",
+      "E1935-ZYHY",
+      "E1937-GGHZ",
+      "E1950-KMYC",
+      "E1959-LSHY"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "部属",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1928",
+      "SRC-DSJ-1937",
+      "SRC-12371-ZYHY",
+      "SRC-DSJ100-CAC",
+      "SRC-JY1981"
+    ],
     "imageId": null
   },
   {
-    "id": "P-JIANG", "name": "蒋介石", "born": "1887", "died": "1975", "tier": "core",
+    "id": "P-JIANG",
+    "name": "蒋介石",
+    "born": "1887",
+    "died": "1975",
+    "tier": "core",
     "activePeriod": "1920年代—1975",
     "roles": [
-      { "period": "1927-04", "title": "在上海发动反革命政变" },
-      { "period": "1930—1934", "title": "主持对红军的五次“围剿”" },
-      { "period": "1936-12", "title": "在西安事变中被扣，同意联共抗日" }
+      {
+        "period": "1927-04",
+        "title": "在上海发动反革命政变"
+      },
+      {
+        "period": "1930—1934",
+        "title": "主持对红军的五次“围剿”"
+      },
+      {
+        "period": "1936-12",
+        "title": "在西安事变中被扣，同意联共抗日"
+      },
+      {
+        "period": "1949-04",
+        "title": "国民党在大陆的统治覆灭"
+      }
     ],
     "relationToMao": "国民党方面的主要对手；西安事变后国共再度合作抗日。",
-    "turningPoints": [{ "eventId": "E1936-XASB", "note": "西安事变" }],
-    "eventIds": ["E1931-JYBS", "E1934-CZKS", "E1936-XASB"],
-    "relations": [{ "personId": "P-MAO", "type": "对手", "stageIds": ["S03"] }, { "personId": "P-ZHANG-XL", "type": "上下级/兵谏", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1927", "SRC-DSJ-1931", "SRC-DSJ-1933", "SRC-DSJ-1936"],
+    "turningPoints": [
+      {
+        "eventId": "E1936-XASB",
+        "note": "西安事变"
+      }
+    ],
+    "eventIds": [
+      "E1924-GMDYD",
+      "E1926-BF",
+      "E1927-SYE",
+      "E1931-JYBS",
+      "E1934-CZKS",
+      "E1936-XASB",
+      "E1937-GGHZ",
+      "E1945-CQTP"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "对手",
+        "stageIds": [
+          "S03"
+        ]
+      },
+      {
+        "personId": "P-ZHANG-XL",
+        "type": "上下级/兵谏",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1927",
+      "SRC-DSJ-1931",
+      "SRC-DSJ-1933",
+      "SRC-DSJ-1936",
+      "SRC-DSJ100"
+    ],
     "imageId": null
   },
   {
-    "id": "P-ZHANG-XL", "name": "张学良", "born": "1901", "died": "2001", "tier": "core",
+    "id": "P-ZHANG-XL",
+    "name": "张学良",
+    "born": "1901",
+    "died": "2001",
+    "tier": "core",
     "activePeriod": "1920年代—1936",
-    "roles": [{ "period": "1936", "title": "东北军将领，与杨虎城发动西安事变" }],
+    "roles": [
+      {
+        "period": "1936",
+        "title": "东北军将领，与杨虎城发动西安事变"
+      }
+    ],
     "relationToMao": "1936年4月与周恩来在延安会谈联合抗日，12月发动西安事变。",
-    "turningPoints": [{ "eventId": "E1936-XASB", "note": "发动兵谏" }],
-    "eventIds": ["E1936-XASB"],
-    "relations": [{ "personId": "P-ZHOU", "type": "会谈", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-DSJ-1936"],
+    "turningPoints": [
+      {
+        "eventId": "E1936-XASB",
+        "note": "发动兵谏"
+      }
+    ],
+    "eventIds": [
+      "E1936-XASB"
+    ],
+    "relations": [
+      {
+        "personId": "P-ZHOU",
+        "type": "会谈",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1936"
+    ],
     "imageId": null
   },
   {
-    "id": "P-YANG-KH", "name": "杨开慧", "born": "1901", "died": "1930-11-14", "tier": "extended",
+    "id": "P-YANG-KH",
+    "name": "杨开慧",
+    "born": "1901",
+    "died": "1930-11-14",
+    "tier": "extended",
     "activePeriod": "1920年代—1930",
-    "roles": [{ "period": "1927—1930", "title": "在长沙板仓坚持地下斗争" }],
+    "roles": [
+      {
+        "period": "1927—1930",
+        "title": "在长沙板仓坚持地下斗争"
+      }
+    ],
     "relationToMao": "毛泽东的妻子。",
-    "turningPoints": [{ "eventId": "E1930-YKHXS", "note": "被捕牺牲" }],
-    "eventIds": ["E1930-YKHXS"],
-    "relations": [{ "personId": "P-MAO", "type": "夫妻", "stageIds": ["S03"] }],
-    "sourceIds": ["SRC-IFENG-YKH"],
+    "turningPoints": [
+      {
+        "eventId": "E1930-YKHXS",
+        "note": "被捕牺牲"
+      }
+    ],
+    "eventIds": [
+      "E1918-BJBD",
+      "E1930-YKHXS"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "夫妻",
+        "stageIds": [
+          "S03"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-IFENG-YKH"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-CHEN-DX",
+    "name": "陈独秀",
+    "born": "1879",
+    "died": "1942",
+    "tier": "core",
+    "activePeriod": "1910年代—1929",
+    "roles": [
+      {
+        "period": "1920-08",
+        "title": "在上海成立共产党早期组织"
+      },
+      {
+        "period": "1921-07",
+        "title": "中共一大选举为中央局书记"
+      },
+      {
+        "period": "1927-05",
+        "title": "中共五大继续当选总书记"
+      },
+      {
+        "period": "1927-07",
+        "title": "中共中央改组后停职"
+      },
+      {
+        "period": "1929-11",
+        "title": "被开除党籍"
+      }
+    ],
+    "relationToMao": "党的创建时期的主要领导人；一大时毛泽东为长沙代表，陈独秀任中央局书记。",
+    "turningPoints": [
+      {
+        "eventId": "E1921-ZGYD",
+        "note": "当选中央局书记"
+      },
+      {
+        "eventId": "E1927-QYW",
+        "note": "大革命失败前夕停职"
+      }
+    ],
+    "eventIds": [
+      "E1920-GCDZZ",
+      "E1921-ZGYD",
+      "E1927-SYE",
+      "E1927-QYW"
+    ],
+    "relations": [
+      {
+        "personId": "P-LI-DZ",
+        "type": "共同创党",
+        "stageIds": [
+          "S01",
+          "S02"
+        ]
+      },
+      {
+        "personId": "P-MAO",
+        "type": "上下级",
+        "stageIds": [
+          "S02"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ100",
+      "SRC-DSJ-1927",
+      "SRC-DSJ-1929"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-LI-DZ",
+    "name": "李大钊",
+    "born": "1889",
+    "died": "1927",
+    "tier": "core",
+    "activePeriod": "1910年代—1927",
+    "roles": [
+      {
+        "period": "1920-03",
+        "title": "在北京大学组织马克思学说研究会"
+      },
+      {
+        "period": "1920-10",
+        "title": "在北京成立共产党早期组织"
+      },
+      {
+        "period": "1924-01",
+        "title": "当选国民党中央执行委员"
+      },
+      {
+        "period": "1924-12",
+        "title": "中共中央北方局书记"
+      },
+      {
+        "period": "1927-04",
+        "title": "在北京被捕，28日牺牲"
+      }
+    ],
+    "relationToMao": "党的早期领导人；1924年国民党一大上与毛泽东等同时当选国民党中央委员或候补委员。",
+    "turningPoints": [
+      {
+        "eventId": "E1920-GCDZZ",
+        "note": "组织北京早期组织"
+      },
+      {
+        "eventId": "E1927-SYE",
+        "note": "被捕牺牲"
+      }
+    ],
+    "eventIds": [
+      "E1920-GCDZZ",
+      "E1924-GMDYD",
+      "E1927-SYE"
+    ],
+    "relations": [
+      {
+        "personId": "P-CHEN-DX",
+        "type": "共同创党",
+        "stageIds": [
+          "S01",
+          "S02"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ100",
+      "SRC-DSJ-1924"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-CAI-HS",
+    "name": "蔡和森",
+    "born": "1895",
+    "died": "1931",
+    "tier": "core",
+    "activePeriod": "1910年代—1931",
+    "roles": [
+      {
+        "period": "1918-04",
+        "title": "与毛泽东等发起新民学会"
+      }
+    ],
+    "relationToMao": "毛泽东的同学和挚友，新民学会共同发起人。",
+    "turningPoints": [
+      {
+        "eventId": "E1918-XMXH",
+        "note": "共同发起新民学会"
+      }
+    ],
+    "eventIds": [
+      "E1918-XMXH"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "同学、挚友",
+        "stageIds": [
+          "S01"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-NB-MZD",
+      "SRC-XXSB-QSN"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-SUN-ZS",
+    "name": "孙中山",
+    "born": "1866",
+    "died": "1925",
+    "tier": "core",
+    "activePeriod": "1890年代—1925",
+    "roles": [
+      {
+        "period": "1924-01",
+        "title": "主持国民党一大，确定联俄、联共、扶助农工三大政策"
+      },
+      {
+        "period": "1924-06",
+        "title": "黄埔军校总理"
+      },
+      {
+        "period": "1925-03-12",
+        "title": "在北京逝世"
+      }
+    ],
+    "relationToMao": "推动第一次国共合作的国民党领袖；毛泽东在国共合作中当选国民党中央候补委员。",
+    "turningPoints": [
+      {
+        "eventId": "E1924-GMDYD",
+        "note": "改组国民党，实现国共合作"
+      }
+    ],
+    "eventIds": [
+      "E1911-XHGM",
+      "E1924-GMDYD",
+      "E1925-SZSSS"
+    ],
+    "relations": [
+      {
+        "personId": "P-JIANG",
+        "type": "黄埔校长任命",
+        "stageIds": [
+          "S02"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1924",
+      "SRC-DSJ-1925"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-WANG-JW",
+    "name": "汪精卫",
+    "born": "1883",
+    "died": "1944",
+    "tier": "core",
+    "activePeriod": "1920年代—1944",
+    "roles": [
+      {
+        "period": "1925-07",
+        "title": "国民政府主席"
+      },
+      {
+        "period": "1927-07-15",
+        "title": "在武汉宣布“分共”"
+      }
+    ],
+    "relationToMao": "大革命后期武汉国民党的领导人，其“分共”标志国共合作全面破裂。",
+    "turningPoints": [
+      {
+        "eventId": "E1927-QYW",
+        "note": "宣布分共"
+      }
+    ],
+    "eventIds": [
+      "E1927-QYW"
+    ],
+    "relations": [
+      {
+        "personId": "P-JIANG",
+        "type": "国民党内竞争",
+        "stageIds": [
+          "S02"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1925",
+      "SRC-DSJ100"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-LIU-SQ",
+    "name": "刘少奇",
+    "born": "1898",
+    "died": "1969",
+    "tier": "core",
+    "activePeriod": "1920年代—1969",
+    "roles": [
+      {
+        "period": "1936-03",
+        "title": "到天津主持中共中央北方局工作"
+      },
+      {
+        "period": "1949-09",
+        "title": "中央人民政府副主席"
+      },
+      {
+        "period": "1956-09",
+        "title": "在中共八大作政治报告，八届一中全会当选中央副主席"
+      }
+    ],
+    "relationToMao": "长期在党中央与毛泽东共事；八大作政治报告。“文化大革命”中遭受错误批判的经过待补充来源。",
+    "turningPoints": [
+      {
+        "eventId": "E1956-BD",
+        "note": "作八大政治报告"
+      }
+    ],
+    "eventIds": [
+      "E1945-QD",
+      "E1949-ZZXS",
+      "E1954-XF",
+      "E1956-BD",
+      "E1962-QQRDH",
+      "E1966-BJSYZ"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "同事",
+        "stageIds": [
+          "S06",
+          "S07",
+          "S08"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1936",
+      "SRC-DSJ-1949",
+      "SRC-DSJ-1956"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-DENG",
+    "name": "邓小平",
+    "born": "1904",
+    "died": "1997",
+    "tier": "core",
+    "activePeriod": "1920年代—1997",
+    "roles": [
+      {
+        "period": "1929-12",
+        "title": "参与领导百色起义"
+      },
+      {
+        "period": "1935-01",
+        "title": "以中央秘书长身份出席遵义会议"
+      },
+      {
+        "period": "1947—1949",
+        "title": "与刘伯承率部挺进大别山；任淮海战役、渡江战役总前委书记"
+      },
+      {
+        "period": "1956-09",
+        "title": "中共中央总书记"
+      },
+      {
+        "period": "1975",
+        "title": "主持国务院日常工作，进行整顿"
+      }
+    ],
+    "relationToMao": "长期在毛泽东领导下工作；1974年毛泽东提议其任国务院第一副总理。",
+    "turningPoints": [
+      {
+        "eventId": "E1947-DBS",
+        "note": "挺进大别山"
+      },
+      {
+        "eventId": "E1975-ZD",
+        "note": "主持整顿"
+      }
+    ],
+    "eventIds": [
+      "E1947-DBS",
+      "E1948-SDZY",
+      "E1949-DJZY",
+      "E1956-BD",
+      "E1962-QQRDH",
+      "E1975-ZD",
+      "E1976-TAMSJ"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "上下级",
+        "stageIds": [
+          "S05",
+          "S06",
+          "S08"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1929",
+      "SRC-12371-ZYHY",
+      "SRC-DSJ100",
+      "SRC-DSJ-1956",
+      "SRC-DSJ-1974",
+      "SRC-DSJ100-2"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-LIN-B",
+    "name": "林彪",
+    "born": "1907",
+    "died": "1971",
+    "tier": "core",
+    "activePeriod": "1920年代—1971",
+    "roles": [
+      {
+        "period": "1930-01",
+        "title": "毛泽东复信《星星之火，可以燎原》的收信人"
+      },
+      {
+        "period": "1935-01",
+        "title": "出席遵义会议"
+      },
+      {
+        "period": "1971-09-13",
+        "title": "阴谋政变败露后外逃，坠机身亡"
+      }
+    ],
+    "relationToMao": "红军时期是毛泽东部属；“文化大革命”中形成林彪反革命集团，1971年事件败露。",
+    "turningPoints": [
+      {
+        "eventId": "E1971-JYS",
+        "note": "九一三事件"
+      }
+    ],
+    "eventIds": [
+      "E1966-WYLTZ",
+      "E1966-BJSYZ",
+      "E1969-JD",
+      "E1971-JYS"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "部属/背叛",
+        "stageIds": [
+          "S03",
+          "S08"
+        ]
+      },
+      {
+        "personId": "P-JIANG-Q",
+        "type": "派系",
+        "stageIds": [
+          "S08"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-MX-XXZH",
+      "SRC-12371-ZYHY",
+      "SRC-DSJ100-2"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-JIANG-Q",
+    "name": "江青",
+    "born": "1914",
+    "died": "1991",
+    "tier": "core",
+    "activePeriod": "1960年代—1976",
+    "roles": [
+      {
+        "period": "1966—1976",
+        "title": "“文化大革命”中江青反革命集团的首要人物"
+      },
+      {
+        "period": "1974-07",
+        "title": "毛泽东批评其搞帮派活动，首次提出“四人帮”问题"
+      },
+      {
+        "period": "1976-10-06",
+        "title": "被粉碎"
+      }
+    ],
+    "relationToMao": "毛泽东的妻子；毛泽东曾批评她搞帮派。",
+    "turningPoints": [
+      {
+        "eventId": "E1976-FSSRB",
+        "note": "“四人帮”被粉碎"
+      }
+    ],
+    "eventIds": [
+      "E1966-WYLTZ",
+      "E1975-ZD",
+      "E1976-TAMSJ",
+      "E1976-FSSRB"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "夫妻",
+        "stageIds": [
+          "S08"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ-1974",
+      "SRC-DSJ100-2",
+      "SRC-JY1981"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-NIXON",
+    "name": "尼克松",
+    "born": "1913",
+    "died": "1994",
+    "tier": "core",
+    "activePeriod": "1969—1974（美国总统任期）",
+    "roles": [
+      {
+        "period": "1972-02",
+        "title": "访问中国，中美发表《联合公报》"
+      }
+    ],
+    "relationToMao": "1972年访华，中美关系开始正常化。",
+    "turningPoints": [
+      {
+        "eventId": "E1972-NKSFH",
+        "note": "访华"
+      }
+    ],
+    "eventIds": [
+      "E1972-NKSFH"
+    ],
+    "relations": [
+      {
+        "personId": "P-ZHOU",
+        "type": "会谈",
+        "stageIds": [
+          "S08"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-DSJ100-2"
+    ],
+    "imageId": null
+  },
+  {
+    "id": "P-YANG-CJ",
+    "name": "杨昌济",
+    "born": "1871",
+    "died": "1920",
+    "tier": "extended",
+    "activePeriod": "1910年代",
+    "roles": [
+      {
+        "period": "1914",
+        "title": "在湖南第一师范任教"
+      },
+      {
+        "period": "1918-06",
+        "title": "受聘为北京大学哲学系教授"
+      }
+    ],
+    "relationToMao": "毛泽东在第一师范的老师；毛泽东1918年初到北京时住在其家。",
+    "turningPoints": [
+      {
+        "eventId": "E1913-DYSF",
+        "note": "在一师结识毛泽东"
+      }
+    ],
+    "eventIds": [
+      "E1913-DYSF",
+      "E1918-BJBD"
+    ],
+    "relations": [
+      {
+        "personId": "P-MAO",
+        "type": "师生",
+        "stageIds": [
+          "S01"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "SRC-CNS-BD"
+    ],
     "imageId": null
   }
 ]

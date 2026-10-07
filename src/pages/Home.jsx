@@ -45,7 +45,8 @@ export default function Home() {
       <nav className="home-grid">
         <Link to="/timeline" className="home-tile"><b>进入时间轴</b><span>三条线并排看同一时期</span></Link>
         <Link to="/stages" className="home-tile"><b>按阶段学习</b><span>已开放 {stagesWithContent.length} / 8 个阶段</span></Link>
-        <Link to="/people" className="home-tile"><b>人物</b><span>关键人物与相关事件</span></Link>
+        <Link to="/people" className="home-tile"><b>人物</b><span>关键人物与关系图</span></Link>
+        <Link to="/map" className="home-tile"><b>地图</b><span>事件地点与长征路线</span></Link>
         <Link to="/favorites" className="home-tile"><b>我的收藏</b><span>标记过的事件</span></Link>
         <Link to="/notes" className="home-tile"><b>我的笔记</b><span>可导出为 Word</span></Link>
         <Link to="/wrong" className="home-tile"><b>错题本</b><span>做错的测验题</span></Link>

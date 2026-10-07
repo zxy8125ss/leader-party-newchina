@@ -13,6 +13,7 @@ export function Mine() {
         <Link to="/notes" className="home-tile"><b>我的笔记</b></Link>
         <Link to="/wrong" className="home-tile"><b>错题本</b></Link>
         <Link to="/people" className="home-tile"><b>人物</b></Link>
+        <Link to="/people/graph" className="home-tile"><b>人物关系图</b></Link>
         <Link to="/settings" className="home-tile"><b>设置与备份</b></Link>
         <Link to="/about" className="home-tile"><b>关于</b></Link>
       </nav>

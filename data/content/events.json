@@ -1,5 +1,1351 @@
 [
   {
+    "id": "E1893-MZDDS",
+    "title": "毛泽东诞生",
+    "date": "1893-12-26",
+    "datePrecision": "day",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-XIANGTAN",
+    "summary": "毛泽东生于湖南湘潭，少年时期在家乡私塾读书，后外出求学。",
+    "detail": "1893年12月26日，毛泽东生于湖南湘潭。少年时期先后在家乡多处私塾读书；17岁时考入湘乡县立东山高等小学堂，18岁到长沙，考入湘乡驻省中学堂。",
+    "background": "清朝末年，中国在西方列强侵略下沦为半殖民地半封建社会，救亡图存成为时代主题。",
+    "impact": "个人线起点。从韶山冲走向长沙，是他接触新思想的开端。",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1911-XHGM",
+          "note": "在长沙求学时遇上辛亥革命，投笔从戎"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1893年条"
+        },
+        {
+          "sourceId": "SRC-XXSB-QSN",
+          "locator": "少年时期部分"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "location",
+        "note": "年表记为“湖南湘潭”，通行说法为湘潭韶山冲，待用《毛泽东年谱》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "湘潭",
+      "韶山",
+      "私塾",
+      "东山高等小学堂"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1911-XHGM",
+    "title": "辛亥革命",
+    "date": "1911-10",
+    "datePrecision": "month",
+    "stageId": "S01",
+    "lanes": [
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "locationId": "L-WUCHANG",
+    "summary": "辛亥革命推翻清王朝，结束了两千多年的君主专制制度；在长沙求学的毛泽东投笔从戎，在新军当列兵。",
+    "detail": "1911年10月辛亥革命爆发。革命推翻了清王朝，结束了统治中国两千多年的君主专制制度，但没有改变中国半殖民地半封建的社会性质。毛泽东当时在长沙，投笔从戎支持革命，在新军中当列兵；1912年2月清帝退位后，他认为革命已经结束，退出军队继续求学。",
+    "background": "1840年以后，太平天国运动、洋务运动、戊戌维新、义和团运动相继失败，资产阶级革命派开始以武装斗争推翻清朝。",
+    "impact": "旧的君主专制被推翻，但国家仍未摆脱内忧外患，先进分子继续探索救国道路。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1893-MZDDS",
+          "note": "毛泽东此时正在长沙求学"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1915-XWH",
+          "note": "辛亥革命后国家状况没有根本改变，催生新文化运动"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-SUN-ZS"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        },
+        {
+          "sourceId": "SRC-XXSB-QSN",
+          "locator": "1911—1912年部分"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第一节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "来源记为1911年10月；武昌起义的具体日期待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "辛亥革命",
+      "清王朝",
+      "新军",
+      "君主专制",
+      "清帝退位"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1913-DYSF",
+    "title": "求学湖南第一师范",
+    "date": "1913",
+    "endDate": "1918-06",
+    "datePrecision": "approx",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "毛泽东考入湖南省立第四师范预科，不久随校并入第一师范，1918年毕业，在杨昌济等人影响下形成救国志向。",
+    "detail": "毛泽东在湖南全省高等中学校读了半年后退学，每日到湖南省立图书馆自修；随后考入湖南省立第四师范学校预科，不久第四师范合并于湖南省立第一师范学校。1914年起，杨昌济在第一师范任教，与毛泽东结识。1917年暑期，毛泽东与萧子升步行游历长沙、宁乡、安化、益阳、沅江五县，行程900余里。1918年6月，毛泽东从第一师范毕业。",
+    "background": "民国初年政局动荡，青年学生普遍思考救国出路。",
+    "impact": "师范期间的读书、游学与交友，为他后来组织新民学会、走上革命道路打下基础。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1911-XHGM",
+          "note": "退出新军后决定继续求学"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1918-XMXH",
+          "note": "在一师结识的同学成为新民学会的骨干"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-YANG-CJ"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-XXSB-QSN"
+        },
+        {
+          "sourceId": "SRC-CNS-BD",
+          "locator": "杨昌济部分"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "来源以年龄（20岁）记述入学时间，通行说法为1913年春，待用《毛泽东年谱》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "湖南第一师范",
+      "第四师范",
+      "杨昌济",
+      "游学"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1915-XWH",
+    "title": "新文化运动兴起",
+    "date": "1915",
+    "datePrecision": "year",
+    "stageId": "S01",
+    "lanes": [
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "1915年兴起的新文化运动掀起思想解放潮流；俄国十月革命后，中国先进分子开始选择马克思主义。",
+    "detail": "1915年兴起的新文化运动，掀起了思想解放的潮流。1917年俄国十月革命鼓舞了东方被压迫民族，中国一批先进分子开始从中寻找救国道路，逐步选择马克思主义。",
+    "background": "辛亥革命后，政治制度变了，社会状况和思想观念没有根本改变。",
+    "impact": "为五四运动和马克思主义在中国的传播准备了思想条件。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1911-XHGM",
+          "note": "辛亥革命未能改变国家面貌"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1919-WSYD",
+          "note": "思想解放潮流汇入五四运动"
+        }
+      ],
+      "context": [
+        "I1917-SYGM"
+      ]
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第二节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "新文化运动的标志性刊物与代表人物待补充来源后再写入。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "新文化运动",
+      "思想解放",
+      "马克思主义"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1918-XMXH",
+    "title": "新民学会成立",
+    "date": "1918-04",
+    "datePrecision": "month",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "毛泽东与蔡和森等在长沙发起组织新民学会，团结了一批进步青年。",
+    "detail": "1918年4月，毛泽东与蔡和森等发起组织新民学会。同年春，两人沿洞庭湖南岸和东岸游历湘阴、岳阳、平江、浏阳等县半个多月。",
+    "background": "第一师范的同学和友人中聚集了一批关心国事的青年。",
+    "impact": "新民学会的许多成员后来成为中国共产党的早期骨干。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1913-DYSF",
+          "note": "会员多来自一师同学"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1918-BJBD",
+          "note": "学会成立后，毛泽东为组织赴法勤工俭学第一次到北京"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-CAI-HS"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1918年4月条"
+        },
+        {
+          "sourceId": "SRC-XXSB-QSN",
+          "locator": "1918年春部分"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "after",
+        "note": "“为组织赴法勤工俭学赴京”的动机说明尚无来源，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "新民学会",
+      "蔡和森",
+      "长沙"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1918-BJBD",
+    "title": "第一次到北京，任北大图书馆助理员",
+    "date": "1918-08-19",
+    "datePrecision": "day",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "毛泽东第一次来到北京，在北京大学图书馆任助理员，参加哲学研究会和新闻学研究会。",
+    "detail": "1918年8月19日，毛泽东第一次来到北京，住在杨昌济家前院，后与友人在景山东街三眼井租屋。他在北京大学图书馆担任助理员，月薪8元，并参加北大哲学研究会和新闻学研究会。在京期间与杨开慧相识。1920年初他第二次来到北京，杨昌济病逝。",
+    "background": "杨昌济1918年6月受聘为北京大学哲学系教授，举家迁京。",
+    "impact": "在北大接触到新思潮和李大钊等新文化运动人物，开阔了眼界。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1918-XMXH",
+          "note": "新民学会成立后北上"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1919-WSYD",
+          "note": "次年回湘，领导湖南的学生爱国运动"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-YANG-CJ",
+      "P-YANG-KH"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-CNS-BD"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“接触李大钊”一说本条来源未明确记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "北京大学",
+      "图书馆",
+      "杨昌济",
+      "杨开慧"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1919-WSYD",
+    "title": "五四运动",
+    "date": "1919-05-04",
+    "datePrecision": "day",
+    "stageId": "S01",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "北京学生因巴黎和会外交失败举行游行示威，运动扩展到全国；中国工人阶级开始以独立的姿态登上政治舞台。",
+    "detail": "1919年5月4日，北京学生因巴黎和会上中国外交失败举行游行示威，运动迅速发展到全国，中国工人阶级开始以独立的姿态登上政治舞台。这次运动促进了马克思主义同中国工人运动的结合。同年，毛泽东在湖南领导反帝反封建的爱国学生运动。",
+    "background": "第一次世界大战后召开的巴黎和会，拒绝了中国收回山东权益等要求；新文化运动已在青年中广泛传播新思想。",
+    "impact": "五四运动为中国共产党的成立作了思想上和干部上的准备，通常被视为新民主主义革命的开端。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1915-XWH",
+          "note": "新文化运动的思想准备"
+        },
+        {
+          "id": "E1918-BJBD",
+          "note": "毛泽东在北京接触新思潮后回湘"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1920-GCDZZ",
+          "note": "运动之后，马克思主义传播加快，各地建立共产党早期组织"
+        }
+      ],
+      "context": [
+        "I1919-BLHH",
+        "I1917-SYGM"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1919年条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第二节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“新民主主义革命的开端”为通行表述，本条来源未直接出现，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "五四",
+      "巴黎和会",
+      "学生运动",
+      "工人阶级"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1920-GCDZZ",
+    "title": "各地共产党早期组织建立",
+    "date": "1920-08",
+    "endDate": "1921",
+    "datePrecision": "month",
+    "stageId": "S01",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "陈独秀、李大钊等在上海、北京建立共产党早期组织，长沙等地相继建立；毛泽东创建长沙共产主义组织。",
+    "detail": "1920年3月，李大钊在北京大学组织马克思学说研究会。8月，陈独秀等在上海成立共产党早期组织；10月，李大钊等在北京成立共产党早期组织。到1921年春，武汉、长沙、济南、广州等地相继建立组织。1920年11月，毛泽东创建长沙共产主义组织。",
+    "background": "五四运动后，马克思主义在中国加速传播，并开始同工人运动相结合。",
+    "impact": "为召开全国代表大会、正式成立中国共产党作了组织准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1919-WSYD",
+          "note": "五四运动促进了马克思主义与工人运动结合"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1921-ZGYD",
+          "note": "各地早期组织派代表出席中共一大"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-CHEN-DX",
+      "P-LI-DZ",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1920年11月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第三节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "共产党早期组织",
+      "陈独秀",
+      "李大钊",
+      "上海",
+      "长沙"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1921-ZGYD",
+    "title": "中共一大",
+    "date": "1921-07-23",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "中国共产党第一次全国代表大会在上海开幕，最后一天转移到嘉兴南湖游船上举行，宣告中国共产党成立；毛泽东作为长沙代表出席。",
+    "detail": "1921年7月23日，中国共产党第一次全国代表大会在上海开幕，最后一天转移到浙江嘉兴南湖的游船上举行。出席代表包括毛泽东、何叔衡、董必武等，代表全国50多名党员。大会确定党的名称为“中国共产党”，选举陈独秀为中央局书记。",
+    "background": "各地共产党早期组织已经建立，马克思主义同工人运动初步结合。",
+    "impact": "中国共产党正式成立。毛泽东是党的创始人之一。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1920-GCDZZ",
+          "note": "各地早期组织派代表与会"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1922-ZGED",
+          "note": "一年后召开二大"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-CHEN-DX"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1921年7月23日条"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1921年7月至8月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第三节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "一大",
+      "建党",
+      "嘉兴南湖",
+      "何叔衡",
+      "董必武"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1922-ZGED",
+    "title": "中共二大",
+    "date": "1922-07-16",
+    "endDate": "1922-07-23",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "中共第二次全国代表大会在上海举行，出席代表12人，代表全国195名党员。",
+    "detail": "1922年7月16日至23日，中国共产党第二次全国代表大会在上海举行，出席代表12人，代表全国195名党员。",
+    "background": "党成立一年后，需要进一步明确革命的纲领与任务。",
+    "impact": "党的组织和工人运动在此后继续发展。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1921-ZGYD",
+          "note": "一大后党组织初步建立"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1923-ZGSD",
+          "note": "一年后三大确定国共合作方针"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1922年7月16日—23日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第三节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "二大提出民主革命纲领的具体内容尚未取得来源原文，暂不写入，待补核。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "二大",
+      "民主革命纲领"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1923-ZGSD",
+    "title": "中共三大",
+    "date": "1923-06-12",
+    "endDate": "1923-06-20",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-GUANGZHOU",
+    "summary": "中共第三次全国代表大会在广州举行，决定全体共产党员以个人名义加入国民党，建立革命统一战线。",
+    "detail": "1923年6月12日至20日，中国共产党第三次全国代表大会在广州举行，出席代表30多人，代表全国420名党员。大会决定全体共产党员以个人名义加入国民党。",
+    "background": "1923年2月京汉铁路工人罢工遭到吴佩孚镇压，发生二七惨案，党认识到需要联合其他革命力量。同年1月，孙中山发表《孙文越飞联合宣言》，确立联俄政策。",
+    "impact": "为第一次国共合作的实现作了准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1922-ZGED",
+          "note": "工人运动遭遇挫折，需要寻找同盟者"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1924-GMDYD",
+          "note": "次年国民党一大召开，国共合作正式形成"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1923年6月12日—20日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1923",
+          "locator": "1月、2月、6月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第四节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "三大",
+      "广州",
+      "国共合作",
+      "二七惨案"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1924-GMDYD",
+    "title": "国民党一大与第一次国共合作",
+    "date": "1924-01-20",
+    "endDate": "1924-01-30",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "party",
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-GUANGZHOU",
+    "summary": "国民党一大在广州召开，确定联俄、联共、扶助农工三大政策，第一次国共合作正式形成；毛泽东等共产党员当选国民党中央委员或候补委员。",
+    "detail": "1924年1月20日至30日，中国国民党第一次全国代表大会在广州举行，确定联俄、联共、扶助农工三大政策。李大钊、谭平山、毛泽东、林伯渠、瞿秋白等十名共产党员当选为国民党中央执行委员或候补委员。同年5月黄埔军校第一期学员入学，6月16日举行开学典礼，孙中山任总理，蒋介石任校长；7月3日第一届农民运动讲习所在广州开学。",
+    "background": "中共三大决定共产党员以个人名义加入国民党；孙中山决心改组国民党。",
+    "impact": "国共合作推动了全国革命形势的高涨，为北伐战争准备了条件。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1923-ZGSD",
+          "note": "中共三大确定合作方针"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1925-WSYD",
+          "note": "合作后工农运动迅速发展"
+        },
+        {
+          "id": "E1926-BF",
+          "note": "国共合作基础上的北伐"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-SUN-ZS",
+      "P-LI-DZ",
+      "P-MAO",
+      "P-QU",
+      "P-JIANG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1924",
+          "locator": "1月20日—30日、5月5日、7月3日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1924年条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第四节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "国共合作",
+      "三大政策",
+      "黄埔军校",
+      "农民运动讲习所"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1925-SZSSS",
+    "title": "孙中山逝世",
+    "date": "1925-03-12",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "nation"
+    ],
+    "level": "B",
+    "criteria": [
+      1,
+      4
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "孙中山在北京逝世。",
+    "detail": "1925年3月12日，孙中山在北京逝世。此前他于1924年11月决定北上，发表《北上宣言》。",
+    "background": "孙中山北上谋求召开国民会议、解决国是。",
+    "impact": "国民党内左右派分化逐渐加剧。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1924-GMDYD",
+          "note": "孙中山主持国民党改组"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1926-BF",
+          "note": "孙中山身后，国民政府出师北伐"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-SUN-ZS"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1925",
+          "locator": "3月12日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1924",
+          "locator": "11月10日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "孙中山",
+      "北上宣言"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1925-WSYD",
+    "title": "五卅运动",
+    "date": "1925-05-30",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "上海租界巡捕开枪屠杀游行群众，引发全国反帝运动，约1700万各阶层群众直接参加。",
+    "detail": "1925年5月15日，上海内外棉七厂日本厂长杀害工人顾正红。5月28日中共中央决定5月30日发动反帝示威。5月30日租界巡捕开枪，造成13人死亡、数十人受伤，史称五卅惨案。此后运动扩展到全国，约1700万各阶层群众直接参加；6月19日起广州、香港二十万工人举行省港大罢工。",
+    "background": "国共合作后工人运动高涨；中共四大（1925年1月）讨论加强党对革命运动的领导。",
+    "impact": "推动大革命高潮到来，党的组织迅速扩大。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1924-GMDYD",
+          "note": "国共合作后工农运动高涨"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1926-BF",
+          "note": "革命形势高涨，为北伐创造条件"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1925",
+          "locator": "5月15日、28日、30日、6月19日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1925年5月30日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第四节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "五卅",
+      "顾正红",
+      "省港大罢工",
+      "上海"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1925-SHJJ",
+    "title": "《中国社会各阶级的分析》",
+    "date": "1925-12-01",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": null,
+    "summary": "毛泽东发表《中国社会各阶级的分析》，分析谁是革命的敌人、谁是革命的朋友。",
+    "detail": "1925年12月1日，毛泽东发表《中国社会各阶级的分析》；同月5日，他主编的《政治周报》在广州出版。",
+    "background": "国共合作期间，毛泽东在广州从事国民党宣传工作和农民运动工作。",
+    "impact": "这篇文章后来列为《毛泽东选集》第一卷首篇。",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1927-HNNY",
+          "note": "继续研究农民问题"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1925",
+          "locator": "12月1日、12月5日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "毛泽东在广州的任职情况待用《毛泽东年谱》核对。",
+        "sourceIds": []
+      },
+      {
+        "field": "impact",
+        "note": "“列为《毛泽东选集》首篇”待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "中国社会各阶级的分析",
+      "政治周报",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1926-BF",
+    "title": "北伐战争",
+    "date": "1926-07-09",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-GUANGZHOU",
+    "summary": "国民革命军在广州誓师北伐，在国共合作基础上进军，打击北洋军阀。",
+    "detail": "1926年7月9日，国民革命军在广州誓师北伐。此前3月20日，蒋介石制造中山舰事件，加紧限制共产党的活动。",
+    "background": "国共合作与工农运动的发展使革命形势高涨；北洋军阀仍控制大部分国土。",
+    "impact": "北伐推动革命从珠江流域扩展到长江流域，但国民党右派势力也随之壮大。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1925-WSYD",
+          "note": "工农运动高涨"
+        },
+        {
+          "id": "E1924-GMDYD",
+          "note": "国共合作的基础"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-HNNY",
+          "note": "北伐进军中两湖农民运动高涨"
+        },
+        {
+          "id": "E1927-SYE",
+          "note": "北伐军占领上海后蒋介石发动政变"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-JIANG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1926年3月20日、7月9日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第五节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "北伐进军的具体战绩尚未取得来源，暂只写概括。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "北伐",
+      "国民革命军",
+      "中山舰事件"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-HNNY",
+    "title": "《湖南农民运动考察报告》",
+    "date": "1927-03",
+    "datePrecision": "month",
+    "stageId": "S02",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "毛泽东回湖南考察农民运动后发表报告，肯定农民运动，批驳党内外对农民运动的指责。",
+    "detail": "1927年1月4日至2月5日，毛泽东回湖南考察农民运动，3月发表《湖南农民运动考察报告》。同年3月30日，毛泽东等组成全国农民协会临时执行委员会。",
+    "background": "北伐进军中湖南、湖北农民运动迅猛发展，党内外对农民运动有不同看法。",
+    "impact": "报告体现了毛泽东对农民问题的重视，与他后来走农村道路的选择一脉相承。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1926-BF",
+          "note": "北伐中两湖农民运动高涨"
+        },
+        {
+          "id": "E1925-SHJJ",
+          "note": "延续对农民问题的研究"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-QSQY",
+          "note": "大革命失败后，毛泽东在湖南领导秋收起义"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "1月4日—2月5日、3月30日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1927年3月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "湖南农民运动考察报告",
+      "农民运动",
+      "农民协会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-SYE",
+    "title": "四一二反革命政变",
+    "date": "1927-04-12",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "蒋介石在上海发动反革命政变，屠杀共产党人和革命群众，大革命从高潮走向失败。",
+    "detail": "1927年4月12日，蒋介石在上海发动反革命政变，随后各省相继发生大屠杀。4月6日，李大钊在北京被奉系军阀逮捕，28日牺牲。4月27日至5月9日，中共五大在武汉举行，代表82人，代表全国57967名党员，陈独秀继续当选总书记。",
+    "background": "北伐军占领上海、南京后，国民党右派与帝国主义加紧勾结；3月21日上海工人第三次武装起义已占领上海。",
+    "impact": "政变是大革命从高潮走向失败的转折点。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1926-BF",
+          "note": "北伐军占领上海后发生政变"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-QYW",
+          "note": "三个月后武汉也宣布分共，国共合作全面破裂"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-JIANG",
+      "P-LI-DZ",
+      "P-CHEN-DX"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "3月21日、4月12日、4月27日—5月9日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1927年4月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第六节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "四一二",
+      "蒋介石",
+      "上海",
+      "李大钊",
+      "五大"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-QYW",
+    "title": "七一五“分共”，大革命失败",
+    "date": "1927-07-15",
+    "datePrecision": "day",
+    "stageId": "S02",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-HANKOU",
+    "summary": "汪精卫在武汉召开会议宣布“分共”，国共合作全面破裂，大革命失败。",
+    "detail": "1927年7月12日至13日，中共中央改组，陈独秀停职，撤回参加国民政府的共产党员。7月15日，汪精卫召开会议宣布“分共”，国共合作全面破裂。此前7月4日的中央政治局常委会上，毛泽东主张保存武力。",
+    "background": "四一二政变后武汉国民政府也日益右倾；5月21日长沙发生马日事变。",
+    "impact": "大革命失败迫使党转向独立领导武装斗争。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-SYE",
+          "note": "上海政变之后武汉也走向分共"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-NCQY",
+          "note": "党以南昌起义打响武装反抗的第一枪"
+        },
+        {
+          "id": "E1927-BQHY",
+          "note": "八七会议总结大革命失败的教训"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-WANG-JW",
+      "P-CHEN-DX",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "5月21日、7月4日、7月12日—15日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1927年7月15日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第一章第六节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "7月4日毛泽东发言的具体内容待用《毛泽东年谱》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "七一五",
+      "汪精卫",
+      "分共",
+      "大革命失败",
+      "马日事变"
+    ],
+    "contentVersion": 1
+  },
+  {
     "id": "E1927-NCQY",
     "title": "南昌起义",
     "date": "1927-08-01",
@@ -19,9 +1365,14 @@
     "summary": "大革命失败后，周恩来、贺龙、叶挺、朱德、刘伯承等领导两万余人在南昌举行武装起义，打响武装反抗国民党反动派的第一枪。",
     "detail": "1927年8月1日，在周恩来、贺龙、叶挺、朱德、刘伯承等领导下，两万余人在南昌发动武装起义。8月3日起，起义部队陆续撤离南昌南下广东，9月底至10月初在潮汕地区失败，余部一部分后来由朱德、陈毅率领转战湘南。",
     "background": "1927年4月12日蒋介石在上海发动反革命政变，7月15日汪精卫在武汉作出“分共”决定，第一次国共合作破裂，大革命失败。7月中旬中共中央改组，陈独秀停职。",
-    "impact": "南昌起义标志着中国共产党独立领导武装斗争和创建人民军队的开始。1933年6月，中华苏维埃临时中央政府决定以8月1日为中国工农红军成立纪念日。",
+    "impact": "南昌起义标志着中国共产党独立领导革命战争、创建人民军队的开端。1933年6月，中华苏维埃临时中央政府决定以8月1日为中国工农红军成立纪念日。",
     "relations": {
-      "before": [],
+      "before": [
+        {
+          "id": "E1927-QYW",
+          "note": "国共合作全面破裂后，党决定以武装反抗国民党"
+        }
+      ],
       "after": [
         {
           "id": "E1927-BQHY",
@@ -45,6 +1396,10 @@
         {
           "sourceId": "SRC-DSJ-1927",
           "locator": "8月1日、8月3日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1927年8月1日条"
         }
       ],
       "extra": [
@@ -58,13 +1413,7 @@
         }
       ]
     },
-    "uncertain": [
-      {
-        "field": "impact",
-        "note": "“标志着党独立领导武装斗争和创建人民军队的开始”为通行表述，待用《中国共产党简史》核对原文。",
-        "sourceIds": []
-      }
-    ],
+    "uncertain": [],
     "imageId": null,
     "keywords": [
       "南昌",
@@ -395,7 +1744,7 @@
     ],
     "locationId": "L-JINGGANGSHAN",
     "summary": "朱德、陈毅率部与毛泽东领导的秋收起义部队在井冈山会师，合编为工农革命军第四军。",
-    "detail": "1928年1月，朱德、陈毅率南昌起义保留下来的部分部队进入湘南，发动宜章、郴州、耒阳等县武装起义。4月，这支部队与毛泽东领导的秋收起义部队在井冈山会师，合编为工农革命军第四军（后称红四军）。12月，彭德怀率红五军也到达井冈山与红四军会合。",
+    "detail": "1928年1月，朱德、陈毅率南昌起义保留下来的部分部队进入湘南，发动宜章、郴州、耒阳等县武装起义。4月下旬，这支部队与毛泽东领导的秋收起义部队在井冈山会师，成立工农革命军第四军（后称红四军），朱德任军长，毛泽东任党代表。同月，毛泽东为部队规定了三大纪律、六项注意。12月，彭德怀率红五军也到达井冈山与红四军会合。",
     "background": "南昌起义失败后，余部由朱德、陈毅率领辗转湘南；井冈山根据地正在初创。",
     "impact": "会师壮大了井冈山根据地的武装力量，“朱毛红军”由此形成。",
     "relations": {
@@ -429,6 +1778,10 @@
         {
           "sourceId": "SRC-DSJ-1928",
           "locator": "1月、4月、12月条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1928年4月条"
         }
       ],
       "extra": []
@@ -436,10 +1789,8 @@
     "uncertain": [
       {
         "field": "date",
-        "note": "大事记只记到“4月”，具体日期待用《毛泽东年谱》核对。",
-        "sourceIds": [
-          "SRC-DSJ-1928"
-        ]
+        "note": "来源记为“4月下旬”，具体日期待用《毛泽东年谱》核对。",
+        "sourceIds": []
       }
     ],
     "imageId": null,
@@ -534,7 +1885,7 @@
     "summary": "红四军第九次代表大会在福建上杭古田召开，通过毛泽东起草的决议，确立党对军队的领导等建党建军原则。",
     "detail": "1929年12月28日至29日，中国共产党红军第四军第九次代表大会在福建上杭古田召开，通过了《古田会议决议》，其中最重要的是《关于纠正党内的错误思想的决议案》。决议规定了党对红军的领导原则、红军的性质和任务，论述了军事与政治的关系、军内关系与军民关系、政治工作的作风方法等。",
     "background": "1929年1月红四军离开井冈山，转战赣南、闽西。部队中存在单纯军事观点等非无产阶级思想，前委内部对建军原则有争论。9月28日中共中央给红四军前委发出指示信，肯定毛泽东的主张。",
-    "impact": "决议成为党和人民军队建设的纲领性文献，确立了思想建党、政治建军的原则。",
+    "impact": "会议确立了思想建党、政治建军的原则，决议成为党和人民军队建设的纲领性文献。毛泽东在会上当选为红四军前敌委员会书记。",
     "relations": {
       "before": [
         {
@@ -568,6 +1919,10 @@
         {
           "sourceId": "SRC-DSJ-1929",
           "locator": "1月14日、9月28日、12月下旬条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1929年12月28日—29日条"
         }
       ],
       "extra": [
@@ -580,7 +1935,7 @@
     "uncertain": [
       {
         "field": "background",
-        "note": "红四军内部关于建军原则争论的具体情况，以及“思想建党、政治建军”的评价表述，待用《中国共产党简史》核对。",
+        "note": "红四军内部关于建军原则争论的具体情况、“纲领性文献”的评价表述待用《中国共产党简史》核对。",
         "sourceIds": []
       }
     ],
@@ -665,7 +2020,7 @@
     ],
     "locationId": "L-RUIJIN",
     "summary": "毛泽东、朱德指挥中央苏区红军以“诱敌深入”方针，接连打破国民党军三次“围剿”，根据地得到巩固和扩大。",
-    "detail": "第一次反“围剿”中，红一方面军4万多人采取“诱敌深入”的作战方针，对国民党军10万多人作战，歼敌1.3万人。1931年4月，国民党调集20万兵力发动第二次“围剿”，红军在毛泽东、朱德指挥下于5月16日至31日连打5个胜仗，歼敌3万余人。7月第三次“围剿”开始，国民党投入约30万人，红军再歼敌3万余人，打破“围剿”。",
+    "detail": "第一次反“围剿”中，红一方面军4万多人采取“诱敌深入”的作战方针，对国民党军10万多人作战，歼敌1.3万人。1931年4月，国民党调集20万兵力发动第二次“围剿”，红军在毛泽东、朱德指挥下于5月16日至31日连打5个胜仗，歼敌3万余人。7月第三次“围剿”开始，国民党投入约30万人，红军再歼敌3万余人，打破“围剿”。1930年8月23日，红军第一方面军成立，朱德任总司令，毛泽东任总前委书记。",
     "background": "各地农村根据地和红军发展，引起国民党政府的大规模军事“围剿”。",
     "impact": "三次反“围剿”胜利使赣南、闽西根据地连成一片，为中华苏维埃共和国临时中央政府的成立打下基础。",
     "relations": {
@@ -699,6 +2054,10 @@
         {
           "sourceId": "SRC-DSJ-1931",
           "locator": "4月、7月条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1930年冬至1931年秋条"
         }
       ],
       "extra": [
@@ -711,8 +2070,9 @@
     "uncertain": [
       {
         "field": "date",
-        "note": "来源对第一次反“围剿”的时间记为“1930年10月起”，主要作战的具体日期待用《中国共产党简史》核对。",
+        "note": "《一百年大事记》记为1930年冬至1931年秋；另一来源记第一次反“围剿”为“1930年10月起”（国民党军开始部署的时间）。本条起始月份取后者，主要作战时间以前者为准。",
         "sourceIds": [
+          "SRC-DSJ100",
           "SRC-12371-FWJ"
         ]
       },
@@ -874,7 +2234,7 @@
     ],
     "locationId": "L-RUIJIN",
     "summary": "中华苏维埃第一次全国代表大会在瑞金召开，宣告中华苏维埃共和国临时中央政府成立，毛泽东任主席。",
-    "detail": "1931年11月7日至20日，中华苏维埃第一次全国代表大会召开，宣告中华苏维埃共和国临时中央政府成立，毛泽东任临时中央政府主席。1934年1月22日至2月1日在瑞金召开的第二次全国代表大会，再次选举毛泽东为中央执行委员会主席。",
+    "detail": "1931年11月7日至20日，中华苏维埃第一次全国代表大会在江西瑞金召开，宣告中华苏维埃共和国临时中央政府成立，毛泽东任临时中央政府主席。1934年1月22日至2月1日在瑞金召开的第二次全国代表大会，再次选举毛泽东为中央执行委员会主席。",
     "background": "三次反“围剿”胜利后中央苏区巩固扩大。同年1月六届四中全会后，王明等在共产国际代表米夫支持下掌握中央领导权；11月初的赣南会议排挤了毛泽东在苏区的领导地位。",
     "impact": "这是中国共产党在局部地区建立全国性政权的尝试，积累了治理经验。",
     "relations": {
@@ -912,6 +2272,10 @@
         {
           "sourceId": "SRC-DSJ-1934",
           "locator": "1月22日—2月1日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1931年11月7日—20日条"
         }
       ],
       "extra": [
@@ -1055,6 +2419,10 @@
         {
           "sourceId": "SRC-DSJ-1933",
           "locator": "1月、9月条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1933年9月、1934年10月条"
         }
       ],
       "extra": [
@@ -1066,9 +2434,12 @@
     },
     "uncertain": [
       {
-        "field": "detail",
-        "note": "“其中约50万人进攻中央苏区”尚未取得来源，M2 前核对或删除。",
-        "sourceIds": []
+        "field": "date",
+        "note": "中国共产党新闻网《大事记·1934年》记为10月10日；《一百年大事记》表述为“10月中旬”中央红军主力开始长征。本条取前者。",
+        "sourceIds": [
+          "SRC-DSJ-1934",
+          "SRC-DSJ100"
+        ]
       }
     ],
     "imageId": null,
@@ -1123,11 +2494,24 @@
       "main": [
         {
           "sourceId": "SRC-XH-XJZY"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1934年10月下旬—12月初条"
         }
       ],
       "extra": []
     },
-    "uncertain": [],
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "新华社文章记为11月25日至12月1日；《一百年大事记》将突破封锁线的过程记为10月下旬至12月初。",
+        "sourceIds": [
+          "SRC-XH-XJZY",
+          "SRC-DSJ100"
+        ]
+      }
+    ],
     "imageId": null,
     "keywords": [
       "湘江",
@@ -1262,6 +2646,10 @@
       "main": [
         {
           "sourceId": "SRC-12371-ZYHY"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1935年1月15日—17日条"
         }
       ],
       "extra": [
@@ -1337,6 +2725,10 @@
       "main": [
         {
           "sourceId": "SRC-RMZX-SDCS"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1935年1月下旬—5月上旬条"
         }
       ],
       "extra": []
@@ -1378,7 +2770,7 @@
     ],
     "locationId": "L-WUQI",
     "summary": "党中央率中央红军抵达陕北吴起镇，中央红军的长征至此结束。",
-    "detail": "1935年10月19日，党中央率领中央红军抵达陕北吴起镇。此时红军由土地革命战争时期发展到的30万人减至不足3万人。",
+    "detail": "1935年9月，中央红军改编为陕甘支队，10月19日抵达陕北吴起镇，中央红军主力胜利结束长征。此时红军由土地革命战争时期发展到的30万人减至不足3万人。",
     "background": "四渡赤水、抢渡金沙江后，中央红军经过艰苦转战北上。",
     "impact": "党中央在陕北落脚，陕北成为此后中国革命的大本营。",
     "relations": {
@@ -1409,6 +2801,10 @@
       "main": [
         {
           "sourceId": "SRC-XH-WQ"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1935年9月—10月19日条"
         }
       ],
       "extra": [
@@ -1621,6 +3017,10 @@
         {
           "sourceId": "SRC-DSJ-1936",
           "locator": "10月9日、22日、26日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1936年10月9日、22日条"
         }
       ],
       "extra": [
@@ -1662,7 +3062,7 @@
     "summary": "张学良、杨虎城在西安扣留蒋介石，要求停止内战、一致抗日；事变和平解决，成为时局转换的枢纽。",
     "detail": "1936年12月12日，张学良、杨虎城在西安扣留蒋介石，发动兵谏。中共中央派周恩来等赴西安参与谈判。12月24日，蒋介石同意停止“剿共”、联共抗日。此前4月9日，周恩来已与张学良在延安会谈联合抗日问题；12月7日，统一的中央革命军事委员会组成，毛泽东任主席。",
     "background": "九一八事变后东北军被迫退出东北，张学良、杨虎城与红军在西北已有联系；全国抗日救亡运动高涨。",
-    "impact": "事变的和平解决结束了十年内战的局面，推动第二次国共合作的形成。1937年1月中共中央领导机关迁驻延安，7月全民族抗战爆发后国共合作正式实现。",
+    "impact": "中共中央确定和平解决事变的方针，西安事变的和平解决成为时局转换的枢纽，十年内战的局面由此基本结束。1937年1月中共中央机关迁驻延安；7月全民族抗战爆发后国共合作正式实现。",
     "relations": {
       "before": [
         {
@@ -1678,7 +3078,12 @@
           "note": "红军主力已集中西北"
         }
       ],
-      "after": [],
+      "after": [
+        {
+          "id": "E1937-QQSB",
+          "note": "半年后全民族抗战爆发，国共再度合作"
+        }
+      ],
       "context": []
     },
     "peopleIds": [
@@ -1698,6 +3103,10 @@
         {
           "sourceId": "SRC-DSJ-1937",
           "locator": "1月13日、9月22—23日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1936年12月12日条"
         }
       ],
       "extra": [
@@ -1710,7 +3119,7 @@
     "uncertain": [
       {
         "field": "detail",
-        "note": "“中共中央派周恩来等赴西安参与谈判”及“和平解决”的表述待用《中国共产党简史》核对具体日期。",
+        "note": "“中共中央派周恩来等赴西安参与谈判”的具体日期待用《中国共产党简史》核对。",
         "sourceIds": []
       }
     ],
@@ -1722,6 +3131,3671 @@
       "兵谏",
       "和平解决",
       "国共合作"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1937-QQSB",
+    "title": "七七事变，全民族抗战开始",
+    "date": "1937-07-07",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-LUGOUQIAO",
+    "summary": "日本侵略军进攻宛平卢沟桥，全面侵华战争爆发；中共中央通电号召全民族抗战。",
+    "detail": "1937年7月7日夜，日本侵略军向北平郊区宛平县卢沟桥的中国驻军发动进攻，全面侵华战争爆发，中国人民抗日战争全面展开。7月8日，中共中央向全国发出通电，号召全民族抗战。",
+    "background": "九一八事变后日本不断扩大侵略；西安事变和平解决后，国共两党开始谈判合作。",
+    "impact": "中日民族矛盾上升为主要矛盾，国内政治格局进入国共合作抗日的新阶段。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1936-XASB",
+          "note": "西安事变和平解决为国共合作抗日创造了条件"
+        },
+        {
+          "id": "E1931-JYBS",
+          "note": "日本侵华自九一八事变开始"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1937-LCHY",
+          "note": "中共中央随即召开洛川会议制定抗战路线"
+        },
+        {
+          "id": "E1937-GGHZ",
+          "note": "国共合作宣言发表，统一战线正式形成"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [
+      {
+        "text": "平津危急！华北危急！中华民族危急！",
+        "author": "中共中央",
+        "work": "为日军进攻卢沟桥通电",
+        "year": "1937",
+        "sourceId": "SRC-DSJ100"
+      }
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "7月7日、8日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1937年7月7日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第三章第一节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "七七事变",
+      "卢沟桥",
+      "全面抗战",
+      "宛平"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1937-LCHY",
+    "title": "洛川会议",
+    "date": "1937-08-22",
+    "endDate": "1937-08-25",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-LUOCHUAN",
+    "summary": "中共中央在陕北洛川召开政治局扩大会议，制定全面抗战路线，确定放手发动敌后独立自主的山地游击战争。",
+    "detail": "1937年8月22日至25日，中共中央政治局在陕北洛川召开扩大会议，毛泽东作报告。会议坚持统一战线中的无产阶级领导权，确定放手发动敌后独立自主的山地游击战争，通过《中国共产党抗日救国十大纲领》。",
+    "background": "全面抗战爆发，党需要确定自己在抗战中的方针。",
+    "impact": "为八路军、新四军开展敌后游击战争、创建抗日根据地确定了方向。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-QQSB",
+          "note": "全面抗战爆发"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1937-PXG",
+          "note": "八路军开赴前线后首战平型关"
+        },
+        {
+          "id": "E1938-LCJZ",
+          "note": "毛泽东进一步阐明持久战的战略"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1937年8月22日—25日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "8月22日—25日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "洛川会议",
+      "抗日救国十大纲领",
+      "游击战争"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1937-GGHZ",
+    "title": "第二次国共合作形成，红军改编为八路军、新四军",
+    "date": "1937-09-22",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "红军主力改编为八路军，南方红军游击队改编为新四军；国共合作宣言发表，抗日民族统一战线正式形成。",
+    "detail": "1937年8月25日，中共中央军委发布命令，红军主力改编为国民革命军第八路军，约4.6万人，朱德任总指挥，彭德怀任副总指挥。南方八省红军游击队改编为新四军，约1.03万人，12月25日军部在汉口成立，叶挺任军长，项英任副军长。9月22日国民党中央通讯社发表《中共中央为公布国共合作宣言》，23日蒋介石发表谈话，实际上承认共产党的合法地位，抗日民族统一战线正式形成。",
+    "background": "七七事变后，周恩来等在庐山与蒋介石谈判，送交国共合作宣言。",
+    "impact": "国共两党第二次合作，共同抗日。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-QQSB",
+          "note": "全面抗战爆发推动合作"
+        },
+        {
+          "id": "E1936-XASB",
+          "note": "西安事变和平解决是合作的转折点"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1941-WNSB",
+          "note": "合作中摩擦不断，1941年发生皖南事变"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-ZHU",
+      "P-PENG",
+      "P-JIANG",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "7月13日—17日、8月25日、9月22日—23日、12月25日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1937年8月25日、9月22日—23日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第三章第一节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "第二次国共合作",
+      "八路军",
+      "新四军",
+      "统一战线"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1937-PXG",
+    "title": "平型关大捷",
+    "date": "1937-09-25",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3
+    ],
+    "locationId": "L-PINGXINGGUAN",
+    "summary": "八路军第一一五师在晋东北平型关伏击日军，歼灭日军1000余人，取得全国抗战以来中国军队的首次大捷。",
+    "detail": "1937年9月25日，八路军第一一五师在山西东北部平型关伏击日军，歼灭日军1000余人。",
+    "background": "八路军改编后开赴华北抗日前线。",
+    "impact": "打破了“日军不可战胜”的神话，提高了共产党和八路军的威望。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-LCHY",
+          "note": "洛川会议确定的方针下，八路军开赴前线"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1940-BTDZ",
+          "note": "此后八路军在华北展开大规模作战"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1937年9月25日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "9月25日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“首次大捷”“打破神话”为通行评价，本条来源未直接出现，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "平型关",
+      "一一五师",
+      "八路军"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1937-NJDTS",
+    "title": "南京大屠杀",
+    "date": "1937-12-13",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4
+    ],
+    "locationId": "L-NANJING",
+    "summary": "日军占领国民政府首都南京，进行大屠杀，中国军民被杀害三十余万人。",
+    "detail": "1937年12月13日，日军占领国民政府首都南京，进行了长达数周的大屠杀，中国军民被杀害三十余万人。",
+    "background": "淞沪会战后日军向南京推进。",
+    "impact": "日本侵略者的暴行激起中国人民更强烈的抗战意志。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-QQSB",
+          "note": "全面侵华战争的一部分"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "12月13日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“长达数周”的时长表述待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "南京大屠杀",
+      "日军暴行"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1938-LCJZ",
+    "title": "《论持久战》",
+    "date": "1938-05-26",
+    "endDate": "1938-06-03",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东作《论持久战》讲演，批驳“亡国论”和“速胜论”，指出抗日战争是持久战，最后胜利属于中国。",
+    "detail": "1938年5月26日至6月3日，毛泽东在延安作《论持久战》长篇讲演。他分析中日双方的特点：日本强但经不起长期战争，中国弱但能够支持长期作战。前者决定中国不能速胜，后者决定中国不会亡国，经过长期抗战，最后胜利属于中国。",
+    "background": "全面抗战初期，国内既有“亡国论”，也有“速胜论”。",
+    "impact": "为全民族抗战提供了战略指导，是毛泽东军事思想的代表作之一。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-LCHY",
+          "note": "洛川会议的抗战路线"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1938-LJLZ",
+          "note": "同年秋六届六中全会进一步巩固毛泽东的领导地位"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1938年5月26日—6月3日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“代表作之一”为概括性评价，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "论持久战",
+      "亡国论",
+      "速胜论",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1938-LJLZ",
+    "title": "六届六中全会",
+    "date": "1938-09-29",
+    "endDate": "1938-11-06",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "扩大的六届六中全会在延安召开，首次提出“马克思主义中国化”，进一步巩固毛泽东在全党的领导地位。",
+    "detail": "1938年9月29日至11月6日，中共扩大的六届六中全会在延安召开。会议首次提出“马克思主义中国化”的命题，强调“个人服从组织、少数服从多数、下级服从上级、全党服从中央”的纪律。",
+    "background": "抗战进入相持阶段前夕，党内在统一战线问题上存在分歧（1937年12月王明曾提出右倾观点）。",
+    "impact": "会议进一步巩固了毛泽东在全党的领导地位。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1938-LCJZ",
+          "note": "持久战战略的提出"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1942-YAZF",
+          "note": "马克思主义中国化的要求在整风运动中深化"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1938年9月29日—11月6日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "12月9日—14日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "六届六中全会",
+      "马克思主义中国化",
+      "四个服从"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1940-BTDZ",
+    "title": "百团大战",
+    "date": "1940-08-20",
+    "endDate": "1941-01",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "B",
+    "criteria": [
+      1
+    ],
+    "locationId": null,
+    "summary": "八路军105个团约20余万人在华北发动大规模进攻战役。",
+    "detail": "1940年8月20日起，八路军在华北发动百团大战，先后参战的有105个团约20余万人。至1940年12月初，共作战1824次，毙伤日伪军2.5万余人，战役持续到1941年1月下旬。",
+    "background": "日军加紧对华北根据地的“囚笼政策”。",
+    "impact": "提振了全国抗战信心。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-PXG",
+          "note": "八路军在华北持续作战"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1940年8月20日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "影响评价为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "百团大战",
+      "八路军",
+      "华北"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1941-WNSB",
+    "title": "皖南事变",
+    "date": "1941-01",
+    "datePrecision": "month",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-WANNAN",
+    "summary": "新四军皖南部队9000余人遭国民党8万余人伏击，大部牺牲或被俘，叶挺被扣，项英遇害。",
+    "detail": "1941年1月上旬，新四军军部及所属皖南部队9000余人在北移途中，遭国民党军8万余人伏击，大部牺牲或被俘，军长叶挺被扣押，副军长项英遇害。中共中央军委随即发布重建新四军军部的命令。",
+    "background": "抗战进入相持阶段后，国民党多次制造反共摩擦。",
+    "impact": "这是国民党顽固派制造的最大一次反共事件；中共坚持团结抗战，统一战线没有破裂。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1937-GGHZ",
+          "note": "国共合作中摩擦不断"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1942-YAZF",
+          "note": "在困难局面中党加强自身建设，展开整风"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1941年1月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“最大一次反共事件”等评价待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "皖南事变",
+      "新四军",
+      "叶挺",
+      "项英"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1942-YAZF",
+    "title": "延安整风运动",
+    "date": "1942-02",
+    "endDate": "1945-04",
+    "datePrecision": "month",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东作《整顿党的作风》《反对党八股》讲演，整风运动在全党普遍展开；1945年六届七中全会通过《关于若干历史问题的决议》，整风结束。",
+    "detail": "1942年2月上旬，毛泽东作《整顿党的作风》和《反对党八股》的讲演，整风运动在全党普遍展开。5月召开延安文艺座谈会，阐明文艺首先为工农兵服务。1944年5月21日至1945年4月20日，扩大的六届七中全会在延安召开，通过《关于若干历史问题的决议》，整风运动结束。",
+    "background": "抗战进入困难时期，党需要统一思想、克服教条主义和宗派主义。",
+    "impact": "整风统一了全党思想，为七大的召开作了准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1938-LJLZ",
+          "note": "马克思主义中国化的提出"
+        },
+        {
+          "id": "E1941-WNSB",
+          "note": "困难局面中加强党的建设"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1945-QD",
+          "note": "整风结束后召开七大"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1942年2月、5月条；1944年5月21日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第三章（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "整风针对的问题（教条主义、宗派主义、党八股）为通行概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "整风",
+      "整顿党的作风",
+      "反对党八股",
+      "延安文艺座谈会",
+      "历史决议"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1945-QD",
+    "title": "中共七大",
+    "date": "1945-04-23",
+    "endDate": "1945-06-11",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "中共第七次全国代表大会在延安举行，确立毛泽东思想为全党的指导思想并载入党章。",
+    "detail": "1945年4月23日至6月11日，中国共产党第七次全国代表大会在延安举行。出席正式代表547人、候补代表208人，代表全国121万党员。大会把毛泽东思想确立为全党的指导思想并写入党章，被称为团结的大会、胜利的大会。",
+    "background": "整风运动统一了全党思想，抗日战争即将取得胜利。",
+    "impact": "确立了毛泽东思想的指导地位，为夺取抗战胜利和新民主主义革命在全国的胜利作了准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1942-YAZF",
+          "note": "整风运动的成果"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1945-KZSL",
+          "note": "大会闭幕两个月后抗战胜利"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-LIU-SQ",
+      "P-ZHU",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1945年4月23日—6月11日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "peopleIds",
+        "note": "刘少奇、朱德、周恩来在大会上的具体角色待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "七大",
+      "毛泽东思想",
+      "党章"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1945-KZSL",
+    "title": "抗日战争胜利",
+    "date": "1945-08-15",
+    "endDate": "1945-09-02",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "日本宣布无条件投降，9月2日签署投降书，中国人民抗日战争胜利结束。",
+    "detail": "1945年8月9日，毛泽东发表《对日寇的最后一战》，朱德随后发布全面反攻命令。8月15日，日本天皇发布《终战诏书》，宣布无条件投降。9月2日，日本代表签署投降书，中国人民抗日战争胜利结束。从1931年九一八事变算起，抗战共持续14年。",
+    "background": "世界反法西斯战争进入最后阶段；中共领导的敌后战场已发展壮大。",
+    "impact": "抗战胜利后，中国面临建立一个什么样国家的问题，国共关系进入新阶段。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1945-QD",
+          "note": "七大为抗战胜利作了准备"
+        },
+        {
+          "id": "E1937-QQSB",
+          "note": "全面抗战自七七事变开始"
+        },
+        {
+          "id": "E1931-JYBS",
+          "note": "局部抗战自九一八开始"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1945-CQTP",
+          "note": "胜利后毛泽东赴重庆谈判"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1945年8月9日、8月15日、9月2日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第三章（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "抗战胜利",
+      "日本投降",
+      "终战诏书",
+      "十四年抗战"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1945-CQTP",
+    "title": "重庆谈判",
+    "date": "1945-08-28",
+    "endDate": "1945-10-10",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "mao",
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-CHONGQING",
+    "summary": "毛泽东、周恩来、王若飞赴重庆同国民党谈判，10月10日签署《双十协定》。",
+    "detail": "1945年8月28日，毛泽东、周恩来、王若飞赴重庆，同国民党代表进行和平谈判，10月10日签署《政府与中共代表会谈纪要》（双十协定）。1946年1月10日双方下达停战令，同月10日至31日政治协商会议在重庆召开，通过五项协议。",
+    "background": "抗战胜利后，全国人民要求和平建国；国民党一面邀请谈判，一面准备内战。",
+    "impact": "谈判使中共在政治上争取了主动，但和平局面没有维持下去。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1945-KZSL",
+          "note": "抗战胜利后的建国问题"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1946-QMNZ",
+          "note": "停战协定被撕毁，全面内战爆发"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU",
+      "P-JIANG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1945年8月28日—10月10日条；1946年1月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "影响评价为概括，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "重庆谈判",
+      "双十协定",
+      "政治协商会议"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1946-QMNZ",
+    "title": "全面内战爆发",
+    "date": "1946-06-26",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-ZHONGYUAN",
+    "summary": "国民党撕毁停战协定，以22万人进攻中原解放区，全面内战爆发。",
+    "detail": "1946年6月26日，国民党撕毁停战协定，以22万人进攻中原解放区，全面内战爆发。此前5月4日，中共中央作出《关于土地问题的指示》，将减租减息政策改变为实现“耕者有其田”。",
+    "background": "重庆谈判和政协会议后，国共矛盾未能解决。",
+    "impact": "中国进入解放战争时期。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1945-CQTP",
+          "note": "和平谈判的成果被破坏"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1947-ZZSB",
+          "note": "国民党军转为重点进攻陕北"
+        },
+        {
+          "id": "E1947-DBS",
+          "note": "人民解放军转入战略进攻"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1946年5月4日、6月26日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第四章（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "全面内战",
+      "中原解放区",
+      "五四指示",
+      "耕者有其田"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1947-ZZSB",
+    "title": "撤离延安，转战陕北",
+    "date": "1947-03-18",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "胡宗南率25万军队进攻陕北，中共中央机关撤出延安，毛泽东等转战陕北。",
+    "detail": "1947年3月13日，蒋介石令胡宗南率25万军队三面进攻陕北。3月18日至19日，中共中央机关和陕甘宁边区部队撤出延安，毛泽东、周恩来、任弼时等率中央机关转战陕北。",
+    "background": "国民党军对解放区的全面进攻受挫后，改为对陕北和山东的重点进攻。",
+    "impact": "中央留在陕北，牵制了大量国民党军队。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1946-QMNZ",
+          "note": "内战进入重点进攻阶段"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1947-DBS",
+          "note": "同年夏人民解放军转入战略进攻"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1947年3月13日、18日—19日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“毛泽东、周恩来、任弼时等率中央机关转战陕北”的人员表述待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "转战陕北",
+      "胡宗南",
+      "撤离延安"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1947-DBS",
+    "title": "刘邓大军挺进大别山",
+    "date": "1947-06-30",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-DABIESHAN",
+    "summary": "刘伯承、邓小平率晋冀鲁豫野战军主力强渡黄河，8月底跃进大别山，揭开人民解放军战略进攻的序幕。",
+    "detail": "1947年6月30日，刘伯承、邓小平率晋冀鲁豫野战军主力强渡黄河，揭开人民解放军战略进攻的序幕；8月底千里跃进大别山。10月10日，中国人民解放军总部发表宣言，提出“打倒蒋介石，解放全中国”。",
+    "background": "经过一年作战，国民党军的进攻被遏制。",
+    "impact": "解放战争由战略防御转入战略进攻。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1946-QMNZ",
+          "note": "内战一年后战局转变"
+        },
+        {
+          "id": "E1947-ZZSB",
+          "note": "陕北牵制了国民党军"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1948-SDZY",
+          "note": "战略决战的条件逐步成熟"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-DENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1947年6月30日、10月10日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "大别山",
+      "刘邓大军",
+      "战略进攻"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1947-TDFDG",
+    "title": "《中国土地法大纲》",
+    "date": "1947-09-13",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "B",
+    "criteria": [
+      3,
+      4
+    ],
+    "locationId": null,
+    "summary": "全国土地会议制定《中国土地法大纲》，规定废除封建性及半封建性剥削的土地制度，实行耕者有其田。",
+    "detail": "1947年7月17日至9月13日，全国土地会议召开，制定《中国土地法大纲》，规定废除封建性及半封建性剥削的土地制度，实行耕者有其田。",
+    "background": "解放战争需要广大农民的支持。",
+    "impact": "解放区土地改革推动农民参军支前。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1946-QMNZ",
+          "note": "内战爆发前已发出五四指示"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1947年7月17日—9月13日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "土地法大纲",
+      "土地改革",
+      "耕者有其田"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1947-YJG",
+    "title": "十二月会议（杨家沟会议）",
+    "date": "1947-12-25",
+    "endDate": "1947-12-28",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      3
+    ],
+    "locationId": null,
+    "summary": "中共中央在陕北米脂杨家沟召开扩大会议，通过毛泽东《目前形势和我们的任务》报告，阐明新民主主义革命的三大经济纲领。",
+    "detail": "1947年12月25日至28日，中共中央在陕北米脂县杨家沟召开扩大会议，通过毛泽东的报告《目前形势和我们的任务》，阐明了新民主主义革命的三大经济纲领。",
+    "background": "战略进攻开始后，需要为夺取全国胜利确定纲领。",
+    "impact": "为新民主主义革命在全国的胜利作了政策准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1947-DBS",
+          "note": "转入战略进攻"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1947年12月25日—28日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "杨家沟",
+      "目前形势和我们的任务",
+      "三大经济纲领"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1948-SDZY",
+    "title": "辽沈、淮海、平津三大战役",
+    "date": "1948-09-12",
+    "endDate": "1949-01-31",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "人民解放军进行辽沈、淮海、平津三大战役，共歼敌154万余人，国民党的主要军事力量基本被消灭。",
+    "detail": "辽沈战役（1948年9月12日—11月2日）解放东北全境，到11月解放军总兵力增至310万人，超过国民党军的290万人。淮海战役（1948年11月6日—1949年1月10日）由邓小平任总前敌委员会书记，长江中下游以北地区获得解放。平津战役（1948年11月29日—1949年1月31日）中，北平于1949年1月31日和平解放。三大战役共歼敌154万余人。",
+    "background": "1948年9月中共中央在西柏坡召开政治局扩大会议，提出建设500万解放军的任务；解放军与国民党军力量对比发生变化。",
+    "impact": "国民党赖以维持统治的主要军事力量基本被消灭，全国解放已成定局。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1947-DBS",
+          "note": "战略进攻的发展"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1949-QJEZ",
+          "note": "决战胜利后，中央召开七届二中全会筹划建国"
+        },
+        {
+          "id": "E1949-DJZY",
+          "note": "渡江作战解放南京"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-DENG",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1948年9月8日—13日、9月12日、11月6日、11月29日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "辽沈战役",
+      "淮海战役",
+      "平津战役",
+      "北平和平解放",
+      "战略决战"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1949-QJEZ",
+    "title": "七届二中全会",
+    "date": "1949-03-05",
+    "endDate": "1949-03-13",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-XIBAIPO",
+    "summary": "中共七届二中全会在西柏坡召开，确定党的工作重心由乡村转向城市；毛泽东提出“两个务必”。",
+    "detail": "1949年3月5日至13日，中共七届二中全会在河北平山县西柏坡召开，规定党在全国胜利后的基本政策，确定党的工作重心由乡村转移到城市。毛泽东要求全党务必继续保持谦虚、谨慎、不骄、不躁的作风，务必继续保持艰苦奋斗的作风。3月23日毛泽东率中央机关离开西柏坡，称进京是“赶考”。",
+    "background": "三大战役胜利后，全国胜利在望。",
+    "impact": "为新中国的建立作了政治、思想和政策准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1948-SDZY",
+          "note": "决战胜利"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1949-ZZXS",
+          "note": "半年后召开新政协，筹建新中国"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1949年3月5日—13日、3月23日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“两个务必”的原文措辞以《毛泽东选集》为准，此处为转述。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "七届二中全会",
+      "西柏坡",
+      "两个务必",
+      "赶考"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1949-DJZY",
+    "title": "渡江战役与南京解放",
+    "date": "1949-04-21",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-NANJING",
+    "summary": "国民党拒绝接受《国内和平协定》，人民解放军发起渡江战役，4月23日解放南京，国民党在大陆的统治覆灭。",
+    "detail": "1949年4月1日起，中共代表团同国民党政府代表团在北平谈判，国民党政府拒绝接受《国内和平协定》。4月21日，毛泽东、朱德发布《向全国进军的命令》；20日夜至21日，第二、第三野战军发起渡江战役。4月23日解放南京，宣告国民党反动统治的覆灭。5月27日解放上海。",
+    "background": "三大战役后国民党政府企图“划江而治”。",
+    "impact": "人民解放军向全国进军，新中国的建立进入倒计时。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1948-SDZY",
+          "note": "三大战役奠定基础"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1949-ZZXS",
+          "note": "全国大部解放后召开新政协"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU",
+      "P-DENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1949年4月1日、4月20日—23日、5月27日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "“划江而治”的表述待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "渡江战役",
+      "南京解放",
+      "向全国进军的命令",
+      "上海解放"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1949-LRMZZ",
+    "title": "《论人民民主专政》",
+    "date": "1949-06-30",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      4
+    ],
+    "locationId": null,
+    "summary": "毛泽东发表《论人民民主专政》，阐明中国共产党关于新中国国家性质的基本理论。",
+    "detail": "1949年6月30日，毛泽东发表《论人民民主专政》，公开阐明中国共产党关于国家性质的基本理论。",
+    "background": "新中国成立在即，需要说明将建立一个什么样的国家。",
+    "impact": "为《共同纲领》和新中国政权建设提供了理论依据。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1949-QJEZ",
+          "note": "七届二中全会的建国方针"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1949-ZZXS",
+          "note": "新政协制定共同纲领"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1949年6月30日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "论人民民主专政",
+      "国家性质"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1949-ZZXS",
+    "title": "中国人民政治协商会议第一届全体会议",
+    "date": "1949-09-21",
+    "endDate": "1949-09-30",
+    "datePrecision": "day",
+    "stageId": "S05",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "新政协在北平召开，通过《共同纲领》，选举毛泽东为中央人民政府主席，为新中国成立作了准备。",
+    "detail": "1949年9月21日至30日，中国人民政治协商会议第一届全体会议在北平举行，代表662名，通过《中国人民政治协商会议共同纲领》等文件。会议选举毛泽东为中央人民政府主席，朱德、刘少奇、宋庆龄、李济深、张澜、高岗为副主席。毛泽东在会上宣告，占人类总数四分之一的中国人从此站立起来了。当时中共党员已达448.8万人。",
+    "background": "全国大部分地区已经解放，中共与各民主党派筹备建立联合政府。",
+    "impact": "会议代行全国人民代表大会职权，完成了建立新中国的各项准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1949-DJZY",
+          "note": "全国大部分地区解放"
+        },
+        {
+          "id": "E1949-LRMZZ",
+          "note": "国家性质理论的阐明"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1949-KGDD",
+          "note": "会议闭幕次日举行开国大典"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU",
+      "P-LIU-SQ"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1949",
+          "locator": "9月17日、9月21日—30日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100-CAC",
+          "locator": "1949年9月21日—30日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“代行全国人民代表大会职权”待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "新政协",
+      "共同纲领",
+      "中央人民政府",
+      "站起来了"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1949-KGDD",
+    "title": "开国大典，中华人民共和国成立",
+    "date": "1949-10-01",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "毛泽东在天安门城楼宣告中华人民共和国中央人民政府成立，举行开国大典。",
+    "detail": "1949年10月1日，开国大典在北京举行，毛泽东宣告中华人民共和国中央人民政府成立，朱德宣读中国人民解放军总部命令，举行阅兵。10月2日苏联承认中华人民共和国，同中国建立外交关系。12月2日，中央人民政府委员会决定每年10月1日为国庆日。",
+    "background": "新政协已通过《共同纲领》并选出中央人民政府。",
+    "impact": "中国结束了半殖民地半封建社会的历史，进入新民主主义社会，开始向社会主义过渡。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1949-ZZXS",
+          "note": "新政协完成建国准备"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1950-TDGG",
+          "note": "新政权着手在新解放区进行土地改革"
+        },
+        {
+          "id": "E1950-KMYC",
+          "note": "建国一年后出兵朝鲜"
+        }
+      ],
+      "context": [
+        "I1950-ZSTY"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1949",
+          "locator": "10月1日、10月2日、12月2日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100-CAC",
+          "locator": "1949年10月1日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第三部分“基本完成社会主义改造的七年”"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "影响的表述为概括，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "开国大典",
+      "中华人民共和国成立",
+      "天安门",
+      "国庆"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1950-TDGG",
+    "title": "土地改革",
+    "date": "1950-06-30",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "《中华人民共和国土地改革法》公布施行，新解放区完成土地制度改革，封建土地所有制被废除。",
+    "detail": "1950年6月30日，《中华人民共和国土地改革法》公布施行，新解放区的土地改革随即展开。1981年历史决议总结建国头七年时，把完成新解放区土地制度的改革列为主要成就之一。同期还开展了“三反”“五反”运动。",
+    "background": "老解放区已在解放战争中进行土改，新解放区尚未进行。",
+    "impact": "农民获得土地，农业生产得到恢复和发展。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1947-TDFDG",
+          "note": "解放战争时期老解放区的土地改革"
+        },
+        {
+          "id": "E1949-KGDD",
+          "note": "新政权成立"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1953-GDSQ",
+          "note": "土改完成后提出向社会主义过渡"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-CAC",
+          "locator": "1950年6月30日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第三部分“基本完成社会主义改造的七年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "土改基本完成的具体时间（通常记为1952年底）、三反五反的起止时间待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "土地改革法",
+      "土改",
+      "三反",
+      "五反"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1950-KMYC",
+    "title": "抗美援朝战争",
+    "date": "1950-10-19",
+    "endDate": "1953-07-27",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "中国人民志愿军入朝作战，1953年7月27日朝鲜停战协定签字。",
+    "detail": "1950年10月上旬，中共中央作出抗美援朝、保家卫国的决策。10月8日组成中国人民志愿军，彭德怀任司令员兼政治委员；19日志愿军跨过鸭绿江进入朝鲜战场。1953年7月志愿军取得金城战役胜利，7月27日朝鲜停战协定在板门店签字。",
+    "background": "1950年6月朝鲜战争爆发，美国出兵朝鲜，战火逼近中朝边境。",
+    "impact": "抗美援朝战争的胜利巩固了新生政权，提高了新中国的国际地位。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1949-KGDD",
+          "note": "新中国成立一年"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1953-GDSQ",
+          "note": "停战后国家转入大规模经济建设"
+        }
+      ],
+      "context": [
+        "I1950-ZSTY"
+      ]
+    },
+    "peopleIds": [
+      "P-PENG",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-CAC",
+          "locator": "1950年10月8日—19日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1953",
+          "locator": "7月、7月27日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第三部分“基本完成社会主义改造的七年”"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "朝鲜战争爆发的时间与美军出兵情况本条来源未直接记载，待核对。",
+        "sourceIds": []
+      },
+      {
+        "field": "impact",
+        "note": "影响评价为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "抗美援朝",
+      "志愿军",
+      "彭德怀",
+      "朝鲜停战协定"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1953-GDSQ",
+    "title": "过渡时期总路线与第一个五年计划",
+    "date": "1953-06-15",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "party",
+      "mao",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "毛泽东提出过渡时期总路线；国家开始执行第一个五年计划，进入大规模经济建设。",
+    "detail": "1953年1月1日《人民日报》社论指出，1953年将开始执行国家建设的第一个五年计划。6月15日，毛泽东在中央政治局扩大会议上首次阐述过渡时期总路线。据1981年历史决议，1953年至1956年全国工业总产值平均每年增长19.6%，农业总产值平均每年增长4.8%。",
+    "background": "国民经济已经恢复，抗美援朝战争即将结束。",
+    "impact": "确定了逐步实现国家工业化和对农业、手工业、资本主义工商业进行社会主义改造的方向。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1950-KMYC",
+          "note": "停战后转入建设"
+        },
+        {
+          "id": "E1950-TDGG",
+          "note": "土地改革完成"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1954-XF",
+          "note": "总路线写入第一部宪法"
+        },
+        {
+          "id": "E1956-SHZY",
+          "note": "三大改造推进并基本完成"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1953",
+          "locator": "1月1日、6月15日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第三部分“基本完成社会主义改造的七年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "总路线的完整表述待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "过渡时期总路线",
+      "一五计划",
+      "工业化",
+      "社会主义改造"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1954-XF",
+    "title": "第一届全国人大与第一部宪法",
+    "date": "1954-09-15",
+    "endDate": "1954-09-28",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "nation",
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "第一届全国人民代表大会第一次会议召开，通过《中华人民共和国宪法》，毛泽东当选国家主席。",
+    "detail": "1954年9月15日至28日，第一届全国人民代表大会第一次会议在北京举行，通过《中华人民共和国宪法》，毛泽东当选中华人民共和国主席。9月28日中共中央成立党的军事委员会，毛泽东任主席。同年3月23日宪法起草委员会举行第一次会议。",
+    "background": "过渡时期总路线已经提出；1953年1月中央人民政府决定召开全国人大、制定宪法。",
+    "impact": "人民代表大会制度正式建立，国家政治制度基本确立。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1953-GDSQ",
+          "note": "总路线提出"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1956-SHZY",
+          "note": "社会主义改造继续推进"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-LIU-SQ",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1954",
+          "locator": "3月23日、9月15日—28日条"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1954年9月条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1953",
+          "locator": "1月13日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "一届人大",
+      "宪法",
+      "人民代表大会制度",
+      "国家主席"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1956-SHZY",
+    "title": "社会主义改造基本完成",
+    "date": "1956",
+    "datePrecision": "year",
+    "stageId": "S06",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "到1956年底，农业、手工业、资本主义工商业的社会主义改造基本完成，社会主义基本制度确立。",
+    "detail": "1956年1月15日，北京二十多万人在天安门广场庆祝社会主义改造胜利。到1956年底，全国入社农户达96.3%，手工业90%以上实现合作化，私营工业的99%、私营商业的85%实现公私合营。1981年历史决议肯定这一历史性胜利，同时指出1955年夏季以后，改造工作存在要求过急、工作过粗、改变过快、形式过于简单划一等缺点，遗留了一些问题。",
+    "background": "过渡时期总路线提出后，三大改造全面展开，1955年下半年起明显加速。",
+    "impact": "社会主义基本制度在中国建立，中国进入社会主义初级阶段。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1953-GDSQ",
+          "note": "按总路线推进三大改造"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1956-BD",
+          "note": "八大据此判断国内主要矛盾的变化"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1956",
+          "locator": "1月15日条、年底统计"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第三部分“基本完成社会主义改造的七年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“进入社会主义初级阶段”为后来的理论表述，待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "三大改造",
+      "公私合营",
+      "合作化",
+      "社会主义基本制度"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1956-LSDGX",
+    "title": "《论十大关系》",
+    "date": "1956-04-25",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "毛泽东作《论十大关系》报告，开始探索适合中国国情的社会主义建设道路；随后提出“百花齐放、百家争鸣”方针。",
+    "detail": "1956年4月25日，毛泽东在中央政治局扩大会议上作《论十大关系》的报告。4月28日，毛泽东提出“百花齐放、百家争鸣”的方针。",
+    "background": "同年2月苏共二十大召开，赫鲁晓夫作秘密报告，苏联模式的问题开始暴露。",
+    "impact": "标志着党开始探索中国自己的社会主义建设道路。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1956-SHZY",
+          "note": "改造即将完成，建设问题提上日程"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1956-BD",
+          "note": "探索成果体现在八大的路线中"
+        }
+      ],
+      "context": [
+        "I1956-SGESD"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1956",
+          "locator": "4月25日、4月28日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“开始探索中国自己的道路”为通行评价，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "论十大关系",
+      "双百方针",
+      "社会主义建设道路"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1956-BD",
+    "title": "中共八大",
+    "date": "1956-09-15",
+    "endDate": "1956-09-27",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "中共第八次全国代表大会召开，指出国内主要矛盾已转变，党的主要任务是集中力量发展生产力；1981年历史决议肯定八大路线是正确的。",
+    "detail": "1956年9月15日至27日，中共第八次全国代表大会在北京举行，1026名代表出席。毛泽东致开幕词，刘少奇作政治报告。大会指出，国内的主要矛盾已经是人民对于建立先进的工业国的要求同落后的农业国的现实之间的矛盾，人民对于经济文化迅速发展的需要同当前经济文化不能满足人民需要的状况之间的矛盾。9月28日八届一中全会选举毛泽东为中央委员会主席，刘少奇、周恩来、朱德、陈云为副主席，邓小平为总书记。",
+    "background": "社会主义改造基本完成，国家转入全面建设社会主义。",
+    "impact": "1981年历史决议认为，八大的路线是正确的，为新时期社会主义事业的发展和党的建设指明了方向。但八大的正确判断后来未能坚持。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1956-SHZY",
+          "note": "社会主义改造基本完成"
+        },
+        {
+          "id": "E1956-LSDGX",
+          "note": "建设道路的初步探索"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1957-FYP",
+          "note": "一年后八届三中全会改变了八大对主要矛盾的估计"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-LIU-SQ",
+      "P-ZHOU",
+      "P-ZHU",
+      "P-DENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1956",
+          "locator": "9月15日—27日、9月28日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "主要矛盾的表述为八大决议原文的转述，以原件为准。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "八大",
+      "主要矛盾",
+      "刘少奇",
+      "邓小平",
+      "总书记"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1957-FYP",
+    "title": "整风运动与反右派斗争",
+    "date": "1957-06-08",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "party",
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "党内整风转为反右派斗争；1981年历史决议认为，对极少数右派分子的进攻进行反击是必要的，但反右派斗争被严重地扩大化了。",
+    "detail": "1957年2月27日，毛泽东在最高国务会议上作《关于正确处理人民内部矛盾的问题》的讲话。4月27日中共中央发出关于整风运动的指示。6月8日，中共中央发出组织力量准备反击右派分子进攻的指示，全国反右派斗争随即展开。9月20日至10月9日召开的八届三中全会，改变了八大关于社会主要矛盾的估计。",
+    "background": "整风期间，各界人士对党和政府提出大量批评意见，其中也有少数尖锐甚至否定性的言论。",
+    "impact": "一大批知识分子、爱国人士和党内干部被错划为右派分子；对主要矛盾估计的改变，为此后“左”的错误埋下伏笔。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1956-BD",
+          "note": "八大对主要矛盾作出正确判断"
+        },
+        {
+          "id": "E1956-LSDGX",
+          "note": "“双百”方针的提出"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1958-DYJ",
+          "note": "1958年发动“大跃进”"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": {
+      "official": [
+        {
+          "text": "1981年历史决议认为，整风中极少数右派分子向党和新生的社会主义制度发动进攻，对这种进攻进行坚决的反击是完全正确和必要的；但是“反右派斗争被严重地扩大化了，把一批知识分子、爱国人士和党内干部错划为‘右派分子’，造成了不幸的后果”。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”",
+          "year": "1981"
+        }
+      ],
+      "academic": [],
+      "sourceNote": "被划为右派分子的总人数，本 App 目前尚未取得可核对的权威原始统计，暂不列具体数字；关于该问题存在不同记载/研究观点，本 App 不作未经来源支持的确定性判断。"
+    },
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1957",
+          "locator": "2月27日、4月27日、6月8日、9月20日—10月9日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "整风期间批评言论的性质为决议的概括，具体情况待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "整风",
+      "反右派斗争",
+      "扩大化",
+      "正确处理人民内部矛盾"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1958-DYJ",
+    "title": "“大跃进”和人民公社化运动",
+    "date": "1958-05",
+    "datePrecision": "month",
+    "stageId": "S07",
+    "lanes": [
+      "party",
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": null,
+    "summary": "八大二次会议后全国掀起“大跃进”，北戴河会议决定建立农村人民公社；以高指标、瞎指挥、浮夸风和“共产风”为主要标志的“左”倾错误严重泛滥，国民经济遭受严重困难。",
+    "detail": "1958年5月，中共八大二次会议在北京召开，正式提出社会主义建设总路线，“大跃进”运动在全国展开。8月17日至30日，中共中央政治局在北戴河召开扩大会议，作出《关于在农村建立人民公社问题的决议》，农村人民公社化运动迅速推开。由于决策失误和执行中的偏差，急于求成的努力没有达到预期目的，反而遭受重大挫折。",
+    "background": "社会主义改造完成后，党急于改变国家经济文化落后的面貌；1957年11月毛泽东在莫斯科提出用十五年赶超英国。",
+    "impact": "1959—1961年国民经济出现严重困难，人民生命财产遭受重大损失。1960年冬党开始纠正农村工作中的“左”倾错误。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1957-FYP",
+          "note": "八届三中全会改变对主要矛盾的估计"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1959-LSHY",
+          "note": "庐山会议原本要纠“左”，后期转向“反右倾”"
+        },
+        {
+          "id": "E1960-TZ",
+          "note": "1960年冬开始纠正“左”倾错误、调整国民经济"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": {
+      "official": [
+        {
+          "text": "1981年历史决议认为，八大二次会议通过的总路线及其基本点，反映了广大人民群众要求改变我国经济文化落后状况的愿望，但忽视了客观的经济规律；以高指标、瞎指挥、浮夸风和“共产风”为主要标志的“左”倾错误严重地泛滥开来。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”",
+          "year": "1981"
+        },
+        {
+          "text": "中共中央党史研究室著《中国共产党历史》第二卷（2011年）写道，据正式统计，1960年全国总人口比上年减少1000万；河南信阳地区有9个县死亡率超过100‰，为正常年份的几倍。",
+          "sourceId": "SRC-JJGC-RK",
+          "locator": "转述该书原文",
+          "year": "2011"
+        }
+      ],
+      "academic": [
+        {
+          "view": "研究中对1959—1961年非正常死亡人数的估计差异很大：蒋正华、李南约1700万（1986年研究），李成瑞约2200万（1997年），杨继绳《墓碑》约3600万，另有学者估计在3200万至4400万之间。",
+          "author": "陈子明（汇总）",
+          "work": "真相的遮蔽与还原——读《墓碑》",
+          "sourceId": "SRC-CZM-MB"
+        },
+        {
+          "view": "也有学者对“饿死3600万”等较高估计的统计方法提出质疑，认为其存在重大谬误。",
+          "author": "孙经先",
+          "work": "“饿死3600万”的重大谬误是怎样产生的？（《红旗文稿》）",
+          "sourceId": "SRC-SJX-HQ"
+        }
+      ],
+      "sourceNote": "国家统计机构未公布困难时期非正常死亡人数的官方统计，各项估计所依据的数据和方法不同；关于该问题存在不同记载/研究观点，本 App 不作未经来源支持的确定性判断。"
+    },
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-XH-JJMM"
+        },
+        {
+          "sourceId": "SRC-PEOPLE-RMGS"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-DSJ-1957",
+          "locator": "11月2日—21日条"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "八大二次会议的具体日期、总路线原文表述待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "大跃进",
+      "人民公社",
+      "北戴河会议",
+      "浮夸风",
+      "共产风",
+      "总路线",
+      "困难时期"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1959-LSHY",
+    "title": "庐山会议",
+    "date": "1959-07-02",
+    "endDate": "1959-08-01",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-LUSHAN",
+    "summary": "中共中央在庐山召开会议，原意纠“左”，后期错误地批判彭德怀等人，随即在全党开展“反右倾”斗争，使“左”倾错误延续了更长时间。",
+    "detail": "1959年7月2日至8月1日，中共中央政治局扩大会议在江西庐山召开，后期错误地发动了对彭德怀等人的批判。随后召开的八届八中全会作出了关于彭德怀等人的错误决议，会后在全党开展“反右倾”斗争。",
+    "background": "1958年冬至1959年春，党已开始初步纠正“大跃进”和人民公社化中的一些错误。彭德怀在会上写信，陈述对“大跃进”问题的意见。",
+    "impact": "纠“左”的进程被打断，“左”倾错误延续，经济困难加重。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1958-DYJ",
+          "note": "“大跃进”中的问题暴露"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1960-TZ",
+          "note": "困难加剧后于1960年冬开始调整"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-PENG",
+      "P-MAO"
+    ],
+    "evaluation": {
+      "official": [
+        {
+          "text": "1981年历史决议认为，庐山会议后期“毛泽东同志错误地发动了对彭德怀同志的批判，进而在全党错误地开展了‘反右倾’斗争”；八届八中全会关于彭德怀等人的决议是完全错误的，这场斗争打断了纠正“左”倾错误的进程，使错误延续了更长时间。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”",
+          "year": "1981"
+        }
+      ],
+      "academic": [],
+      "sourceNote": null
+    },
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1959年7月2日—8月1日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-XH-JJMM"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "“初步纠正错误”及彭德怀写信的情况为通行叙述，本条来源未直接记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "庐山会议",
+      "彭德怀",
+      "反右倾",
+      "八届八中全会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1960-TZ",
+    "title": "纠“左”与国民经济调整",
+    "date": "1960-11-03",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": null,
+    "summary": "中共中央发出紧急指示信纠正“共产风”；1961年八届九中全会确定“调整、巩固、充实、提高”方针，国民经济开始调整。",
+    "detail": "1960年11月3日，中共中央发出紧急指示信，要求坚决纠正农村人民公社的“共产风”。1961年1月14日至18日，八届九中全会通过对国民经济实行“调整、巩固、充实、提高”的方针。",
+    "background": "“大跃进”和“反右倾”造成国民经济严重困难。",
+    "impact": "1981年历史决议称这是这个历史阶段中的重要转变；经过调整，国民经济在1965年前后得到恢复和发展。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1958-DYJ",
+          "note": "“大跃进”造成严重困难"
+        },
+        {
+          "id": "E1959-LSHY",
+          "note": "“反右倾”使错误延续"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1962-QQRDH",
+          "note": "七千人大会总结经验教训"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1960年11月3日、1961年1月14日—18日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“1965年前后恢复”的表述待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "调整",
+      "八字方针",
+      "共产风",
+      "八届九中全会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1962-QQRDH",
+    "title": "七千人大会",
+    "date": "1962-01-11",
+    "endDate": "1962-02-07",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "中共中央召开扩大的工作会议，初步总结“大跃进”的经验教训，开展批评和自我批评。",
+    "detail": "1962年1月11日至2月7日，中共中央召开扩大的中央工作会议，参加者七千余人，史称七千人大会。会议初步总结“大跃进”中的经验教训，开展了批评和自我批评。会后对“反右倾”运动中被错误批判的人进行甄别平反。",
+    "background": "国民经济调整刚刚开始，困难尚未根本扭转。",
+    "impact": "推动了调整工作的进行，但对“左”倾错误的认识没有彻底。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1960-TZ",
+          "note": "调整方针提出"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1966-WYLTZ",
+          "note": "四年后“文化大革命”发动"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-LIU-SQ",
+      "P-DENG",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1962年1月11日—2月7日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第四部分“开始全面建设社会主义的十年”"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“认识没有彻底”为概括，待核对；会议人物角色待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "七千人大会",
+      "批评和自我批评",
+      "甄别平反"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1964-YZD",
+    "title": "第一颗原子弹爆炸成功",
+    "date": "1964-10-16",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4
+    ],
+    "locationId": null,
+    "summary": "中国第一颗原子弹爆炸成功，中国政府声明在任何时候、任何情况下都不会首先使用核武器。",
+    "detail": "1964年10月16日，中国第一颗原子弹爆炸成功。中国政府发表声明，郑重宣布中国在任何时候、任何情况下都不会首先使用核武器。",
+    "background": "中苏关系恶化后，苏联撤走专家，中国坚持自力更生发展尖端技术。",
+    "impact": "打破了核垄断，提高了国际地位，是“两弹一星”事业的里程碑。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1960-TZ",
+          "note": "调整时期集中力量攻关"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1964-SGXDH",
+          "note": "两个月后三届人大提出四个现代化目标"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1964年10月16日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "苏联撤走专家等背景待补充来源。",
+        "sourceIds": []
+      },
+      {
+        "field": "impact",
+        "note": "影响评价为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "原子弹",
+      "两弹一星",
+      "不首先使用核武器"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1964-SGXDH",
+    "title": "三届人大提出“四个现代化”",
+    "date": "1964-12-21",
+    "endDate": "1965-01-04",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "三届全国人大一次会议提出把中国建设成为具有现代农业、现代工业、现代国防和现代科学技术的社会主义强国。",
+    "detail": "1964年12月21日至1965年1月4日，第三届全国人民代表大会第一次会议召开，提出建设“四个现代化”的社会主义强国的目标。",
+    "background": "国民经济调整取得成效。",
+    "impact": "“四个现代化”成为此后长期的奋斗目标，1975年四届人大再次重申。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1964-YZD",
+          "note": "尖端科技取得突破"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1975-ZD",
+          "note": "四届人大重申四个现代化"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1964年12月21日—1965年1月4日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "peopleIds",
+        "note": "周恩来作政府工作报告提出四个现代化，待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "四个现代化",
+      "三届人大"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1966-WYLTZ",
+    "title": "“五一六通知”，“文化大革命”发动",
+    "date": "1966-05-16",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "中央政治局扩大会议通过“五一六通知”，“文化大革命”发动；1981年历史决议称其为“一场由领导者错误发动，被反革命集团利用，给党、国家和各族人民带来严重灾难的内乱”。",
+    "detail": "1965年11月10日，上海《文汇报》发表姚文元的文章，成为引发“文化大革命”的导火线。1966年2月初，彭真召集起草《关于当前学术讨论的汇报提纲》（“二月提纲”）。5月4日至26日，中央政治局扩大会议召开，16日通过《中国共产党中央委员会通知》（“五一六通知”），“文化大革命”由此发动。",
+    "background": "毛泽东认为党和国家面临资本主义复辟的危险，党内出现“修正主义”；中苏论战加深了这种判断。",
+    "impact": "国家陷入长达十年的动乱，党、国家和人民遭受严重灾难。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1962-QQRDH",
+          "note": "调整时期党内对形势的不同认识"
+        },
+        {
+          "id": "E1957-FYP",
+          "note": "阶级斗争扩大化的趋势"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1966-BJSYZ",
+          "note": "八届十一中全会全面发动“文化大革命”"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-JIANG-Q",
+      "P-LIN-B"
+    ],
+    "evaluation": {
+      "official": [
+        {
+          "text": "历史已经判明，“文化大革命”是一场由领导者错误发动，被反革命集团利用，给党、国家和各族人民带来严重灾难的内乱。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）",
+          "year": "1981"
+        },
+        {
+          "text": "1981年历史决议认为，发动“文化大革命”的主要论点对当时我国阶级形势以及党和国家政治状况的估计是完全错误的；对此毛泽东同志负有主要责任，但他的错误终究是一个伟大的无产阶级革命家所犯的错误。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）",
+          "year": "1981"
+        }
+      ],
+      "academic": [
+        {
+          "view": "关于“文化大革命”的起因，研究中主要有几类解释：经济动因说（与“左”倾经济思想和决策失误相关）、政治动因说（与执政党建设、制度缺陷、理论指导和领袖个人失误及国际形势相关）、文化动因说（与传统文化影响和思想灌输相关）、心理动因说（与领袖心理和群众集体心理相关）。各说并不互相排斥。",
+          "author": "衣晓龙（综述）",
+          "work": "“文化大革命”起因研究综述（2004）",
+          "sourceId": "SRC-YXL-WG"
+        }
+      ],
+      "sourceNote": null
+    },
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-JS-C7"
+        },
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1966年5月4日—26日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "背景为对决议相关论述的概括，待用《中国共产党简史》第七章核对措辞。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "文化大革命",
+      "五一六通知",
+      "姚文元",
+      "二月提纲"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1966-BJSYZ",
+    "title": "八届十一中全会",
+    "date": "1966-08-01",
+    "endDate": "1966-08-12",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "八届十一中全会通过《关于无产阶级文化大革命的决定》（“十六条”），标志着“文化大革命”全面发动。",
+    "detail": "1966年8月1日至12日，中共八届十一中全会召开，通过《中国共产党中央委员会关于无产阶级文化大革命的决定》（“十六条”），标志着“文化大革命”的全面发动。",
+    "background": "“五一六通知”发出后，各地学校出现红卫兵运动。",
+    "impact": "中央领导层发生重大变化，运动迅速扩展到全国。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1966-WYLTZ",
+          "note": "运动已经发动"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1967-YYDQ",
+          "note": "1967年初全面夺权"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-LIN-B",
+      "P-LIU-SQ"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-JS-C7"
+        },
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1966年8月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "领导层变化（如刘少奇地位下降、林彪成为唯一副主席）待补充来源。",
+        "sourceIds": []
+      },
+      {
+        "field": "background",
+        "note": "红卫兵运动兴起时间待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "八届十一中全会",
+      "十六条",
+      "红卫兵"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1967-YYDQ",
+    "title": "全面夺权与“二月逆流”",
+    "date": "1967-01",
+    "datePrecision": "month",
+    "stageId": "S08",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      1
+    ],
+    "locationId": "L-SHANGHAI",
+    "summary": "上海造反派夺取市委、市政府权力，“全面夺权”蔓延全国；老一辈革命家对错误做法提出批评，被诬为“二月逆流”。",
+    "detail": "1967年1月初，上海造反派夺取上海市党政领导权，随后各地掀起“全面夺权”，国家陷入空前混乱。1967年初，一批老一辈革命家对“文化大革命”的错误做法提出批评，被诬为“二月逆流”。",
+    "background": "八届十一中全会后运动全面展开。",
+    "impact": "党和政府各级机构陷于瘫痪或半瘫痪。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1966-BJSYZ",
+          "note": "运动全面发动"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1969-JD",
+          "note": "1969年召开九大"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-JS-C7"
+        },
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1967年初条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "一月夺权",
+      "二月逆流",
+      "造反派"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1969-JD",
+    "title": "中共九大",
+    "date": "1969-04-01",
+    "endDate": "1969-04-24",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "中共第九次全国代表大会召开，肯定“无产阶级专政下继续革命的理论”，使“文化大革命”的错误理论和实践合法化。",
+    "detail": "1969年4月1日至24日，中国共产党第九次全国代表大会在北京举行。大会肯定了“无产阶级专政下继续革命的理论”。此前1968年10月13日至31日召开了扩大的八届十二中全会。",
+    "background": "“全面夺权”后各地成立革命委员会。",
+    "impact": "1981年历史决议认为九大的指导方针是错误的。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1967-YYDQ",
+          "note": "全面夺权后的局面"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1971-JYS",
+          "note": "九大后林彪集团与江青集团的矛盾激化"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-LIN-B",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1969年4月1日—24日条"
+        },
+        {
+          "sourceId": "SRC-JS-C7"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“九大的指导方针是错误的”对应决议原文待逐字核对；林彪被写入党章为“接班人”待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "九大",
+      "继续革命",
+      "革命委员会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1971-JYS",
+    "title": "九一三事件",
+    "date": "1971-09-13",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": null,
+    "summary": "林彪反革命集团策动武装政变阴谋败露，林彪乘机外逃，坠机身亡；事件客观上宣告了“文化大革命”理论和实践的失败。",
+    "detail": "1971年9月13日，林彪反革命集团阴谋夺取最高权力、策动反革命武装政变的计划败露，林彪等乘飞机外逃，在蒙古温都尔汗坠机身亡。",
+    "background": "九大后林彪集团与毛泽东之间在设立国家主席等问题上产生分歧。",
+    "impact": "事件客观上宣告了“文化大革命”理论和实践的失败；此后周恩来主持中央日常工作，一定程度上纠正“左”的错误。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1969-JD",
+          "note": "九大将林彪地位写入党章"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1972-NKSFH",
+          "note": "此后外交格局发生重大变化"
+        },
+        {
+          "id": "E1975-ZD",
+          "note": "邓小平复出、主持整顿"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-LIN-B",
+      "P-MAO",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1971年9月13日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“蒙古温都尔汗坠机”及“设立国家主席分歧”等细节本条来源未直接记载，待核对。",
+        "sourceIds": []
+      },
+      {
+        "field": "impact",
+        "note": "周恩来主持工作、纠“左”待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "九一三",
+      "林彪",
+      "温都尔汗",
+      "武装政变"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1971-LHG",
+    "title": "恢复联合国合法席位",
+    "date": "1971-10-25",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      4
+    ],
+    "locationId": null,
+    "summary": "第26届联合国大会通过第2758号决议，恢复中华人民共和国在联合国的一切合法权利。",
+    "detail": "1971年10月25日，第26届联合国大会通过第2758号决议，恢复中华人民共和国在联合国的合法席位。",
+    "background": "新中国外交长期受到封锁，第三世界国家支持中国恢复席位。",
+    "impact": "中国国际地位显著提高。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1971-JYS",
+          "note": "国内政局变化之际"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1972-NKSFH",
+          "note": "四个月后尼克松访华"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1971年10月25日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“第26届”届次待核对来源。",
+        "sourceIds": []
+      },
+      {
+        "field": "background",
+        "note": "背景为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "联合国",
+      "2758号决议",
+      "合法席位"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1972-NKSFH",
+    "title": "尼克松访华与中美关系正常化开端",
+    "date": "1972-02-21",
+    "endDate": "1972-02-28",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "nation",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "美国总统尼克松访华，毛泽东会见尼克松，中美发表《联合公报》，两国关系开始走向正常化；同年中日建交。",
+    "detail": "1972年2月21日至28日，美国总统尼克松访问中国，中美双方在上海发表《联合公报》，标志着中美关系正常化进程的开始。同年9月25日至30日，日本首相田中角荣访华，中日两国发表联合声明，建立外交关系。",
+    "background": "中苏关系紧张，中美双方都有改善关系的战略需要。",
+    "impact": "中国外交局面打开，同一大批国家建立外交关系。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1971-LHG",
+          "note": "联合国席位恢复"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1975-ZD",
+          "note": "外部环境改善之际，国内开始整顿"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-NIXON",
+      "P-MAO",
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1972年2月21日—28日、9月25日—30日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“毛泽东会见尼克松”本条来源未直接记载，待核对。",
+        "sourceIds": []
+      },
+      {
+        "field": "background",
+        "note": "背景为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "尼克松",
+      "上海公报",
+      "中美关系",
+      "中日建交",
+      "田中角荣"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1975-ZD",
+    "title": "四届人大与邓小平主持整顿",
+    "date": "1975-01-13",
+    "endDate": "1975-01-17",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "四届全国人大重申四个现代化目标；邓小平主持国务院日常工作，对各方面工作进行整顿。",
+    "detail": "1974年7月17日，毛泽东批评江青等人搞帮派活动，首次提出“四人帮”问题；10月4日，毛泽东提议邓小平任国务院第一副总理，“四人帮”表示反对。1975年1月13日至17日，第四届全国人民代表大会召开，重申在本世纪内实现四个现代化的目标。2月起，邓小平主持国务院日常工作，对全国各方面工作进行整顿。",
+    "background": "1974年“批林批孔”运动造成新的混乱，工业生产下降。",
+    "impact": "整顿使形势明显好转，但后来受到“反击右倾翻案风”的冲击而中断。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1971-JYS",
+          "note": "林彪事件后政策有所调整"
+        },
+        {
+          "id": "E1964-SGXDH",
+          "note": "四个现代化目标的提出"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1976-TAMSJ",
+          "note": "整顿中断后，人民不满情绪在悼念周恩来时爆发"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-DENG",
+      "P-ZHOU",
+      "P-MAO",
+      "P-JIANG-Q"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1975年1月13日—17日、2月条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1974",
+          "locator": "1月18日、7月17日、10月4日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“反击右倾翻案风”的时间与过程待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "四届人大",
+      "整顿",
+      "邓小平",
+      "四人帮",
+      "批林批孔"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1976-ZELSS",
+    "title": "周恩来逝世",
+    "date": "1976-01-08",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "周恩来在北京逝世，全国人民深切悼念。",
+    "detail": "1976年1月8日，周恩来逝世。",
+    "background": "周恩来在“文化大革命”中维持党和国家的工作，晚年身患重病。",
+    "impact": "群众对周恩来的悼念，成为三个月后天安门事件的直接起因。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1975-ZD",
+          "note": "整顿时期"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1976-TAMSJ",
+          "note": "清明节前后群众自发悼念周恩来"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-ZHOU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1976年1月8日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "背景为概括，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "周恩来逝世"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1976-TAMSJ",
+    "title": "天安门事件（四五运动）",
+    "date": "1976-04-05",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "北京、南京等地群众自发悼念周恩来、抗议“四人帮”，被错误定性；1981年历史决议明确指出当时的判断是错误的。",
+    "detail": "1976年3月下旬至4月5日，北京、南京等地爆发悼念周恩来的群众运动，4月5日北京天安门广场的群众运动被错误地定性和镇压。",
+    "background": "周恩来逝世后“四人帮”压制悼念活动，并开展“批邓”。",
+    "impact": "这次运动为后来粉碎“四人帮”奠定了群众基础。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1976-ZELSS",
+          "note": "群众悼念周恩来"
+        },
+        {
+          "id": "E1975-ZD",
+          "note": "整顿中断引发不满"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1976-FSSRB",
+          "note": "半年后粉碎“四人帮”"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-ZHOU",
+      "P-DENG",
+      "P-MAO",
+      "P-JIANG-Q"
+    ],
+    "evaluation": {
+      "official": [
+        {
+          "text": "1981年历史决议指出，当时中央政治局和毛泽东同志对天安门事件的性质作出了错误的判断；决议还批评了此后拖延和阻挠为“天安门事件”等冤假错案平反的做法。",
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）；“毛泽东同志的历史地位和毛泽东思想”部分（第4页）",
+          "year": "1981"
+        }
+      ],
+      "academic": [],
+      "sourceNote": null
+    },
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1976年3月下旬—4月5日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“奠定群众基础”为通行评价，待核对；邓小平被撤职的情况待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "天安门事件",
+      "四五运动",
+      "清明节",
+      "悼念周恩来"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1976-TSDZ",
+    "title": "唐山大地震",
+    "date": "1976-07-28",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "nation"
+    ],
+    "level": "B",
+    "criteria": [
+      1
+    ],
+    "locationId": "L-TANGSHAN",
+    "summary": "河北唐山发生大地震，24.2万多人罹难，16.4万多人重伤。",
+    "detail": "1976年7月28日，河北唐山发生强烈地震，24.2万多人罹难，16.4万多人重伤。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1976年7月28日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "唐山",
+      "地震"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1976-MZDSS",
+    "title": "毛泽东逝世",
+    "date": "1976-09-09",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "mao",
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "毛泽东在北京逝世。1981年历史决议认为，就他的一生来看，他对中国革命的功绩远远大于他的过失。",
+    "detail": "1976年9月9日，毛泽东在北京逝世，全国举行追悼活动。",
+    "background": "毛泽东晚年身体日渐衰弱；同年1月周恩来、7月朱德相继逝世。",
+    "impact": "1981年历史决议在总结毛泽东的历史地位时认为：他虽然在“文化大革命”中犯了严重错误，但就他的一生来看，他对中国革命的功绩远远大于他的过失。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1976-TAMSJ",
+          "note": "同年春天安门事件"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1976-FSSRB",
+          "note": "毛泽东逝世不到一个月，“四人帮”被粉碎"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [
+      {
+        "text": "他的功绩是第一位的，错误是第二位的。",
+        "author": "中共十一届六中全会",
+        "work": "关于建国以来党的若干历史问题的决议",
+        "year": "1981",
+        "sourceId": "SRC-JY1981"
+      }
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1976年9月9日条"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1976年9月9日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "“毛泽东同志的历史地位和毛泽东思想”部分（第4页）"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "朱德逝世日期本条来源未直接记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "毛泽东逝世",
+      "历史地位"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1976-FSSRB",
+    "title": "粉碎“四人帮”",
+    "date": "1976-10-06",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "中央政治局粉碎江青反革命集团，延续十年之久的“文化大革命”结束。",
+    "detail": "1976年10月6日，中共中央政治局执行党和人民的意志，毅然粉碎江青、张春桥、姚文元、王洪文“四人帮”，延续十年之久的“文化大革命”结束。",
+    "background": "毛泽东逝世后，“四人帮”加紧篡夺党和国家最高领导权。",
+    "impact": "结束了“文化大革命”这场灾难，中国进入新的历史时期；1978年十一届三中全会实现了伟大转折。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1976-MZDSS",
+          "note": "毛泽东逝世后的权力斗争"
+        },
+        {
+          "id": "E1976-TAMSJ",
+          "note": "天安门事件显示了人心向背"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-JIANG-Q"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-2",
+          "locator": "1976年10月6日条"
+        },
+        {
+          "sourceId": "SRC-JY1981",
+          "locator": "第五部分“‘文化大革命’的十年”（第3页）"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“四人帮”成员名单本条来源未逐一列出，待核对；华国锋、叶剑英等在其中的作用待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "粉碎四人帮",
+      "江青",
+      "文化大革命结束",
+      "十一届三中全会"
     ],
     "contentVersion": 1
   }

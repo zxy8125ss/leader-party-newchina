@@ -16,7 +16,7 @@ export function People() {
   );
   return (
     <div className="page">
-      <div className="page-head"><h2>人物</h2><span className="muted small">目前收录与已开放阶段相关的人物</span></div>
+      <div className="page-head"><h2>人物</h2><Link to="/people/graph" className="btn">人物关系图</Link></div>
       <h3 className="sub">核心人物</h3>
       <div className="person-grid">{core.map(card)}</div>
       {ext.length > 0 && <><h3 className="sub">扩展人物</h3><div className="person-grid">{ext.map(card)}</div></>}

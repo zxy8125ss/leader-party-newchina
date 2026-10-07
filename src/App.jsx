@@ -9,6 +9,8 @@ import Search from './pages/Search.jsx';
 import Quiz from './pages/Quiz.jsx';
 import { Mine, Favorites, Notes, WrongBook } from './pages/Mine.jsx';
 import { Settings, About } from './pages/Settings.jsx';
+import MapPage from './pages/MapPage.jsx';
+import PeopleGraph from './pages/PeopleGraph.jsx';
 import { Empty } from './components/common.jsx';
 
 function page({ parts, query }) {
@@ -19,7 +21,8 @@ function page({ parts, query }) {
     case 'event': return <EventDetail id={id} query={query} />;
     case 'stages': return <Stages />;
     case 'stage': return <StageDetail id={id} />;
-    case 'people': return <People />;
+    case 'people': return id === 'graph' ? <PeopleGraph /> : <People />;
+    case 'map': return <MapPage query={query} />;
     case 'person': return <Person id={id} />;
     case 'search': return <Search query={query} />;
     case 'quiz': return <Quiz stageId={id} query={query} />;
@@ -35,7 +38,7 @@ function page({ parts, query }) {
 
 const NAV = [
   ['/', '首页', undefined], ['/timeline', '时间轴', 'timeline'], ['/stages', '阶段', 'stages'],
-  ['/people', '人物', 'people'], ['/search', '搜索', 'search'], ['/mine', '我的', 'mine'],
+  ['/people', '人物', 'people'], ['/map', '地图', 'map'], ['/search', '搜索', 'search'], ['/mine', '我的', 'mine'],
 ];
 const MINE = ['mine', 'favorites', 'notes', 'wrong', 'settings', 'about'];
 
@@ -59,7 +62,7 @@ export default function App() {
       </header>
       <main className="main" key={routeKey}>{page(route)}</main>
       <nav className="tabbar">
-        {NAV.map(([to, name, key]) => <a key={to} href={'#' + to} className={active(key) ? 'on' : ''}>{name}</a>)}
+        {NAV.filter(([, , k]) => k !== 'people').map(([to, name, key]) => <a key={to} href={'#' + to} className={active(key) ? 'on' : ''}>{name}</a>)}
       </nav>
     </div>
   );

@@ -118,7 +118,7 @@ export function About() {
     <div className="page about">
       <h2>关于</h2>
       <p>本项目用于个人历史学习与资料整理，不构成任何政治宣传或学术研究结论。内容依据所列参考资料整理；对于存在不同史料记载或学术观点的问题，尽可能注明来源与分歧。</p>
-      <p className="muted small">内容版本 v{CONTENT_VERSION}。目前为 M1 测试版，只开放“土地革命战争”阶段。标注“待核实”的内容会在后续版本中逐条复核。</p>
+      <p className="muted small">内容版本 v{CONTENT_VERSION}。事件详情中标注“待核实 / 说法不一”的内容，表示来源不足或记载有分歧，会在后续版本中逐条复核。地图为示意图，不作为国界依据。</p>
       <h3 className="sub">参考资料</h3>
       <ul className="small">{books.map((s) => <li key={s.id}>《{s.title}》，{s.author}，{s.publisher}{s.year && '，' + s.year}</li>)}</ul>
       <h3 className="sub">核对用网络资料</h3>

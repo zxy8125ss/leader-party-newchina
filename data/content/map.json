@@ -100,7 +100,7 @@
     },
     {
       "id": "L-BEIPING",
-      "name": "北平",
+      "name": "北京（北平）",
       "lat": 39.9,
       "lng": 116.4
     },
@@ -121,8 +121,244 @@
       "name": "西安",
       "lat": 34.27,
       "lng": 108.94
+    },
+    {
+      "id": "L-XIANGTAN",
+      "name": "湖南湘潭",
+      "lat": 27.86,
+      "lng": 112.53,
+      "note": "毛泽东故乡韶山一带，近似位置"
+    },
+    {
+      "id": "L-WUCHANG",
+      "name": "武昌",
+      "lat": 30.55,
+      "lng": 114.3
+    },
+    {
+      "id": "L-SHANGHAI",
+      "name": "上海",
+      "lat": 31.23,
+      "lng": 121.47
+    },
+    {
+      "id": "L-GUANGZHOU",
+      "name": "广州",
+      "lat": 23.13,
+      "lng": 113.26
+    },
+    {
+      "id": "L-LUGOUQIAO",
+      "name": "卢沟桥（宛平）",
+      "lat": 39.85,
+      "lng": 116.21
+    },
+    {
+      "id": "L-LUOCHUAN",
+      "name": "洛川",
+      "lat": 35.76,
+      "lng": 109.43
+    },
+    {
+      "id": "L-PINGXINGGUAN",
+      "name": "平型关",
+      "lat": 39.28,
+      "lng": 113.97,
+      "note": "近似位置"
+    },
+    {
+      "id": "L-NANJING",
+      "name": "南京",
+      "lat": 32.06,
+      "lng": 118.8
+    },
+    {
+      "id": "L-YANAN",
+      "name": "延安",
+      "lat": 36.59,
+      "lng": 109.49
+    },
+    {
+      "id": "L-WANNAN",
+      "name": "皖南（泾县一带）",
+      "lat": 30.69,
+      "lng": 118.41,
+      "note": "近似位置"
+    },
+    {
+      "id": "L-CHONGQING",
+      "name": "重庆",
+      "lat": 29.56,
+      "lng": 106.55
+    },
+    {
+      "id": "L-ZHONGYUAN",
+      "name": "中原解放区（鄂豫边）",
+      "lat": 31.8,
+      "lng": 114.6,
+      "note": "近似位置"
+    },
+    {
+      "id": "L-DABIESHAN",
+      "name": "大别山",
+      "lat": 31.1,
+      "lng": 115.8,
+      "note": "近似位置"
+    },
+    {
+      "id": "L-XIBAIPO",
+      "name": "西柏坡",
+      "lat": 38.33,
+      "lng": 114.0
+    },
+    {
+      "id": "L-LUSHAN",
+      "name": "庐山",
+      "lat": 29.55,
+      "lng": 115.98
+    },
+    {
+      "id": "L-TANGSHAN",
+      "name": "唐山",
+      "lat": 39.63,
+      "lng": 118.18
+    },
+    {
+      "id": "L-TONGDAO",
+      "name": "通道",
+      "lat": 26.16,
+      "lng": 109.78
+    },
+    {
+      "id": "L-HOUCHANG",
+      "name": "瓮安猴场",
+      "lat": 27.07,
+      "lng": 107.47,
+      "note": "近似位置"
+    },
+    {
+      "id": "L-ZHAXI",
+      "name": "扎西",
+      "lat": 27.84,
+      "lng": 105.05,
+      "note": "今云南威信，近似位置"
+    },
+    {
+      "id": "L-MAOTAI",
+      "name": "茅台",
+      "lat": 27.85,
+      "lng": 106.38
+    },
+    {
+      "id": "L-JINSHAJIANG",
+      "name": "金沙江（渡江处示意）",
+      "lat": 26.24,
+      "lng": 102.24,
+      "note": "具体渡口来源未记载，位置为示意"
+    },
+    {
+      "id": "L-MAOGONG",
+      "name": "懋功",
+      "lat": 30.99,
+      "lng": 102.36,
+      "note": "今四川小金，近似位置"
     }
   ],
-  "routes": [],
+  "routes": [
+    {
+      "id": "R-CZ-ZY",
+      "name": "中央红军长征路线（示意）",
+      "points": [
+        "L-RUIJIN",
+        "L-QUANZHOU",
+        "L-TONGDAO",
+        "L-LIPING",
+        "L-HOUCHANG",
+        "L-ZUNYI",
+        "L-CHISHUI",
+        "L-ZHAXI",
+        "L-ZUNYI",
+        "L-MAOTAI",
+        "L-JINSHAJIANG",
+        "L-MAOGONG",
+        "L-WUQI"
+      ],
+      "stops": [
+        {
+          "locationId": "L-RUIJIN",
+          "date": "1934-10",
+          "note": "中央红军从中央苏区出发"
+        },
+        {
+          "locationId": "L-QUANZHOU",
+          "date": "1934-11",
+          "note": "湘江战役，突破第四道封锁线"
+        },
+        {
+          "locationId": "L-TONGDAO",
+          "date": "1934-12-12",
+          "note": "通道会议"
+        },
+        {
+          "locationId": "L-LIPING",
+          "date": "1934-12-18",
+          "note": "黎平会议，转兵贵州"
+        },
+        {
+          "locationId": "L-HOUCHANG",
+          "date": "1934-12-31",
+          "note": "猴场会议"
+        },
+        {
+          "locationId": "L-ZUNYI",
+          "date": "1935-01-15",
+          "note": "遵义会议"
+        },
+        {
+          "locationId": "L-CHISHUI",
+          "date": "1935-01-29",
+          "note": "一渡赤水"
+        },
+        {
+          "locationId": "L-ZHAXI",
+          "date": "1935-02-08",
+          "note": "扎西休整缩编"
+        },
+        {
+          "locationId": "L-ZUNYI",
+          "date": "1935-02",
+          "note": "二渡赤水后再占遵义"
+        },
+        {
+          "locationId": "L-MAOTAI",
+          "date": "1935-03-17",
+          "note": "三渡赤水"
+        },
+        {
+          "locationId": "L-JINSHAJIANG",
+          "date": "1935-05",
+          "note": "抢渡金沙江"
+        },
+        {
+          "locationId": "L-MAOGONG",
+          "date": "1935-06",
+          "note": "与红四方面军在懋功会师"
+        },
+        {
+          "locationId": "L-WUQI",
+          "date": "1935-10-19",
+          "note": "抵达陕北吴起镇"
+        }
+      ],
+      "sourceIds": [
+        "SRC-DSJ-1934",
+        "SRC-12371-ZYHY",
+        "SRC-RMZX-SDCS",
+        "SRC-DSJ100",
+        "SRC-XH-WQ"
+      ],
+      "note": "只连接已核对来源的节点；节点之间用直线示意，不代表实际行军路线。"
+    }
+  ],
   "images": []
 }

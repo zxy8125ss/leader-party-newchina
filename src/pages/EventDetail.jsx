@@ -35,7 +35,7 @@ export default function EventDetail({ id, query }) {
       </nav>
       <header className="ed-head">
         <div className="ed-meta">
-          <span>{formatDate(e)}</span>{loc && <span>· {loc.name}</span>}
+          <span>{formatDate(e)}</span>{loc && <Link to={`/map?loc=${loc.id}`}>· {loc.name}</Link>}
           <LevelBadge level={e.level} /><span className="muted small">{LEVEL_NAME[e.level]}</span>
         </div>
         <h1>{e.title}</h1>

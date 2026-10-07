@@ -3,25 +3,68 @@
   "$id": "leader-party-newchina/content.schema.json",
   "title": "领袖·政党·新中国 内容数据结构 v1.0",
   "$defs": {
-    "lane": { "enum": ["mao", "party", "nation"] },
-    "level": { "enum": ["S", "A", "B"] },
-    "datePrecision": { "enum": ["day", "month", "year", "approx"] },
-    "isoDate": { "type": "string", "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$" },
+    "lane": {
+      "enum": [
+        "mao",
+        "party",
+        "nation"
+      ]
+    },
+    "level": {
+      "enum": [
+        "S",
+        "A",
+        "B"
+      ]
+    },
+    "datePrecision": {
+      "enum": [
+        "day",
+        "month",
+        "year",
+        "approx"
+      ]
+    },
+    "isoDate": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"
+    },
     "sourceRef": {
       "type": "object",
-      "required": ["sourceId"],
+      "required": [
+        "sourceId"
+      ],
       "properties": {
-        "sourceId": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" },
-        "locator": { "type": "string", "description": "章节、卷页或条目，如“第二章第五节”“1935年1月15日—17日条”" }
+        "sourceId": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "locator": {
+          "type": "string",
+          "description": "章节、卷页或条目，如“第二章第五节”“1935年1月15日—17日条”"
+        }
       },
       "additionalProperties": false
     },
     "sources": {
       "type": "object",
-      "required": ["main"],
+      "required": [
+        "main"
+      ],
       "properties": {
-        "main": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } },
-        "extra": { "type": "array", "items": { "$ref": "#/$defs/sourceRef" } }
+        "main": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "extra": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        }
       },
       "additionalProperties": false
     },
@@ -29,74 +72,258 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["field", "note"],
+        "required": [
+          "field",
+          "note"
+        ],
         "properties": {
-          "field": { "type": "string" },
-          "note": { "type": "string" },
-          "sourceIds": { "type": "array", "items": { "type": "string" } }
+          "field": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         },
         "additionalProperties": false
       }
     },
     "relationLink": {
       "type": "object",
-      "required": ["id", "note"],
+      "required": [
+        "id",
+        "note"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^E\\d{4}-[A-Z0-9-]+$" },
-        "note": { "type": "string", "description": "一句因果说明" }
+        "id": {
+          "type": "string",
+          "pattern": "^E\\d{4}-[A-Z0-9-]+$"
+        },
+        "note": {
+          "type": "string",
+          "description": "一句因果说明"
+        }
       },
       "additionalProperties": false
     },
-
     "stage": {
       "type": "object",
-      "required": ["id", "title", "start", "end", "intro", "order"],
+      "required": [
+        "id",
+        "title",
+        "start",
+        "end",
+        "intro",
+        "order"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^S0[1-8]$" },
-        "title": { "type": "string" },
-        "start": { "$ref": "#/$defs/isoDate" },
-        "end": { "$ref": "#/$defs/isoDate" },
-        "intro": { "type": "string", "maxLength": 200 },
-        "order": { "type": "integer", "minimum": 1, "maximum": 8 }
+        "id": {
+          "type": "string",
+          "pattern": "^S0[1-8]$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "start": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "end": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "intro": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        }
       },
       "additionalProperties": false
     },
-
     "event": {
       "type": "object",
-      "required": ["id", "title", "date", "datePrecision", "stageId", "lanes", "level", "criteria", "summary", "relations", "peopleIds", "sources", "contentVersion"],
+      "required": [
+        "id",
+        "title",
+        "date",
+        "datePrecision",
+        "stageId",
+        "lanes",
+        "level",
+        "criteria",
+        "summary",
+        "relations",
+        "peopleIds",
+        "sources",
+        "contentVersion"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^E\\d{4}-[A-Z0-9-]+$" },
-        "title": { "type": "string" },
-        "date": { "$ref": "#/$defs/isoDate" },
-        "endDate": { "$ref": "#/$defs/isoDate" },
-        "datePrecision": { "$ref": "#/$defs/datePrecision" },
-        "stageId": { "type": "string", "pattern": "^S0[1-8]$" },
-        "lanes": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/lane" } },
-        "level": { "$ref": "#/$defs/level" },
-        "criteria": { "type": "array", "uniqueItems": true, "items": { "type": "integer", "minimum": 1, "maximum": 5 }, "description": "满足的入选原则编号；S/A 级至少 2 项" },
-        "locationId": { "type": ["string", "null"] },
-        "summary": { "type": "string", "maxLength": 160 },
-        "detail": { "type": "string" },
-        "background": { "type": "string" },
-        "impact": { "type": "string" },
+        "id": {
+          "type": "string",
+          "pattern": "^E\\d{4}-[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "endDate": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "datePrecision": {
+          "$ref": "#/$defs/datePrecision"
+        },
+        "stageId": {
+          "type": "string",
+          "pattern": "^S0[1-8]$"
+        },
+        "lanes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/lane"
+          }
+        },
+        "level": {
+          "$ref": "#/$defs/level"
+        },
+        "criteria": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "description": "满足的入选原则编号；S/A 级至少 2 项"
+        },
+        "locationId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "detail": {
+          "type": "string"
+        },
+        "background": {
+          "type": "string"
+        },
+        "impact": {
+          "type": "string"
+        },
         "relations": {
           "type": "object",
-          "required": ["before", "after", "context"],
+          "required": [
+            "before",
+            "after",
+            "context"
+          ],
           "properties": {
-            "before": { "type": "array", "items": { "$ref": "#/$defs/relationLink" } },
-            "after": { "type": "array", "items": { "$ref": "#/$defs/relationLink" } },
-            "context": { "type": "array", "items": { "type": "string", "pattern": "^(E|I)\\d{4}-[A-Z0-9-]+$" } }
+            "before": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/relationLink"
+              }
+            },
+            "after": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/relationLink"
+              }
+            },
+            "context": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(E|I)\\d{4}-[A-Z0-9-]+$"
+              }
+            }
           },
           "additionalProperties": false
         },
-        "peopleIds": { "type": "array", "items": { "type": "string", "pattern": "^P-[A-Z0-9-]+$" } },
+        "peopleIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^P-[A-Z0-9-]+$"
+          }
+        },
         "evaluation": {
-          "type": ["object", "null"],
+          "type": [
+            "object",
+            "null"
+          ],
           "properties": {
-            "official": { "type": "array", "items": { "type": "object", "required": ["text", "sourceId"], "properties": { "text": { "type": "string" }, "sourceId": { "type": "string" }, "locator": { "type": "string" }, "year": { "type": "string" } }, "additionalProperties": false } },
-            "academic": { "type": "array", "items": { "type": "object", "required": ["view", "sourceId"], "properties": { "view": { "type": "string" }, "author": { "type": "string" }, "work": { "type": "string" }, "sourceId": { "type": "string" } }, "additionalProperties": false } },
-            "sourceNote": { "type": ["string", "null"] }
+            "official": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "text",
+                  "sourceId"
+                ],
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "sourceId": {
+                    "type": "string"
+                  },
+                  "locator": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "academic": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "view",
+                  "sourceId"
+                ],
+                "properties": {
+                  "view": {
+                    "type": "string"
+                  },
+                  "author": {
+                    "type": "string"
+                  },
+                  "work": {
+                    "type": "string"
+                  },
+                  "sourceId": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "sourceNote": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
           },
           "additionalProperties": false
         },
@@ -104,98 +331,474 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["text", "author", "work", "year", "sourceId"],
-            "properties": { "text": { "type": "string", "maxLength": 120 }, "author": { "type": "string" }, "work": { "type": "string" }, "year": { "type": "string" }, "sourceId": { "type": "string" } },
+            "required": [
+              "text",
+              "author",
+              "work",
+              "year",
+              "sourceId"
+            ],
+            "properties": {
+              "text": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "author": {
+                "type": "string"
+              },
+              "work": {
+                "type": "string"
+              },
+              "year": {
+                "type": "string"
+              },
+              "sourceId": {
+                "type": "string"
+              }
+            },
             "additionalProperties": false
           }
         },
-        "sources": { "$ref": "#/$defs/sources" },
-        "uncertain": { "$ref": "#/$defs/uncertain" },
-        "imageId": { "type": ["string", "null"] },
-        "keywords": { "type": "array", "items": { "type": "string" } },
-        "contentVersion": { "type": "integer", "minimum": 1 },
-        "retired": { "type": "boolean", "description": "已作废事件保留 ID，界面不显示" }
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "uncertain": {
+          "$ref": "#/$defs/uncertain"
+        },
+        "imageId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "contentVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "retired": {
+          "type": "boolean",
+          "description": "已作废事件保留 ID，界面不显示"
+        }
       },
       "additionalProperties": false
     },
-
     "person": {
       "type": "object",
-      "required": ["id", "name", "born", "died", "tier", "activePeriod", "roles", "relationToMao", "eventIds", "sourceIds"],
+      "required": [
+        "id",
+        "name",
+        "born",
+        "died",
+        "tier",
+        "activePeriod",
+        "roles",
+        "relationToMao",
+        "eventIds",
+        "sourceIds"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^P-[A-Z0-9-]+$" },
-        "name": { "type": "string" },
-        "born": { "$ref": "#/$defs/isoDate" },
-        "died": { "$ref": "#/$defs/isoDate" },
-        "tier": { "enum": ["core", "extended"] },
-        "activePeriod": { "type": "string" },
-        "roles": { "type": "array", "items": { "type": "object", "required": ["period", "title"], "properties": { "period": { "type": "string" }, "title": { "type": "string" } }, "additionalProperties": false } },
-        "relationToMao": { "type": "string" },
-        "turningPoints": { "type": "array", "items": { "type": "object", "required": ["eventId", "note"], "properties": { "eventId": { "type": "string" }, "note": { "type": "string" } }, "additionalProperties": false } },
-        "eventIds": { "type": "array", "items": { "type": "string" } },
-        "relations": { "type": "array", "items": { "type": "object", "required": ["personId", "type", "stageIds"], "properties": { "personId": { "type": "string" }, "type": { "type": "string" }, "stageIds": { "type": "array", "items": { "type": "string" } } }, "additionalProperties": false } },
-        "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-        "imageId": { "type": ["string", "null"] }
+        "id": {
+          "type": "string",
+          "pattern": "^P-[A-Z0-9-]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "born": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "died": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "tier": {
+          "enum": [
+            "core",
+            "extended"
+          ]
+        },
+        "activePeriod": {
+          "type": "string"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "period",
+              "title"
+            ],
+            "properties": {
+              "period": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "relationToMao": {
+          "type": "string"
+        },
+        "turningPoints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "eventId",
+              "note"
+            ],
+            "properties": {
+              "eventId": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "eventIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "personId",
+              "type",
+              "stageIds"
+            ],
+            "properties": {
+              "personId": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "stageIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "sourceIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "imageId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       },
       "additionalProperties": false
     },
-
     "source": {
       "type": "object",
-      "required": ["id", "title", "author", "type"],
+      "required": [
+        "id",
+        "title",
+        "author",
+        "type"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" },
-        "title": { "type": "string" },
-        "author": { "type": "string" },
-        "publisher": { "type": "string" },
-        "year": { "type": "string" },
-        "type": { "enum": ["book", "document", "paper", "web"] },
-        "url": { "type": ["string", "null"] },
-        "accessed": { "type": "string", "description": "网页来源的访问日期" },
-        "note": { "type": "string" }
+        "id": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "year": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "book",
+            "document",
+            "paper",
+            "web"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "accessed": {
+          "type": "string",
+          "description": "网页来源的访问日期"
+        },
+        "note": {
+          "type": "string"
+        }
       },
       "additionalProperties": false
     },
-
     "quiz": {
       "type": "object",
-      "required": ["id", "stageId", "ability", "question", "options", "answer", "explanation", "eventIds"],
+      "required": [
+        "id",
+        "stageId",
+        "ability",
+        "question",
+        "options",
+        "answer",
+        "explanation",
+        "eventIds"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^Q-S0[1-8]-\\d{3}$" },
-        "stageId": { "type": "string" },
-        "ability": { "enum": ["fact", "order", "cause", "synthesis"] },
-        "question": { "type": "string" },
-        "options": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "type": "string" } },
-        "answer": { "type": "integer", "minimum": 0, "maximum": 3 },
-        "explanation": { "type": "string" },
-        "eventIds": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+        "id": {
+          "type": "string",
+          "pattern": "^Q-S0[1-8]-\\d{3}$"
+        },
+        "stageId": {
+          "type": "string"
+        },
+        "ability": {
+          "enum": [
+            "fact",
+            "order",
+            "cause",
+            "synthesis"
+          ]
+        },
+        "question": {
+          "type": "string"
+        },
+        "options": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "answer": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "eventIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
       },
       "additionalProperties": false
     },
-
     "intl": {
       "type": "object",
-      "required": ["id", "title", "date", "datePrecision", "summary", "sources"],
+      "required": [
+        "id",
+        "title",
+        "date",
+        "datePrecision",
+        "summary",
+        "sources"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^I\\d{4}-[A-Z0-9-]+$" },
-        "title": { "type": "string" },
-        "date": { "$ref": "#/$defs/isoDate" },
-        "endDate": { "$ref": "#/$defs/isoDate" },
-        "datePrecision": { "$ref": "#/$defs/datePrecision" },
-        "summary": { "type": "string", "maxLength": 200 },
-        "relatedEventIds": { "type": "array", "items": { "type": "string" } },
-        "sources": { "$ref": "#/$defs/sources" }
+        "id": {
+          "type": "string",
+          "pattern": "^I\\d{4}-[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "endDate": {
+          "$ref": "#/$defs/isoDate"
+        },
+        "datePrecision": {
+          "$ref": "#/$defs/datePrecision"
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "relatedEventIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        }
       },
       "additionalProperties": false
     },
-
     "map": {
       "type": "object",
-      "required": ["locations", "routes", "images"],
+      "required": [
+        "locations",
+        "routes",
+        "images"
+      ],
       "properties": {
-        "locations": { "type": "array", "items": { "type": "object", "required": ["id", "name", "lat", "lng"], "properties": { "id": { "type": "string", "pattern": "^L-[A-Z0-9-]+$" }, "name": { "type": "string" }, "lat": { "type": "number" }, "lng": { "type": "number" }, "note": { "type": "string" } }, "additionalProperties": false } },
-        "routes": { "type": "array", "items": { "type": "object", "required": ["id", "name", "points"], "properties": { "id": { "type": "string" }, "name": { "type": "string" }, "points": { "type": "array", "items": { "type": "string" } }, "sourceIds": { "type": "array", "items": { "type": "string" } } }, "additionalProperties": false } },
-        "images": { "type": "array", "items": { "type": "object", "required": ["id", "localFile", "source", "license", "author", "originalUrl"], "properties": { "id": { "type": "string", "pattern": "^IMG-" }, "localFile": { "type": "string" }, "source": { "type": "string" }, "license": { "type": "string" }, "author": { "type": "string" }, "originalUrl": { "type": "string" }, "caption": { "type": "string" } }, "additionalProperties": false } }
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^L-[A-Z0-9-]+$"
+              },
+              "name": {
+                "type": "string"
+              },
+              "lat": {
+                "type": "number"
+              },
+              "lng": {
+                "type": "number"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "routes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "points"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "points": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "stops": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "locationId",
+                    "date",
+                    "note"
+                  ],
+                  "properties": {
+                    "locationId": {
+                      "type": "string"
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "note": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "localFile",
+              "source",
+              "license",
+              "author",
+              "originalUrl"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^IMG-"
+              },
+              "localFile": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "license": {
+                "type": "string"
+              },
+              "author": {
+                "type": "string"
+              },
+              "originalUrl": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
       },
       "additionalProperties": false
     }

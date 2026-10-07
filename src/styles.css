@@ -266,3 +266,41 @@ a.stage-link:hover { border-color: var(--red); text-decoration: none; }
 .event-row-bars .bar.lane-bg-mao { background: var(--lane-mao); }
 .event-row-bars .bar.lane-bg-party { background: var(--lane-party); }
 .event-row-bars .bar.lane-bg-nation { background: var(--lane-nation); }
+
+/* 地图 */
+.map-filter { display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; color: var(--ink-2); }
+.map-filter select { padding: 4px 6px; border: 1px solid var(--line); border-radius: 4px; background: #fff; }
+.map-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px; margin-bottom: 16px; }
+.map-svg { width: 100%; height: auto; display: block; }
+.map-land { fill: var(--paper-2); stroke: #BFAE8E; stroke-width: 1; }
+.spot { cursor: pointer; }
+.spot circle { fill: var(--red); fill-opacity: .75; stroke: #fff; stroke-width: 1.5; }
+.spot.on circle { fill: var(--ink); fill-opacity: 1; }
+.spot text { font-size: 11px; fill: var(--ink-2); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
+.spot:hover circle, .spot:focus circle { fill-opacity: 1; }
+.route-ghost { fill: none; stroke: var(--lane-party); stroke-width: 1.5; stroke-dasharray: 3 4; opacity: .35; }
+.route-line { fill: none; stroke: var(--lane-party); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.route-dot { fill: #fff; stroke: var(--lane-party); stroke-width: 2; }
+.route-label rect { fill: var(--ink); opacity: .88; }
+.route-label text { fill: #fff; font-size: 11px; }
+.map-note { margin: 4px 4px 0; }
+.route-list { columns: 2; column-gap: 24px; font-size: .9rem; }
+.route-list li { break-inside: avoid; color: var(--muted); }
+.route-list li.done { color: var(--ink); }
+@media (max-width: 767px) { .route-list { columns: 1; } }
+
+/* 人物关系图 */
+.graph-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px; }
+.graph-svg { width: 100%; height: auto; display: block; }
+.edge line { stroke: #C9B996; stroke-width: 1.2; }
+.edge text { font-size: 10px; fill: var(--muted); paint-order: stroke; stroke: var(--card); stroke-width: 3px; }
+.edge.on line { stroke: var(--red); stroke-width: 2; }
+.edge.on text { fill: var(--red); }
+.edge.dim { opacity: .25; }
+.node { cursor: pointer; }
+.node circle { fill: #fff; stroke: var(--lane-party); stroke-width: 1.5; }
+.node.center circle { fill: var(--red); stroke: var(--red); }
+.node.center text { fill: #fff; font-weight: 700; }
+.node.extended circle { stroke-dasharray: 3 2; }
+.node text { font-size: 12px; font-family: var(--serif); fill: var(--ink); }
+.node:hover circle { stroke-width: 3; }

@@ -60,7 +60,8 @@ for (const e of data.events) {
   if (e.level !== 'B' && e.criteria.length < 2) errors.push(`${e.id}: ${e.level} 级事件 criteria 少于 2 项`);
   if (e.endDate && e.endDate < e.date) errors.push(`${e.id}: 结束日期早于开始日期`);
   const st = data.stages.find((s) => s.id === e.stageId);
-  if (st && (e.date.slice(0, 7) < st.start.slice(0, 7) || e.date.slice(0, 7) > st.end.slice(0, 7))) warnings.push(`${e.id}: 日期 ${e.date} 不在阶段 ${st.id} 范围内`);
+  const pad = (d, x) => (d.length === 4 ? d + x : d.slice(0, 7));
+  if (st && (e.date.slice(0, 7) < pad(st.start, '-01') || e.date.slice(0, 7) > pad(st.end, '-12'))) warnings.push(`${e.id}: 日期 ${e.date} 不在阶段 ${st.id} 范围内`);
 }
 for (const p of data.people) {
   p.eventIds.forEach((x) => ref(E.has(x), `${p.id}: 关联事件 ${x} 不存在`, true));

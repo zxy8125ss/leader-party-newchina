@@ -5,7 +5,95 @@
     "date": "1935-07",
     "datePrecision": "month",
     "summary": "共产国际在莫斯科召开第七次代表大会。中共驻共产国际代表团据其精神起草《八一宣言》，号召停止内战、一致抗日。",
-    "relatedEventIds": ["E1935-WYB", "E1935-YEJ"],
-    "sources": { "main": [{ "sourceId": "SRC-PEOPLE-0801" }] }
+    "relatedEventIds": [
+      "E1935-WYB",
+      "E1935-YEJ"
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-PEOPLE-0801"
+        }
+      ]
+    }
+  },
+  {
+    "id": "I1917-SYGM",
+    "title": "俄国十月革命",
+    "date": "1917",
+    "datePrecision": "year",
+    "summary": "俄国十月革命鼓舞了东方被压迫民族，中国一批先进分子开始选择马克思主义。",
+    "relatedEventIds": [
+      "E1915-XWH",
+      "E1919-WSYD"
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        }
+      ]
+    }
+  },
+  {
+    "id": "I1919-BLHH",
+    "title": "巴黎和会",
+    "date": "1919",
+    "datePrecision": "year",
+    "summary": "第一次世界大战后的巴黎和会上中国外交失败，成为五四运动的直接起因。",
+    "relatedEventIds": [
+      "E1919-WSYD"
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "开篇背景部分"
+        }
+      ]
+    }
+  },
+  {
+    "id": "I1950-ZSTY",
+    "title": "《中苏友好同盟互助条约》签订",
+    "date": "1950-02-14",
+    "datePrecision": "day",
+    "summary": "中国同苏联签订《中苏友好同盟互助条约》。此前1949年10月2日，苏联率先承认中华人民共和国并建交。",
+    "relatedEventIds": [
+      "E1949-KGDD",
+      "E1950-KMYC"
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ100-CAC",
+          "locator": "1950年2月14日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1949",
+          "locator": "10月2日条"
+        }
+      ]
+    }
+  },
+  {
+    "id": "I1956-SGESD",
+    "title": "苏共二十大",
+    "date": "1956-02-14",
+    "datePrecision": "day",
+    "summary": "1956年2月14日至25日，苏共第二十次代表大会召开，赫鲁晓夫作秘密报告。",
+    "relatedEventIds": [
+      "E1956-LSDGX"
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1956",
+          "locator": "2月14日—25日条"
+        }
+      ]
+    },
+    "endDate": "1956-02-25"
   }
 ]
