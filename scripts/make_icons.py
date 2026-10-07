@@ -1,27 +1,39 @@
-"""生成 PWA 图标（米黄底、中国红圆章、白色年份线）。python3 scripts/make_icons.py"""
-import pathlib
+"""生成 PWA 图标：红底，三条线（毛泽东 / 中共 / 国家与时代）汇向一颗金星。python3 scripts/make_icons.py"""
+import math, pathlib
 from PIL import Image, ImageDraw
 
 out = pathlib.Path(__file__).resolve().parent.parent / 'public' / 'icons'
 out.mkdir(parents=True, exist_ok=True)
-RED, PAPER, INK = (158, 42, 34), (245, 239, 226), (60, 38, 30)
+RED, PAPER, GOLD = (158, 42, 34), (245, 239, 226), (226, 182, 92)
+SS = 4  # 先放大 4 倍画，再缩小，边缘平滑
+
+
+def star(d, cx, cy, R, fill):
+    pts = []
+    for i in range(10):
+        r = R if i % 2 == 0 else R * 0.382
+        a = -math.pi / 2 + i * math.pi / 5
+        pts.append((cx + r * math.cos(a), cy + r * math.sin(a)))
+    d.polygon(pts, fill=fill)
+
 
 def icon(size, maskable=False):
-    im = Image.new('RGB', (size, size), RED if maskable else PAPER)
+    n = size * SS
+    im = Image.new('RGB', (n, n), RED)
     d = ImageDraw.Draw(im)
-    pad = int(size * (0.18 if maskable else 0.08))
-    if not maskable:
-        d.rounded_rectangle([pad, pad, size - pad, size - pad], radius=size // 6, fill=RED)
-    # 三条泳道线 + 时间节点
-    left, right = int(size * 0.27), int(size * 0.73)
-    for i, y in enumerate([0.38, 0.5, 0.62]):
-        yy = int(size * y)
-        d.line([left, yy, right, yy], fill=PAPER, width=max(2, size // 48))
-    for x, y in [(0.36, 0.38), (0.55, 0.5), (0.64, 0.62), (0.45, 0.5)]:
-        r = size // 22
-        cx, cy = int(size * x), int(size * y)
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=PAPER)
-    return im
+    k = 0.72 if maskable else 1  # maskable 留出安全区
+    c = lambda v: n / 2 + (v - 0.5) * n * k
+    sx, sy = c(0.70), c(0.34)
+    w = int(n * 0.034 * k)
+    for y0 in (0.42, 0.58, 0.74):
+        r = w / 2
+        for i in range(1601):  # 用密集圆点描线，避免折线接缝
+            t = i / 1600
+            x, y = c(0.16) + (sx - c(0.16)) * t, c(y0) + (sy - c(y0)) * t ** 2.2
+            d.ellipse([x - r, y - r, x + r, y + r], fill=PAPER)
+    star(d, sx, sy, n * 0.15 * k, GOLD)
+    return im.resize((size, size), Image.LANCZOS)
+
 
 icon(192).save(out / 'icon-192.png')
 icon(512).save(out / 'icon-512.png')
