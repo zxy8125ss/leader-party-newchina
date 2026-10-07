@@ -91,7 +91,7 @@ export function ReadText({ readText, compact }) {
       <div className="read-links">
         {links.map((l) => <a key={l.url} className={`read-btn ${l.search ? 'alt' : ''}`} href={l.url} target="_blank" rel="noreferrer">{l.label} ↗</a>)}
       </div>
-      <p className="muted small">在外部网页打开，需要联网。{readText.links?.length ? '马克思主义文库收录《毛泽东选集》全文，国内网络可能打不开，可改用搜索。' : ''}搜索结果来自第三方网站，请以《毛泽东选集》《毛泽东诗词集》等正式出版物为准。</p>
+      <p className="muted small">在外部网页打开，需要联网。{readText.links?.some((l) => l.url.includes('marxists.org')) ? '马克思主义文库收录《毛泽东选集》全文，国内网络可能打不开，可改用搜索。' : ''}{readText.links?.some((l) => l.url.includes('baike.baidu.com')) ? '百度百科词条含全文，但可多人编辑，个别字以书为准。' : ''}搜索结果来自第三方网站，请以《毛泽东选集》《毛泽东诗词集》等正式出版物为准。</p>
     </section>
   );
 }
