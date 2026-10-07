@@ -22,7 +22,7 @@ export default function Search({ query }) {
       if (f.person && !e.peopleIds.includes(f.person)) return false;
       if (f.level && e.level !== f.level) return false;
       if (!kw) return true;
-      return has(kw, e.title, e.summary, e.detail, e.background, e.impact, e.keywords, locationById[e.locationId]?.name);
+      return has(kw, e.title, e.summary, e.detail, e.background, e.impact, e.insight, e.keywords, locationById[e.locationId]?.name);
     });
     const filtered = Object.values(f).some(Boolean);
     if (!kw) return { ev: filtered ? ev : [], pe: [], st: [], it: [] };

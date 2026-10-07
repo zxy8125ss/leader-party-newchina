@@ -16,7 +16,7 @@ export default function Home() {
         <div className="home-no">个人学习档案 · 1893—1976</div>
         <h1>领袖·政党·新中国</h1>
         <p className="home-intro">
-          沿着毛泽东、中国共产党、国家与时代三条线，按时间顺序梳理事件之间的前因后果。
+          以毛泽东的一生为主轴，对照中国共产党和国家与时代两条线，按时间顺序梳理事件之间的前因后果。
           看时间轴，点开事件，读背景、看人物、顺着前后事件往下走，每个阶段做五道题，写下自己的笔记。
         </p>
       </header>
@@ -42,6 +42,7 @@ export default function Home() {
         </div>
       </section>
 
+      <a href="#/mao" className="home-mao"><b>毛泽东生平主线 →</b><span>经历、亲历的大事、著作、诗词与他的思考，按人生阶段排列</span></a>
       <nav className="home-grid">
         <Link to="/timeline" className="home-tile"><b>进入时间轴</b><span>三条线并排看同一时期</span></Link>
         <Link to="/stages" className="home-tile"><b>按阶段学习</b><span>已开放 {stagesWithContent.length} / 8 个阶段</span></Link>

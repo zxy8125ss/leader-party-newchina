@@ -466,5 +466,89 @@
     "type": "web",
     "url": "https://cpc.people.com.cn/GB/64162/64164/4416102.html",
     "accessed": "2026-10-07"
+  },
+  {
+    "id": "SRC-MX-MAOIDX",
+    "title": "中文马克思主义文库·毛泽东（著作目录）",
+    "author": "毛泽东",
+    "publisher": "中文马克思主义文库",
+    "year": "",
+    "type": "web",
+    "url": "https://www.marxists.org/chinese/maozedong/index.htm",
+    "accessed": "2026-10-07",
+    "note": "著作写作/发表日期以《毛泽东选集》题注为准"
+  },
+  {
+    "id": "SRC-ZZRS-QC",
+    "title": "毛泽东诗词中的青春意气",
+    "author": "中国组织人事报",
+    "publisher": "共产党员网（转载）",
+    "year": "2023",
+    "type": "web",
+    "url": "https://www.12371.cn/2023/12/29/ARTI1703818626773988.shtml",
+    "accessed": "2026-10-07",
+    "note": "早期诗词创作时间与生平"
+  },
+  {
+    "id": "SRC-RMZX-SC",
+    "title": "建党百年读华章——品读毛泽东诗词",
+    "author": "张连起",
+    "publisher": "人民政协报（人民政协网）",
+    "year": "2021",
+    "type": "web",
+    "url": "https://www.rmzxw.com.cn/c/2021-07-06/2897488.shtml",
+    "accessed": "2026-10-07"
+  },
+  {
+    "id": "SRC-RMLT-SC",
+    "title": "人民论坛每日推荐（毛泽东诗词篇目）",
+    "author": "人民论坛网",
+    "publisher": "人民论坛网",
+    "year": "2026",
+    "type": "web",
+    "url": "https://www.rmlt.com.cn/2026/0117/745771.shtml",
+    "accessed": "2026-10-07"
+  },
+  {
+    "id": "SRC-PEOPLE-QYC",
+    "title": "毛泽东两首“沁园春”研讨座谈会召开",
+    "author": "人民网—中国共产党新闻网",
+    "publisher": "人民网",
+    "year": "2025",
+    "type": "web",
+    "url": "https://cpc.people.com.cn/n1/2025/1230/c443712-40635452.html",
+    "accessed": "2026-10-07"
+  },
+  {
+    "id": "SRC-CCTV-CZSC",
+    "title": "李可染如何表现两万五千里长征？",
+    "author": "央视网",
+    "publisher": "中国日报网（转载）",
+    "year": "2021",
+    "type": "web",
+    "url": "https://cn.chinadaily.com.cn/a/202103/12/WS604b292ba3101e7ce9743c00.html",
+    "accessed": "2026-10-07",
+    "note": "提及长征期间创作的诗词"
+  },
+  {
+    "id": "SRC-RMZX-CJ",
+    "title": "纪念章见证横渡长江竞赛",
+    "author": "人民政协报",
+    "publisher": "人民政协网",
+    "year": "2026",
+    "type": "web",
+    "url": "https://www.rmzxw.com.cn/c/2026-01-15/3851508.shtml",
+    "accessed": "2026-10-07",
+    "note": "毛泽东1956、1966年畅游长江"
+  },
+  {
+    "id": "SRC-JFJB-MAY",
+    "title": "对毛岸英烈士牺牲经过的调查",
+    "author": "解放军报",
+    "publisher": "新华网（转载）",
+    "year": "2015",
+    "type": "web",
+    "url": "https://www.xinhuanet.com/politics/2015-07/14/c_128019703.htm",
+    "accessed": "2026-10-07"
   }
 ]

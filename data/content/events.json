@@ -60,7 +60,66 @@
       "私塾",
       "东山高等小学堂"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "life"
+  },
+  {
+    "id": "E1910-CFQX",
+    "title": "离家求学，作《七绝·呈父亲》",
+    "date": "1910",
+    "datePrecision": "year",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-XIANGTAN",
+    "summary": "毛泽东考入湘乡县立东山高等小学堂，离开韶山外出求学，临行前写诗给父亲。",
+    "detail": "1910年秋，毛泽东考入湘乡县立东山高等小学堂，第一次离开家乡外出求学，写下《七绝·呈父亲》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1911-XHGM",
+          "note": "次年到长沙求学，遇上辛亥革命"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1910年秋条"
+        },
+        {
+          "sourceId": "SRC-XXSB-QSN",
+          "locator": "少年时期部分"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "呈父亲",
+      "东山高等小学堂",
+      "离家"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "诗中表达了一个农家少年走出乡村、立志求学、四海为家的决心。",
+    "sortDate": "1910-09"
   },
   {
     "id": "E1911-XHGM",
@@ -138,7 +197,8 @@
       "君主专制",
       "清帝退位"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "insight": "这是他第一次投身政治变革，但很快认为革命已经结束，回到书本继续寻找救国的答案。"
   },
   {
     "id": "E1913-DYSF",
@@ -207,7 +267,9 @@
       "杨昌济",
       "游学"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "life",
+    "sortDate": "1913-03"
   },
   {
     "id": "E1915-XWH",
@@ -276,7 +338,8 @@
       "思想解放",
       "马克思主义"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "sortDate": "1915-09"
   },
   {
     "id": "E1918-XMXH",
@@ -337,6 +400,11 @@
         "field": "after",
         "note": "“为组织赴法勤工俭学赴京”的动机说明尚无来源，待核对。",
         "sourceIds": []
+      },
+      {
+        "field": "insight",
+        "note": "新民学会宗旨的表述待补充来源核对。",
+        "sourceIds": []
       }
     ],
     "imageId": null,
@@ -345,7 +413,8 @@
       "蔡和森",
       "长沙"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "insight": "他与同伴以“革新学术，砥砺品行，改良人心风俗”为宗旨，希望先改造自己再改造社会。"
   },
   {
     "id": "E1918-BJBD",
@@ -410,7 +479,8 @@
       "杨昌济",
       "杨开慧"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "life"
   },
   {
     "id": "E1919-WSYD",
@@ -496,6 +566,127 @@
       "工人阶级"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1919-MQBS",
+    "title": "母亲文七妹病逝",
+    "date": "1919-10-05",
+    "datePrecision": "day",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-XIANGTAN",
+    "summary": "毛泽东的母亲文七妹病逝，他写下《四言诗·祭母文》。",
+    "detail": "1919年10月5日，毛泽东的母亲文七妹病逝。此后他写下《四言诗·祭母文》悼念母亲。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1919-WSYD",
+          "note": "同年领导湖南学生爱国运动"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1919年10月5日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "文七妹",
+      "祭母文",
+      "母亲"
+    ],
+    "contentVersion": 1,
+    "kind": "life",
+    "insight": "祭文追述母亲的勤劳和慈爱，是毛泽东少见的直接抒写家人感情的文字。"
+  },
+  {
+    "id": "E1920-YKHJH",
+    "title": "成为马克思主义者，与杨开慧结婚",
+    "date": "1920",
+    "datePrecision": "year",
+    "stageId": "S01",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "1920年，毛泽东成为马克思主义者，与杨开慧在长沙结婚；同年11月创建长沙共产主义组织。",
+    "detail": "1920年初毛泽东第二次到北京，在京期间杨昌济病逝。1920年夏，毛泽东成为马克思主义者，与杨开慧结婚。同年11月，他创建长沙共产主义组织。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1921-ZGYD",
+          "note": "次年作为长沙代表出席中共一大"
+        },
+        {
+          "id": "E1930-YKHXS",
+          "note": "十年后杨开慧牺牲"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-YANG-KH",
+      "P-YANG-CJ"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1920年夏条"
+        },
+        {
+          "sourceId": "SRC-CNS-BD",
+          "locator": "1920年初条"
+        },
+        {
+          "sourceId": "SRC-NB-MZD",
+          "locator": "1920年11月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "杨开慧",
+      "马克思主义者",
+      "结婚"
+    ],
+    "contentVersion": 1,
+    "kind": "life",
+    "insight": "从此他把个人道路与共产主义运动结合在一起；杨开慧后来在长沙坚持地下斗争，1930年牺牲。",
+    "sortDate": "1920-07"
   },
   {
     "id": "E1920-GCDZZ",
@@ -774,6 +965,67 @@
     "contentVersion": 1
   },
   {
+    "id": "E1923-BY",
+    "title": "离湘赴沪，作《贺新郎·别友》",
+    "date": "1923",
+    "datePrecision": "year",
+    "stageId": "S02",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "1923年底，毛泽东奉中央通知离开长沙赴上海，准备参加国民党一大，临别写下《贺新郎·别友》。",
+    "detail": "1923年底，毛泽东奉中共中央通知离开长沙前往上海，准备参加国民党第一次全国代表大会，临别写下《贺新郎·别友》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1924-GMDYD",
+          "note": "次年1月出席国民党一大"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-YANG-KH"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1923年底条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "insight",
+        "note": "“与家人分别”的解读为通行看法，待用《毛泽东诗词集》注释核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "贺新郎",
+      "别友",
+      "杨开慧"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中既有与家人分别的不舍，也有投身革命风浪的决心，是他早期少有的抒写儿女私情的作品。",
+    "sortDate": "1923-12"
+  },
+  {
     "id": "E1924-GMDYD",
     "title": "国民党一大与第一次国共合作",
     "date": "1924-01-20",
@@ -983,6 +1235,67 @@
     "contentVersion": 1
   },
   {
+    "id": "E1925-QYCCS",
+    "title": "《沁园春·长沙》",
+    "date": "1925",
+    "datePrecision": "year",
+    "stageId": "S02",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "1925年秋，毛泽东离湘赴广州前重游长沙橘子洲，写下《沁园春·长沙》。",
+    "detail": "1925年秋，毛泽东创作《沁园春·长沙》。2025年，中国毛泽东诗词研究会举办座谈会纪念这首词创作100周年。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1925年秋条"
+        },
+        {
+          "sourceId": "SRC-RMZX-SC"
+        },
+        {
+          "sourceId": "SRC-PEOPLE-QYC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“离湘赴广州前重游橘子洲”的创作情境为通行说法，本条来源未直接记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "沁园春·长沙",
+      "橘子洲",
+      "青年"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中借秋景回忆青年时代与同学们的激扬意气，提出由谁来主宰国家命运的问题，表达青年一代改造中国的抱负。",
+    "sortDate": "1925-09"
+  },
+  {
     "id": "E1925-SHJJ",
     "title": "《中国社会各阶级的分析》",
     "date": "1925-12-01",
@@ -1023,7 +1336,12 @@
           "locator": "12月1日、12月5日条"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [
       {
@@ -1043,7 +1361,9 @@
       "政治周报",
       "毛泽东著作"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他把“谁是我们的敌人？谁是我们的朋友？”作为革命的首要问题，主张团结真正的朋友去攻击真正的敌人。"
   },
   {
     "id": "E1926-BF",
@@ -1179,7 +1499,12 @@
           "locator": "1927年3月条"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [],
     "imageId": null,
@@ -1188,7 +1513,74 @@
       "农民运动",
       "农民协会"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他认为农民运动是中国革命的重要力量，批驳指责农民运动“糟得很”的论调，主张依靠贫农。"
+  },
+  {
+    "id": "E1927-HHL",
+    "title": "《菩萨蛮·黄鹤楼》",
+    "date": "1927",
+    "datePrecision": "year",
+    "stageId": "S02",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WUCHANG",
+    "summary": "1927年春，大革命面临危机之际，毛泽东在武汉写下《菩萨蛮·黄鹤楼》。",
+    "detail": "1927年春，毛泽东创作《菩萨蛮·黄鹤楼》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-HNNY",
+          "note": "同年3月发表湖南农民运动考察报告"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-SYE",
+          "note": "不久四一二政变发生"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1927年春条"
+        },
+        {
+          "sourceId": "SRC-RMLT-SC"
+        },
+        {
+          "sourceId": "SRC-RMZX-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "菩萨蛮",
+      "黄鹤楼",
+      "武汉"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中流露出大革命危局下的沉郁心情，同时仍有坚持斗争的意志。",
+    "sortDate": "1927-04"
   },
   {
     "id": "E1927-SYE",
@@ -1865,6 +2257,179 @@
     "contentVersion": 1
   },
   {
+    "id": "E1928-XJYJGS",
+    "title": "《西江月·井冈山》",
+    "date": "1928",
+    "datePrecision": "year",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "1928年秋，红军在井冈山击退敌军进攻后，毛泽东写下《西江月·井冈山》。",
+    "detail": "1928年秋，毛泽东创作《西江月·井冈山》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-ZZRS-QC",
+          "locator": "1928年秋条"
+        },
+        {
+          "sourceId": "SRC-RMZX-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“击退敌军进攻后”所指战斗（黄洋界保卫战）为通行说法，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "西江月",
+      "井冈山",
+      "黄洋界"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中写红军在山上坚守、以少胜多的从容与自信，反映根据地初创时期的斗争精神。",
+    "sortDate": "1928-09"
+  },
+  {
+    "id": "E1928-HSZQ",
+    "title": "《中国的红色政权为什么能够存在？》",
+    "date": "1928-10-05",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "毛泽东为湘赣边界党的第二次代表大会起草决议，回答红色政权为什么能在白色政权包围中存在。",
+    "detail": "1928年10月5日，湘赣边界党的第二次代表大会通过毛泽东起草的决议，其中一部分即《中国的红色政权为什么能够存在？》，提出“工农武装割据”思想。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-JGSGJD",
+          "note": "井冈山斗争的实践总结"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ-1928",
+          "locator": "10月5日条"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1928年10月5日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "红色政权",
+      "工农武装割据",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他认为，中国是政治经济发展不平衡的半殖民地国家，白色政权之间长期分裂和战争，使一小块或若干小块红色政权能够在四周白色政权包围中生存和发展。"
+  },
+  {
+    "id": "E1928-JGSDZ",
+    "title": "《井冈山的斗争》",
+    "date": "1928-11-25",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "毛泽东给中共中央写报告，系统总结井冈山根据地一年来的斗争经验。",
+    "detail": "1928年11月25日，毛泽东写成《井冈山的斗争》，向中共中央报告湘赣边界根据地的军事、政权、土地、党的建设等各方面情况。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1928-HSZQ",
+          "note": "延续对红色政权存在条件的思考"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "井冈山的斗争",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "报告强调，根据地的存在需要有相当力量的正式红军、便于作战的地势和足够给养等条件，红军中要加强党的领导和政治工作。"
+  },
+  {
     "id": "E1929-GTHY",
     "title": "古田会议",
     "date": "1929-12-28",
@@ -1990,7 +2555,12 @@
           "sourceId": "SRC-MX-XXZH"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [],
     "imageId": null,
@@ -1999,7 +2569,77 @@
       "林彪",
       "毛泽东著作"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他认为红色政权和红军会逐步发展，革命高潮即将到来，批评悲观情绪；小块根据地的星星之火终将燎原。"
+  },
+  {
+    "id": "E1930-FDBBZY",
+    "title": "《反对本本主义》",
+    "date": "1930-05",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": null,
+    "summary": "毛泽东写《反对本本主义》，强调调查研究，反对脱离实际的教条主义。",
+    "detail": "1930年5月，毛泽东写成《反对本本主义》（原题《调查工作》）。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1930-XXZH",
+          "note": "同年1月复信林彪"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [
+      {
+        "text": "没有调查，没有发言权。",
+        "author": "毛泽东",
+        "work": "反对本本主义",
+        "year": "1930",
+        "sourceId": "SRC-MX-MAOIDX"
+      }
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "原题《调查工作》待用《毛泽东选集》题注核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "反对本本主义",
+      "调查研究",
+      "实事求是",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出要从实际情况出发，通过调查研究了解中国的实际，反对照搬书本和上级指示的教条主义作风。"
   },
   {
     "id": "E1930-FWJ",
@@ -2145,7 +2785,8 @@
       "板仓",
       "识字岭"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "life"
   },
   {
     "id": "E1931-JYBS",
@@ -2755,6 +3396,127 @@
     "contentVersion": 1
   },
   {
+    "id": "E1935-LSG",
+    "title": "《忆秦娥·娄山关》",
+    "date": "1935-02",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-ZUNYI",
+    "summary": "遵义会议后红军攻占娄山关，毛泽东写下《忆秦娥·娄山关》。",
+    "detail": "1935年2月，遵义会议后红军二渡赤水、攻占娄山关，毛泽东创作《忆秦娥·娄山关》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-ZYHY",
+          "note": "遵义会议后重新参与指挥"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1935-SDCS",
+          "note": "四渡赤水期间"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        },
+        {
+          "sourceId": "SRC-RMLT-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "娄山关",
+      "忆秦娥",
+      "长征诗词"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中写行军与鏖战的苍凉壮阔，在困境中表现出从头再来、继续前进的坚定意志。"
+  },
+  {
+    "id": "E1935-QLCZ",
+    "title": "《七律·长征》",
+    "date": "1935",
+    "datePrecision": "year",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": null,
+    "summary": "长征即将胜利时，毛泽东写下《七律·长征》，回顾红军翻山越岭、渡江过河的历程。",
+    "detail": "长征期间，毛泽东创作了《七律·长征》等多首诗词。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1935-DDSB",
+          "note": "中央红军到达陕北"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-CCTV-CZSC"
+        },
+        {
+          "sourceId": "SRC-RMLT-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "来源只记为长征期间；通行说法为1935年10月，待用《毛泽东诗词集》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "七律·长征",
+      "长征诗词"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "诗中把万水千山的艰险写得举重若轻，表现红军不怕困难的乐观精神。",
+    "sortDate": "1935-10"
+  },
+  {
     "id": "E1935-DDSB",
     "title": "中央红军到达陕北",
     "date": "1935-10-19",
@@ -2970,6 +3732,130 @@
     "contentVersion": 1
   },
   {
+    "id": "E1936-QYCX",
+    "title": "《沁园春·雪》",
+    "date": "1936",
+    "datePrecision": "year",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WAYAOBAO",
+    "summary": "红军到达陕北后，毛泽东写下《沁园春·雪》；1945年重庆谈判期间这首词公开发表，轰动山城。",
+    "detail": "红军初到陕北时期，毛泽东创作《沁园春·雪》。1945年重庆谈判期间，这首词公开发表。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1945-CQTP",
+          "note": "1945年重庆谈判期间公开发表"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        },
+        {
+          "sourceId": "SRC-PEOPLE-QYC"
+        },
+        {
+          "sourceId": "SRC-RMLT-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "通行说法为1936年2月作于陕北清涧，本条来源只记为红军初到陕北时期，待核对。",
+        "sourceIds": []
+      },
+      {
+        "field": "summary",
+        "note": "“轰动山城”为通行说法，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "沁园春·雪",
+      "陕北",
+      "重庆"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中由北国雪景纵论历代帝王，表达对当代人创造历史的自信，是他胸怀与抱负最集中的表达之一。",
+    "sortDate": "1936-02"
+  },
+  {
+    "id": "E1936-SNFW",
+    "title": "斯诺访问陕北",
+    "date": "1936-06",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WAYAOBAO",
+    "summary": "美国记者埃德加·斯诺访问陕北根据地，毛泽东接受采访，讲述了自己的经历。",
+    "detail": "1936年6月，美国记者埃德加·斯诺访问陕北根据地。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1936",
+          "locator": "6月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "insight",
+        "note": "“毛泽东接受采访讲述经历”及其影响本条来源未直接记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "斯诺",
+      "西行漫记",
+      "陕北"
+    ],
+    "contentVersion": 1,
+    "kind": "life",
+    "insight": "毛泽东通过斯诺第一次系统地向外界讲述自己的早年经历和红军情况，后来成为外界了解中共的重要窗口。"
+  },
+  {
     "id": "E1936-CZSL",
     "title": "红军三大主力会师，长征胜利结束",
     "date": "1936-10-09",
@@ -3040,6 +3926,69 @@
       "西路军"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1936-ZLWT",
+    "title": "《中国革命战争的战略问题》",
+    "date": "1936-12",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WAYAOBAO",
+    "summary": "毛泽东在红军大学作讲演，总结十年土地革命战争的军事经验。",
+    "detail": "1936年12月，毛泽东作《中国革命战争的战略问题》讲演。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-ZYHY",
+          "note": "遵义会议纠正了军事指挥错误"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ-1936",
+          "locator": "12月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“在红军大学讲演”待核对来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "战略问题",
+      "运动战",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他总结反“围剿”和长征的经验教训，阐述中国革命战争的特点和战略防御、运动战等原则，批评“左”倾军事错误。"
   },
   {
     "id": "E1936-XASB",
@@ -3133,6 +4082,61 @@
       "国共合作"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1937-SJLMDL",
+    "title": "《实践论》《矛盾论》",
+    "date": "1937-07",
+    "datePrecision": "month",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东撰写《实践论》和《矛盾论》两篇哲学著作。",
+    "detail": "1937年7月、8月，毛泽东撰写《实践论》和《矛盾论》两篇哲学著作。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "7月、8月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "实践论",
+      "矛盾论",
+      "哲学",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "《实践论》强调认识来源于实践、又要回到实践中检验；《矛盾论》阐述用矛盾分析的方法看问题，抓住主要矛盾。两文都意在克服党内的教条主义。"
   },
   {
     "id": "E1937-QQSB",
@@ -3530,7 +4534,12 @@
           "locator": "1938年5月26日—6月3日条"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [
       {
@@ -3546,7 +4555,9 @@
       "速胜论",
       "毛泽东著作"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他认为抗日战争是持久战，中国不能速胜，也不会亡国，最后胜利属于中国；兵民是胜利之本。"
   },
   {
     "id": "E1938-LJLZ",
@@ -3611,6 +4622,104 @@
       "四个服从"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1939-FKC",
+    "title": "《〈共产党人〉发刊词》",
+    "date": "1939-10-04",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东总结党的历史经验，提出统一战线、武装斗争、党的建设是中国革命的三大法宝。",
+    "detail": "1939年10月4日，毛泽东为中共中央党内刊物《共产党人》撰写发刊词。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "共产党人",
+      "三大法宝",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他认为统一战线、武装斗争、党的建设是党在中国革命中战胜敌人的三个主要法宝。"
+  },
+  {
+    "id": "E1940-XMZZYL",
+    "title": "《新民主主义论》",
+    "date": "1940-01",
+    "datePrecision": "month",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东系统阐述新民主主义的政治、经济、文化纲领。",
+    "detail": "1940年1月，毛泽东发表《新民主主义论》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "新民主主义论",
+      "两步走",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出中国革命要分两步走，先进行新民主主义革命，再进行社会主义革命，并阐述了新民主主义的政治、经济和文化。"
   },
   {
     "id": "E1940-BTDZ",
@@ -3811,6 +4920,119 @@
     "contentVersion": 1
   },
   {
+    "id": "E1942-WYZTH",
+    "title": "《在延安文艺座谈会上的讲话》",
+    "date": "1942-05",
+    "datePrecision": "month",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东在延安文艺座谈会上讲话，阐明文艺首先为工农兵服务。",
+    "detail": "1942年5月，中共中央召开延安文艺座谈会，毛泽东发表讲话。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1942-YAZF",
+          "note": "整风运动的一部分"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1942年5月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "延安文艺座谈会",
+      "工农兵",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出文艺首先要为工农兵服务，文艺工作者要深入群众、改造思想。"
+  },
+  {
+    "id": "E1944-WRMFW",
+    "title": "《为人民服务》",
+    "date": "1944-09-08",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东在追悼战士张思德的会上讲演，提出“为人民服务”。",
+    "detail": "1944年9月8日，毛泽东发表《为人民服务》的讲演。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“追悼张思德”的场合为通行说法，本条来源目录未直接记载，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "为人民服务",
+      "张思德",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出共产党和八路军、新四军是为着解放人民的，要全心全意为人民的利益工作；为人民利益而死，就比泰山还重。"
+  },
+  {
     "id": "E1945-QD",
     "title": "中共七大",
     "date": "1945-04-23",
@@ -3878,6 +5100,63 @@
       "党章"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1945-YGYS",
+    "title": "《愚公移山》",
+    "date": "1945-06-11",
+    "datePrecision": "day",
+    "stageId": "S04",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-YANAN",
+    "summary": "毛泽东在中共七大闭幕时讲话，用愚公移山的寓言号召全党坚持奋斗。",
+    "detail": "1945年6月11日，中共七大闭幕，毛泽东发表闭幕词《愚公移山》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1945-QD",
+          "note": "七大闭幕词"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ100",
+          "locator": "1945年4月23日—6月11日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "愚公移山",
+      "七大",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他用愚公移山的故事比喻中国共产党要坚持不懈地推翻压在中国人民头上的大山，依靠人民群众取得胜利。"
   },
   {
     "id": "E1945-KZSL",
@@ -4463,6 +5742,67 @@
     "contentVersion": 1
   },
   {
+    "id": "E1949-ZLNJ",
+    "title": "《七律·人民解放军占领南京》",
+    "date": "1949-04",
+    "datePrecision": "month",
+    "stageId": "S05",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-NANJING",
+    "summary": "人民解放军占领南京后，毛泽东写下《七律·人民解放军占领南京》。",
+    "detail": "1949年4月23日人民解放军解放南京，毛泽东随后创作《七律·人民解放军占领南京》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1949-DJZY",
+          "note": "渡江战役解放南京"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        },
+        {
+          "sourceId": "SRC-RMLT-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "来源只记为解放战争胜利时期，具体创作日期待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "占领南京",
+      "七律",
+      "渡江"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "诗中写百万雄师渡江的气势，并主张将革命进行到底、不可半途而止。"
+  },
+  {
     "id": "E1949-DJZY",
     "title": "渡江战役与南京解放",
     "date": "1949-04-21",
@@ -4576,7 +5916,12 @@
           "locator": "1949年6月30日条"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [],
     "imageId": null,
@@ -4584,7 +5929,9 @@
       "论人民民主专政",
       "国家性质"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他阐述新中国要实行工人阶级领导、以工农联盟为基础的人民民主专政，对人民内部实行民主、对反动派实行专政。"
   },
   {
     "id": "E1949-ZZXS",
@@ -4908,6 +6255,59 @@
     "contentVersion": 1
   },
   {
+    "id": "E1950-MAYXS",
+    "title": "长子毛岸英在朝鲜牺牲",
+    "date": "1950-11-25",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": null,
+    "summary": "毛泽东的长子毛岸英随志愿军入朝，在美军飞机空袭中牺牲，年仅28岁。",
+    "detail": "1950年11月25日，美军轰炸机空袭志愿军司令部，投下凝固汽油弹，在司令部工作的毛岸英牺牲，年仅28岁。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1950-KMYC",
+          "note": "志愿军入朝作战"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-PENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-JFJB-MAY"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "毛岸英",
+      "抗美援朝",
+      "家庭"
+    ],
+    "contentVersion": 1,
+    "kind": "life",
+    "insight": "毛泽东强忍悲痛，把儿子看作千千万万志愿军战士中的普通一员，没有因此改变对抗美援朝的决策。"
+  },
+  {
     "id": "E1953-GDSQ",
     "title": "过渡时期总路线与第一个五年计划",
     "date": "1953-06-15",
@@ -5177,7 +6577,12 @@
           "locator": "4月25日、4月28日条"
         }
       ],
-      "extra": []
+      "extra": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作原文"
+        }
+      ]
     },
     "uncertain": [
       {
@@ -5192,7 +6597,63 @@
       "双百方针",
       "社会主义建设道路"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出要以苏联的经验为鉴戒，调动一切积极因素，探索适合中国情况的建设道路。"
+  },
+  {
+    "id": "E1956-YY",
+    "title": "畅游长江，作《水调歌头·游泳》",
+    "date": "1956-05-31",
+    "endDate": "1956-06-04",
+    "datePrecision": "day",
+    "stageId": "S06",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WUCHANG",
+    "summary": "毛泽东在武汉三次畅游长江，写下《水调歌头·游泳》。",
+    "detail": "1956年5月31日至6月4日，毛泽东在武汉三次畅游长江，随后写下《水调歌头·游泳》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-CJ"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "insight",
+        "note": "词中涉及武汉长江大桥等内容的解读为通行看法，待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "水调歌头·游泳",
+      "长江",
+      "武汉"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中由长江大桥等建设规划展望国家面貌的巨变，表现社会主义建设初期的豪情。"
   },
   {
     "id": "E1956-BD",
@@ -5273,6 +6734,65 @@
       "总书记"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1957-ZQCL",
+    "title": "《关于正确处理人民内部矛盾的问题》",
+    "date": "1957-02-27",
+    "datePrecision": "day",
+    "stageId": "S07",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "毛泽东在最高国务会议上讲话，提出要严格区分和正确处理两类不同性质的矛盾。",
+    "detail": "1957年2月27日，毛泽东在最高国务会议上作《关于正确处理人民内部矛盾的问题》的讲话。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1957-FYP",
+          "note": "同年整风转为反右派斗争"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-MAOIDX",
+          "locator": "著作目录"
+        },
+        {
+          "sourceId": "SRC-DSJ-1957",
+          "locator": "2月27日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "人民内部矛盾",
+      "两类矛盾",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1,
+    "kind": "work",
+    "insight": "他提出社会主义社会存在敌我之间和人民内部两类性质不同的矛盾，人民内部矛盾要用民主的方法、说服教育的方法解决。"
   },
   {
     "id": "E1957-FYP",
@@ -5477,6 +6997,60 @@
       "困难时期"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1959-DSS",
+    "title": "重回韶山，作《七律·到韶山》",
+    "date": "1959",
+    "datePrecision": "year",
+    "stageId": "S07",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-XIANGTAN",
+    "summary": "1959年毛泽东回到阔别三十多年的故乡韶山，写下《七律·到韶山》。",
+    "detail": "1959年，毛泽东创作《七律·到韶山》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "summary",
+        "note": "“1959年6月回韶山、阔别三十多年”的具体时间待用《毛泽东年谱》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "到韶山",
+      "故乡",
+      "七律"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "诗中回顾当年家乡农民运动的斗争，感慨牺牲的代价，赞美今天的农村景象。",
+    "sortDate": "1959-06"
   },
   {
     "id": "E1959-LSHY",
@@ -5712,6 +7286,54 @@
     "contentVersion": 1
   },
   {
+    "id": "E1963-MJH",
+    "title": "《满江红·和郭沫若同志》",
+    "date": "1963",
+    "datePrecision": "year",
+    "stageId": "S07",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": null,
+    "summary": "毛泽东写《满江红·和郭沫若同志》，评述当时的国际形势。",
+    "detail": "1963年，毛泽东创作《满江红·和郭沫若同志》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "满江红",
+      "郭沫若",
+      "只争朝夕"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中针对当时的国际反华浪潮，表达不畏压力、要“只争朝夕”的态度。",
+    "sortDate": "1963-07"
+  },
+  {
     "id": "E1964-YZD",
     "title": "第一颗原子弹爆炸成功",
     "date": "1964-10-16",
@@ -5842,6 +7464,62 @@
     "contentVersion": 1
   },
   {
+    "id": "E1965-CSJGS",
+    "title": "重上井冈山",
+    "date": "1965",
+    "datePrecision": "year",
+    "stageId": "S07",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "1965年，毛泽东重访井冈山，写下《水调歌头·重上井冈山》。",
+    "detail": "1965年，毛泽东重上井冈山，创作《水调歌头·重上井冈山》。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SC"
+        },
+        {
+          "sourceId": "SRC-ZZRS-QC"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "具体月份（通行说法为1965年5月）待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "重上井冈山",
+      "水调歌头"
+    ],
+    "contentVersion": 1,
+    "kind": "poem",
+    "insight": "词中重访旧地，感叹三十八年过去换了人间，表达只要肯攀登就没有克服不了的困难。",
+    "sortDate": "1965-05"
+  },
+  {
     "id": "E1966-WYLTZ",
     "title": "“五一六通知”，“文化大革命”发动",
     "date": "1966-05-16",
@@ -5946,6 +7624,68 @@
       "二月提纲"
     ],
     "contentVersion": 1
+  },
+  {
+    "id": "E1966-ZYCJ",
+    "title": "再次畅游长江",
+    "date": "1966-07-16",
+    "datePrecision": "day",
+    "stageId": "S08",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-WUCHANG",
+    "summary": "毛泽东在武汉再次畅游长江，游程近15公里，历时1小时05分。",
+    "detail": "1966年7月16日，毛泽东在武汉再次畅游长江，游程近15公里，历时1小时05分。",
+    "background": "",
+    "impact": "",
+    "relations": {
+      "before": [
+        {
+          "id": "E1966-WYLTZ",
+          "note": "五一六通知后两个月"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1966-BJSYZ",
+          "note": "半个月后召开八届十一中全会"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-CJ"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "insight",
+        "note": "对这次活动政治含义的解读为常见观点，待补充来源。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "畅游长江",
+      "武汉"
+    ],
+    "contentVersion": 1,
+    "kind": "life",
+    "insight": "“文化大革命”发动之初，这次公开活动被广泛宣传，显示他的身体状况和对局势的掌控。"
   },
   {
     "id": "E1966-BJSYZ",
@@ -6727,7 +8467,8 @@
       "毛泽东逝世",
       "历史地位"
     ],
-    "contentVersion": 1
+    "contentVersion": 1,
+    "kind": "life"
   },
   {
     "id": "E1976-FSSRB",

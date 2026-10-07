@@ -44,3 +44,17 @@ export function formatTime(ts) {
   const p = (x) => String(x).padStart(2, '0');
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
 }
+
+// 毛泽东的年龄（周岁）。只有年份精度时按“约”处理
+const BIRTH = [1893, 12, 26];
+export function maoAge(e) {
+  const [y, m, d] = e.date.split('-').map(Number);
+  if (!m || e.datePrecision === 'year' || e.datePrecision === 'approx') return { age: y - BIRTH[0] - 1, approx: true };
+  let age = y - BIRTH[0];
+  if (m < BIRTH[1] || (m === BIRTH[1] && (d || 1) < BIRTH[2])) age -= 1;
+  return { age, approx: !d };
+}
+export const ageText = (e) => { const { age, approx } = maoAge(e); return age < 0 ? '' : `${approx ? '约' : ''}${age}岁`; };
+
+export const KIND_NAME = { event: '大事', life: '经历', work: '著作', poem: '诗词' };
+export const kindOf = (e) => e.kind || 'event';

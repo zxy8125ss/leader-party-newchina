@@ -19,7 +19,8 @@ export const LEVEL_NAME = { S: 'S 级 · 核心节点', A: 'A 级 · 重要事�
 export const ABILITY_NAME = { fact: '事实理解', order: '时间顺序', cause: '因果关系', synthesis: '综合判断' };
 
 const sortKey = (d) => (d + '-00-00').slice(0, 10);
-export const events = eventsRaw.filter((e) => !e.retired).sort((a, b) => sortKey(a.date).localeCompare(sortKey(b.date)));
+const keyOf = (e) => sortKey(e.sortDate || e.date);
+export const events = eventsRaw.filter((e) => !e.retired).sort((a, b) => keyOf(a).localeCompare(keyOf(b)));
 export const coreEvents = events.filter((e) => e.level !== 'B');
 
 const index = (arr) => Object.fromEntries(arr.map((x) => [x.id, x]));

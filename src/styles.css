@@ -328,3 +328,55 @@ a.stage-link:hover { border-color: var(--red); text-decoration: none; }
 .node.extended circle { stroke-dasharray: 3 2; }
 .node text { font-size: 12px; font-family: var(--serif); fill: var(--ink); }
 .node:hover circle { stroke-width: 3; }
+
+/* 毛泽东主线 */
+.mao-page { max-width: 820px; margin: 0 auto; }
+.mao-head { border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 14px; }
+.mao-head h1 { font-size: 2.2rem; margin: 4px 0 6px; }
+.mao-roles { display: flex; flex-wrap: wrap; margin-top: 8px; }
+.kind-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.kind-chips .chip { margin: 0; }
+.life-nav { position: sticky; top: 52px; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px 0; background: var(--paper); border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.life-nav a { flex: none; display: flex; flex-direction: column; padding: 4px 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); color: var(--ink); font-size: .85rem; line-height: 1.4; }
+.life-nav a span { font-size: .72rem; color: var(--muted); }
+.life-nav a:hover { border-color: var(--red); text-decoration: none; }
+.life-stage { scroll-margin-top: 120px; margin-top: 18px; }
+.life-stage h2 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 1.25rem; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.life-stage h2 small { font-family: var(--sans); font-weight: 400; font-size: .85rem; color: var(--muted); }
+.life-list { list-style: none; padding: 0; margin: 0; position: relative; }
+.life-list::before { content: ''; position: absolute; left: 62px; top: 0; bottom: 0; border-left: 2px solid var(--line); }
+.life-item { display: grid; grid-template-columns: 54px 1fr; gap: 18px; padding: 8px 0; position: relative; }
+.life-item::before { content: ''; position: absolute; left: 57px; top: 20px; width: 10px; height: 10px; border-radius: 50%; background: var(--lane-mao); border: 2px solid var(--paper); }
+.life-item.kind-work::before { background: var(--lane-party); }
+.life-item.kind-poem::before { background: #6E5A8A; }
+.life-item.kind-life::before { background: var(--lane-nation); }
+.life-when { text-align: right; display: flex; flex-direction: column; padding-top: 6px; }
+.life-when b { font-family: var(--serif); color: var(--red); }
+.life-when span { font-size: .75rem; color: var(--muted); }
+.life-card { display: flex; flex-direction: column; gap: 3px; padding: 10px 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); color: var(--ink); }
+.life-card:hover { border-color: var(--red); text-decoration: none; }
+.life-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.life-title { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; }
+.life-sum { font-size: .92rem; color: var(--ink-2); }
+.life-insight { font-size: .9rem; background: #FBF5EA; border-left: 3px solid var(--lane-mao); padding: 6px 10px; margin-top: 4px; }
+.life-insight em { font-style: normal; font-weight: 700; color: var(--lane-mao); margin-right: 6px; }
+.kind-tag { font-size: .72rem; padding: 0 7px; border-radius: 3px; color: #fff; background: var(--lane-mao); }
+.kind-tag.kind-work { background: var(--lane-party); }
+.kind-tag.kind-poem { background: #6E5A8A; }
+.kind-tag.kind-life { background: var(--lane-nation); }
+.kind-chips .chip.kind-poem.on { border-color: #6E5A8A; color: #6E5A8A; background: #EFEAF4; }
+.ed-insight { background: #FBF5EA; border-left: 4px solid var(--lane-mao); padding: 12px 16px; border-radius: 0 var(--radius) var(--radius) 0; margin: -8px 0 20px; }
+.ed-insight h4 { color: var(--lane-mao); margin-bottom: 4px; }
+.ed-insight p { margin: 0; }
+.home-mao { display: block; padding: 18px 20px; margin-bottom: 12px; background: var(--red); color: #fff; border-radius: var(--radius); }
+.home-mao:hover { text-decoration: none; background: #86221b; }
+.home-mao b { font-family: var(--serif); font-size: 1.3rem; display: block; }
+.home-mao span { font-size: .9rem; opacity: .9; }
+.top-search-m { display: none; }
+@media (max-width: 767px) {
+  .life-list::before { left: 48px; }
+  .life-item { grid-template-columns: 42px 1fr; gap: 14px; }
+  .life-item::before { left: 43px; }
+  .life-when b { font-size: .9rem; }
+  .top-search-m { display: inline-block; margin-left: auto; color: var(--ink-2); font-size: .9rem; }
+}

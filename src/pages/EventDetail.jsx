@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { eventById, events, intlById, personById, locationById, stageById, LEVEL_NAME } from '../lib/data.js';
-import { formatDate } from '../lib/format.js';
+import { formatDate, ageText, KIND_NAME, kindOf } from '../lib/format.js';
 import { markRead, getNote, saveNote, isFavorite, toggleFavorite, addReport } from '../lib/db.js';
 import { LaneTags, LevelBadge, Link, SourceBlock, Empty } from '../components/common.jsx';
 
@@ -31,12 +31,14 @@ export default function EventDetail({ id, query }) {
   return (
     <article className="event-detail">
       <nav className="crumbs">
-        <Link to={`/timeline?focus=${e.id}`}>时间轴</Link> / <Link to={`/stage/${e.stageId}`}>{stage?.title}</Link>
+        {query.from === 'mao' ? <Link to="/mao">毛泽东主线</Link> : <Link to={`/timeline?focus=${e.id}`}>时间轴</Link>} / <Link to={`/stage/${e.stageId}`}>{stage?.title}</Link>
       </nav>
       <header className="ed-head">
         <div className="ed-meta">
           <span>{formatDate(e)}</span>{loc && <Link to={`/map?event=${e.id}`}>· {loc.name}（地图）</Link>}
           <LevelBadge level={e.level} /><span className="muted small">{LEVEL_NAME[e.level]}</span>
+          {e.lanes.includes('mao') && <span className={`kind-tag kind-${kindOf(e)}`}>{KIND_NAME[kindOf(e)]}</span>}
+          {e.lanes.includes('mao') && ageText(e) && <span className="muted small">毛泽东时年{ageText(e)}</span>}
         </div>
         <h1>{e.title}</h1>
         <LaneTags lanes={e.lanes} />
@@ -49,6 +51,7 @@ export default function EventDetail({ id, query }) {
       </div>
 
       <section className="ed-summary"><p>{e.summary}</p></section>
+      {e.insight && <section className="ed-insight"><h4>{kindOf(e) === 'poem' ? '诗中心境' : kindOf(e) === 'work' ? '核心观点' : '毛泽东的思考'}</h4><p>{e.insight}</p></section>}
 
       <section className="ed-section">
         <button className="ed-toggle" onClick={() => setOpen(!open)}>{open ? '收起详细内容 ▲' : '展开详细内容 ▼'}</button>

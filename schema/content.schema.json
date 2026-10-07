@@ -384,6 +384,23 @@
         "retired": {
           "type": "boolean",
           "description": "已作废事件保留 ID，界面不显示"
+        },
+        "kind": {
+          "enum": [
+            "event",
+            "life",
+            "work",
+            "poem"
+          ],
+          "description": "毛泽东主线分类：大事 / 经历 / 著作 / 诗词；缺省为大事"
+        },
+        "insight": {
+          "type": "string",
+          "description": "毛泽东的思考或感悟（转述，不复制原文）"
+        },
+        "sortDate": {
+          "$ref": "#/$defs/isoDate",
+          "description": "仅用于排序（如只知道季节时），不显示"
         }
       },
       "additionalProperties": false

@@ -26,19 +26,21 @@ export default function Timeline({ query }) {
   const mobile = useIsMobile();
   const [showB, setShowB] = usePref('showB', false);
   const [showIntl, setShowIntl] = usePref('showIntl', true);
+  const [showMao, setShowMao] = usePref('showMao', true);
   const progress = useDb(getProgress, ['readEvents']);
   const read = useDb(getAllRead, ['readEvents']);
   const readSet = useMemo(() => new Set((read || []).map((r) => r.eventId)), [read]);
   const focusId = query.focus || progress?.lastReadEventId;
 
   const items = useMemo(() => {
-    const list = events.filter((e) => showB || e.level !== 'B');
-    return showIntl ? [...list, ...intlItems].sort((a, b) => a.date.localeCompare(b.date)) : list;
-  }, [showB, showIntl]);
+    const list = events.filter((e) => showB || e.level !== 'B' || (showMao && e.lanes.includes('mao') && e.kind && e.kind !== 'event'));
+    return showIntl ? [...list, ...intlItems].sort((a, b) => (a.sortDate || a.date).localeCompare(b.sortDate || b.date)) : list;
+  }, [showB, showIntl, showMao]);
 
   const toolbar = (
     <div className="tl-toolbar">
       <div className="tl-title"><h2>时间轴</h2><span className="muted small">1893—1976 · 无事件年份已压缩</span></div>
+      <label className="chk"><input type="checkbox" checked={showMao} onChange={(e) => setShowMao(e.target.checked)} />显示毛泽东的经历、著作与诗词</label>
       <label className="chk"><input type="checkbox" checked={showB} onChange={(e) => setShowB(e.target.checked)} />显示 B 级背景事件</label>
       <label className="chk"><input type="checkbox" checked={showIntl} onChange={(e) => setShowIntl(e.target.checked)} />显示国际背景</label>
       <Link to="/stages" className="btn-text">切换到阶段视图</Link>

@@ -9,6 +9,7 @@ export function Mine() {
     <div className="page">
       <h2>我的</h2>
       <nav className="home-grid">
+        <Link to="/search" className="home-tile"><b>搜索</b></Link>
         <Link to="/favorites" className="home-tile"><b>我的收藏</b></Link>
         <Link to="/notes" className="home-tile"><b>我的笔记</b></Link>
         <Link to="/wrong" className="home-tile"><b>错题本</b></Link>
