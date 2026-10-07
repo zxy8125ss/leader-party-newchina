@@ -50,7 +50,7 @@ export default function App() {
   const routeKey = window.location.hash;
 
   return (
-    <div className={`app ${cur === 'timeline' ? 'wide' : ''}`}>
+    <div className={`app ${cur === 'timeline' || cur === 'map' ? 'wide' : ''}`}>
       <header className="topbar">
         <a href="#/" className="brand"><span className="seal">档</span>领袖·政党·新中国</a>
         <nav className="topnav">
