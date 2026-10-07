@@ -1,0 +1,33 @@
+[
+  {
+    "id": "SRC-JIANSHI",
+    "title": "中国共产党简史",
+    "author": "本书编写组",
+    "publisher": "人民出版社、中共党史出版社",
+    "year": "2021",
+    "type": "book",
+    "url": null,
+    "note": "主要来源，优先级最高"
+  },
+  {
+    "id": "SRC-NIANPU",
+    "title": "毛泽东年谱（1893—1949）",
+    "author": "中共中央文献研究室编",
+    "publisher": "中央文献出版社",
+    "year": "",
+    "type": "book",
+    "url": null,
+    "note": "版次与卷页待 M1 撰写时逐条登记"
+  },
+  {
+    "id": "SRC-12371-ZYHY",
+    "title": "遵义会议召开的过程（党史知识）",
+    "author": "共产党员网",
+    "publisher": "共产党员网",
+    "year": "2025",
+    "type": "web",
+    "url": "https://www.12371.cn/2025/01/13/ARTI1736724791941409.shtml",
+    "accessed": "2026-10-07",
+    "note": "用于核对日期、出席者名单与会议决定"
+  }
+]

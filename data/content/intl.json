@@ -1,0 +1,11 @@
+[
+  {
+    "id": "I1935-GJQD",
+    "title": "共产国际第七次代表大会",
+    "date": "1935-07",
+    "datePrecision": "month",
+    "summary": "共产国际在莫斯科召开第七次代表大会。中共驻共产国际代表团据其精神起草《八一宣言》，号召停止内战、一致抗日。",
+    "relatedEventIds": ["E1935-WYB", "E1935-YEJ"],
+    "sources": { "main": [{ "sourceId": "SRC-PEOPLE-0801" }] }
+  }
+]

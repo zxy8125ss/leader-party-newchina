@@ -1,0 +1,1728 @@
+[
+  {
+    "id": "E1927-NCQY",
+    "title": "南昌起义",
+    "date": "1927-08-01",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-NANCHANG",
+    "summary": "大革命失败后，周恩来、贺龙、叶挺、朱德、刘伯承等领导两万余人在南昌举行武装起义，打响武装反抗国民党反动派的第一枪。",
+    "detail": "1927年8月1日，在周恩来、贺龙、叶挺、朱德、刘伯承等领导下，两万余人在南昌发动武装起义。8月3日起，起义部队陆续撤离南昌南下广东，9月底至10月初在潮汕地区失败，余部一部分后来由朱德、陈毅率领转战湘南。",
+    "background": "1927年4月12日蒋介石在上海发动反革命政变，7月15日汪精卫在武汉作出“分共”决定，第一次国共合作破裂，大革命失败。7月中旬中共中央改组，陈独秀停职。",
+    "impact": "南昌起义标志着中国共产党独立领导武装斗争和创建人民军队的开始。1933年6月，中华苏维埃临时中央政府决定以8月1日为中国工农红军成立纪念日。",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1927-BQHY",
+          "note": "起义后数日，中央在汉口召开紧急会议，正式确定武装反抗的总方针"
+        },
+        {
+          "id": "E1928-JGSHS",
+          "note": "起义保留下来的部分部队由朱德、陈毅率领，后来上井冈山与毛泽东部会师"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-ZHOU",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "8月1日、8月3日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-DSJ-1933",
+          "locator": "6月30日条"
+        },
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第一节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“标志着党独立领导武装斗争和创建人民军队的开始”为通行表述，待用《中国共产党简史》核对原文。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "南昌",
+      "八一",
+      "建军",
+      "前敌委员会",
+      "贺龙",
+      "叶挺"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-BQHY",
+    "title": "八七会议",
+    "date": "1927-08-07",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-HANKOU",
+    "summary": "中共中央在汉口召开紧急会议，确定土地革命和武装反抗国民党反动派的总方针；毛泽东在会上提出“政权是由枪杆子中取得的”。",
+    "detail": "1927年8月7日，中共中央在湖北汉口召开紧急会议，确定土地革命和武装反抗国民党反动派的总方针，选出以瞿秋白为首的中央临时政治局。毛泽东在发言中强调党过去专做民众运动、忽视军事，提出必须注意军事问题。8月9日临时政治局第一次会议选举瞿秋白、苏兆征、李维汉为常委。",
+    "background": "大革命失败，党员和革命群众遭到屠杀，党面临何去何从的抉择。南昌起义已于8月1日发动。",
+    "impact": "会议为党指明了新的斗争方向。会后毛泽东以中央特派员身份回到湖南，领导湘赣边界秋收起义。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-NCQY",
+          "note": "南昌起义打响第一枪，会议随即从全党层面确定武装反抗的方针"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-QSQY",
+          "note": "会议确定的方针在湘赣边界由毛泽东付诸实施"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-QU"
+    ],
+    "evaluation": null,
+    "quotes": [
+      {
+        "text": "须知政权是由枪杆子中取得的。",
+        "author": "毛泽东",
+        "work": "在八七会议上的发言",
+        "year": "1927",
+        "sourceId": "SRC-12371-0807"
+      }
+    ],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-0807"
+        },
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "8月7日、8月9日、8月12日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第一节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "毛泽东回湖南的身份表述（“中央特派员”）待用《毛泽东年谱》核对；大事记仅记“8月12日毛泽东回到长沙”。",
+        "sourceIds": [
+          "SRC-DSJ-1927"
+        ]
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "八七",
+      "汉口",
+      "紧急会议",
+      "枪杆子",
+      "瞿秋白",
+      "土地革命"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-QSQY",
+    "title": "秋收起义",
+    "date": "1927-09-09",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-XIANGGAN",
+    "summary": "毛泽东领导湘赣边界秋收起义，打出工农革命军第一军第一师旗号；进攻受挫后转向农村，走上井冈山。",
+    "detail": "1927年9月9日，以毛泽东为书记的中共湖南省委前敌委员会领导湘赣边界秋收起义，起义军五千余人，组成工农革命军第一军第一师。起义部队在进攻中受挫后，毛泽东果断改变原定攻打长沙的计划，率部向敌人统治薄弱的农村转移，9月29日在江西永新三湾进行改编，10月到达井冈山。",
+    "background": "八七会议确定武装反抗的总方针后，毛泽东回到湖南，组织领导湘赣边界的起义。",
+    "impact": "起义部队由进攻城市转向农村，是探索中国革命新道路的开端。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-BQHY",
+          "note": "落实八七会议确定的武装起义方针"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1927-SWGB",
+          "note": "转移途中进行三湾改编，整顿部队"
+        },
+        {
+          "id": "E1927-JGSGJD",
+          "note": "部队到达井冈山，开始创建农村革命根据地"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-JGS"
+        },
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "9月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第二节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“改变攻打长沙计划”的具体时间、地点（通常记为文家市）尚未取得来源核对，M2 前补核。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "秋收",
+      "湘赣边界",
+      "工农革命军",
+      "前敌委员会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-SWGB",
+    "title": "三湾改编",
+    "date": "1927-09-29",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-SANWAN",
+    "summary": "秋收起义部队在江西永新三湾改编，把党的支部建在连上，从组织上确立党对军队的领导。",
+    "detail": "1927年9月29日，毛泽东在江西永新三湾村对秋收起义部队进行改编，把党的支部建在连上，从组织上确立了党对军队的领导。",
+    "background": "秋收起义受挫后部队减员、思想不稳，需要整顿。",
+    "impact": "“支部建在连上”成为人民军队建设的重要制度，后来在古田会议上得到系统总结。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-QSQY",
+          "note": "起义受挫后，部队在转移途中整编"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1929-GTHY",
+          "note": "党领导军队的原则在古田会议上被系统化"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-JGS"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-DSJ-1927",
+          "locator": "9月条"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "三湾",
+      "支部建在连上",
+      "永新"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1927-JGSGJD",
+    "title": "井冈山革命根据地创建",
+    "date": "1927-10",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "毛泽东率秋收起义部队到达井冈山，创建第一个农村革命根据地，开始探索农村包围城市的道路。",
+    "detail": "1927年10月，毛泽东率部到达井冈山，开始创建根据地。1928年2月，部队打破国民党军第一次“进剿”，井冈山根据地初步建立。1928年5月，毛泽东主持召开湘赣边界党的第一次代表大会；6月红四军在龙源口歼敌，根据地进入全盛时期；10月，湘赣边界党第二次代表大会通过毛泽东起草的决议；12月，湘赣边界特委公布井冈山《土地法》。",
+    "background": "城市暴动接连受挫，敌人力量在城市占绝对优势，在农村相对薄弱。",
+    "impact": "井冈山斗争开辟了在农村建立根据地、积蓄力量的新路，“工农武装割据”的思想由此形成。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-QSQY",
+          "note": "起义部队转向农村后落脚井冈山"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1928-JGSHS",
+          "note": "朱德、陈毅部上山会师，根据地力量壮大"
+        },
+        {
+          "id": "E1931-ZHSWA",
+          "note": "农村根据地的道路最终发展为全国性苏维埃政权"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-JGS"
+        },
+        {
+          "sourceId": "SRC-DSJ-1928",
+          "locator": "5月20—22日、6月、10月5日、12月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第二节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "井冈山",
+      "工农武装割据",
+      "根据地",
+      "农村包围城市",
+      "土地法"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1928-JGSHS",
+    "title": "井冈山会师",
+    "date": "1928-04",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-JINGGANGSHAN",
+    "summary": "朱德、陈毅率部与毛泽东领导的秋收起义部队在井冈山会师，合编为工农革命军第四军。",
+    "detail": "1928年1月，朱德、陈毅率南昌起义保留下来的部分部队进入湘南，发动宜章、郴州、耒阳等县武装起义。4月，这支部队与毛泽东领导的秋收起义部队在井冈山会师，合编为工农革命军第四军（后称红四军）。12月，彭德怀率红五军也到达井冈山与红四军会合。",
+    "background": "南昌起义失败后，余部由朱德、陈毅率领辗转湘南；井冈山根据地正在初创。",
+    "impact": "会师壮大了井冈山根据地的武装力量，“朱毛红军”由此形成。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-NCQY",
+          "note": "会师的一方来自南昌起义部队"
+        },
+        {
+          "id": "E1927-JGSGJD",
+          "note": "会师的另一方是开创井冈山根据地的秋收起义部队"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1929-GTHY",
+          "note": "红四军后来召开第九次代表大会，即古田会议"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU",
+      "P-PENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1928",
+          "locator": "1月、4月、12月条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "大事记只记到“4月”，具体日期待用《毛泽东年谱》核对。",
+        "sourceIds": [
+          "SRC-DSJ-1928"
+        ]
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "朱毛会师",
+      "红四军",
+      "陈毅",
+      "湘南起义"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1928-ZGLD",
+    "title": "中共六大",
+    "date": "1928-06-18",
+    "endDate": "1928-07-11",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-MOSCOW",
+    "summary": "中共第六次全国代表大会在莫斯科举行，出席代表142人，代表全国13万余名党员。",
+    "detail": "1928年6月18日至7月11日，中国共产党第六次全国代表大会在莫斯科举行，出席代表142人，代表全国13万余名党员。会议讨论大革命失败后的形势与任务。",
+    "background": "大革命失败后国内白色恐怖严重，党内一度出现“左”倾盲动错误，需要统一认识。",
+    "impact": "会议之后党的工作逐步恢复，各地红军和根据地有所发展。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-BQHY",
+          "note": "八七会议后党转入武装斗争，需要全面总结大革命失败的教训"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1928",
+          "locator": "6月18日—7月11日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "六大关于中国社会性质和革命性质的具体结论尚未取得来源，暂不写入，M2 前补。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "六大",
+      "莫斯科",
+      "全国代表大会"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1929-GTHY",
+    "title": "古田会议",
+    "date": "1929-12-28",
+    "endDate": "1929-12-29",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-GUTIAN",
+    "summary": "红四军第九次代表大会在福建上杭古田召开，通过毛泽东起草的决议，确立党对军队的领导等建党建军原则。",
+    "detail": "1929年12月28日至29日，中国共产党红军第四军第九次代表大会在福建上杭古田召开，通过了《古田会议决议》，其中最重要的是《关于纠正党内的错误思想的决议案》。决议规定了党对红军的领导原则、红军的性质和任务，论述了军事与政治的关系、军内关系与军民关系、政治工作的作风方法等。",
+    "background": "1929年1月红四军离开井冈山，转战赣南、闽西。部队中存在单纯军事观点等非无产阶级思想，前委内部对建军原则有争论。9月28日中共中央给红四军前委发出指示信，肯定毛泽东的主张。",
+    "impact": "决议成为党和人民军队建设的纲领性文献，确立了思想建党、政治建军的原则。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-SWGB",
+          "note": "三湾改编“支部建在连上”的实践在此得到系统总结"
+        },
+        {
+          "id": "E1928-JGSHS",
+          "note": "会议是会师后组成的红四军的代表大会"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1930-XXZH",
+          "note": "一周后毛泽东写信回应对红军前途的悲观看法"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-1228"
+        },
+        {
+          "sourceId": "SRC-DSJ-1929",
+          "locator": "1月14日、9月28日、12月下旬条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第二节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "background",
+        "note": "红四军内部关于建军原则争论的具体情况，以及“思想建党、政治建军”的评价表述，待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "古田",
+      "红四军",
+      "九大",
+      "思想建党",
+      "政治建军",
+      "上杭"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1930-XXZH",
+    "title": "《星星之火，可以燎原》",
+    "date": "1930-01-05",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": null,
+    "summary": "毛泽东复信林彪，批评对红军前途的悲观情绪，论证红色政权能够存在和发展。",
+    "detail": "1930年1月5日，毛泽东写信答复林彪，批评当时一部分同志对时局估量中的悲观思想。此信后收入《毛泽东选集》，题为《星星之火，可以燎原》；1948年应林彪要求，公开发表时删去其名字。",
+    "background": "古田会议刚刚结束，红军中对革命前途仍有疑虑。",
+    "impact": "文章阐述了建立农村根据地、逐步发展的思想。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1929-GTHY",
+          "note": "古田会议之后不久写成"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-MX-XXZH"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "星星之火",
+      "林彪",
+      "毛泽东著作"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1930-FWJ",
+    "title": "第一至三次反“围剿”胜利",
+    "date": "1930-10",
+    "endDate": "1931-09",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "locationId": "L-RUIJIN",
+    "summary": "毛泽东、朱德指挥中央苏区红军以“诱敌深入”方针，接连打破国民党军三次“围剿”，根据地得到巩固和扩大。",
+    "detail": "第一次反“围剿”中，红一方面军4万多人采取“诱敌深入”的作战方针，对国民党军10万多人作战，歼敌1.3万人。1931年4月，国民党调集20万兵力发动第二次“围剿”，红军在毛泽东、朱德指挥下于5月16日至31日连打5个胜仗，歼敌3万余人。7月第三次“围剿”开始，国民党投入约30万人，红军再歼敌3万余人，打破“围剿”。",
+    "background": "各地农村根据地和红军发展，引起国民党政府的大规模军事“围剿”。",
+    "impact": "三次反“围剿”胜利使赣南、闽西根据地连成一片，为中华苏维埃共和国临时中央政府的成立打下基础。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1927-JGSGJD",
+          "note": "农村根据地道路的延续与扩大"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1931-ZHSWA",
+          "note": "反“围剿”胜利后，在中央苏区成立临时中央政府"
+        }
+      ],
+      "context": [
+        "E1931-JYBS"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-FWJ"
+        },
+        {
+          "sourceId": "SRC-DSJ-1931",
+          "locator": "4月、7月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第三节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "date",
+        "note": "来源对第一次反“围剿”的时间记为“1930年10月起”，主要作战的具体日期待用《中国共产党简史》核对。",
+        "sourceIds": [
+          "SRC-12371-FWJ"
+        ]
+      },
+      {
+        "field": "impact",
+        "note": "“赣南、闽西根据地连成一片”待核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "反围剿",
+      "诱敌深入",
+      "中央苏区",
+      "红一方面军"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1930-YKHXS",
+    "title": "杨开慧牺牲",
+    "date": "1930-11-14",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2
+    ],
+    "locationId": "L-CHANGSHA",
+    "summary": "毛泽东的妻子杨开慧1930年10月被捕，11月14日在长沙浏阳门外识字岭牺牲，年29岁。",
+    "detail": "杨开慧1901年生于湖南长沙县板仓。1930年10月被国民党当局逮捕，11月14日在长沙浏阳门外识字岭英勇就义，年仅29岁。此前她与毛泽东已长期失去联系。",
+    "background": "毛泽东上井冈山后，杨开慧带着孩子留在长沙板仓坚持地下斗争。",
+    "impact": "个人线节点：毛泽东早年家庭生活的结束。",
+    "relations": {
+      "before": [],
+      "after": [],
+      "context": [
+        "E1930-FWJ"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-YANG-KH"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-IFENG-YKH"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "sources",
+        "note": "目前仅有补充性来源，M2 前用《毛泽东年谱》核对日期与地点。",
+        "sourceIds": [
+          "SRC-IFENG-YKH"
+        ]
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "杨开慧",
+      "板仓",
+      "识字岭"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1931-JYBS",
+    "title": "九一八事变",
+    "date": "1931-09-18",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      4,
+      5
+    ],
+    "locationId": "L-SHENYANG",
+    "summary": "日本侵占沈阳，随后侵占东北，中华民族危机空前加深，全国抗日浪潮兴起。",
+    "detail": "1931年9月18日，日本侵略军侵占沈阳，随后侵占东北。事变激起全国抗日浪潮，蒋介石坚持“攘外必先安内”的方针。",
+    "background": "日本加紧推行侵华政策；国民党政府正集中兵力“围剿”红军。",
+    "impact": "中日民族矛盾逐渐上升，成为此后国内政治格局变化的主线，最终推动抗日民族统一战线的形成。",
+    "relations": {
+      "before": [],
+      "after": [
+        {
+          "id": "E1935-WYB",
+          "note": "民族危机加深，党在瓦窑堡会议确立抗日民族统一战线的新策略"
+        },
+        {
+          "id": "E1936-XASB",
+          "note": "东北军被迫退出东北，张学良最终发动兵谏要求抗日"
+        }
+      ],
+      "context": [
+        "E1930-FWJ"
+      ]
+    },
+    "peopleIds": [
+      "P-JIANG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1931",
+          "locator": "9月18日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第四节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "九一八",
+      "沈阳",
+      "东北",
+      "攘外必先安内",
+      "日本侵华"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1931-ZHSWA",
+    "title": "中华苏维埃共和国临时中央政府成立",
+    "date": "1931-11-07",
+    "endDate": "1931-11-20",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-RUIJIN",
+    "summary": "中华苏维埃第一次全国代表大会在瑞金召开，宣告中华苏维埃共和国临时中央政府成立，毛泽东任主席。",
+    "detail": "1931年11月7日至20日，中华苏维埃第一次全国代表大会召开，宣告中华苏维埃共和国临时中央政府成立，毛泽东任临时中央政府主席。1934年1月22日至2月1日在瑞金召开的第二次全国代表大会，再次选举毛泽东为中央执行委员会主席。",
+    "background": "三次反“围剿”胜利后中央苏区巩固扩大。同年1月六届四中全会后，王明等在共产国际代表米夫支持下掌握中央领导权；11月初的赣南会议排挤了毛泽东在苏区的领导地位。",
+    "impact": "这是中国共产党在局部地区建立全国性政权的尝试，积累了治理经验。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1930-FWJ",
+          "note": "反“围剿”胜利为建立中央政府创造了条件"
+        },
+        {
+          "id": "E1927-JGSGJD",
+          "note": "农村根据地道路的发展结果"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1932-NDHY",
+          "note": "毛泽东在政府任职的同时，在军事上逐步被排挤"
+        }
+      ],
+      "context": [
+        "E1931-JYBS"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1931",
+          "locator": "1月7日、11月1—5日、11月7—20日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1934",
+          "locator": "1月22日—2月1日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第三节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "中华苏维埃",
+      "瑞金",
+      "临时中央政府",
+      "一苏大",
+      "红色政权"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1932-NDHY",
+    "title": "宁都会议",
+    "date": "1932-10",
+    "datePrecision": "month",
+    "stageId": "S03",
+    "lanes": [
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      2,
+      5
+    ],
+    "locationId": "L-NINGDU",
+    "summary": "苏区中央局在江西宁都开会，毛泽东被调离红军领导岗位，回后方主持政府工作。",
+    "detail": "1932年10月，中共苏区中央局在江西宁都召开会议，批准毛泽东暂时请病假，离开红军领导岗位。10月12日，中央革命军事委员会发布命令：毛泽东为了苏维埃工作的需要，暂回中央政府主持一切工作。",
+    "background": "六届四中全会后“左”倾领导在中央占据主导，与毛泽东在军事方针上分歧加深；1931年11月赣南会议已开始排挤毛泽东。",
+    "impact": "此后毛泽东失去对红军的指挥权，直到长征途中的通道会议才重新参加军事决策。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1931-ZHSWA",
+          "note": "临时中央政府成立前后，毛泽东在党内军内的地位开始受到排挤"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1934-CZKS",
+          "note": "其后第五次反“围剿”由博古、李德主导，最终失败"
+        },
+        {
+          "id": "E1935-ZYHY",
+          "note": "两年多后在遵义会议上重新进入中央核心领导层"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-CNS-NDHY"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-DSJ-1931",
+          "locator": "11月1—5日条"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“通道会议是宁都会议后毛泽东第一次参加军事决策会议”出自期刊文章，待用权威来源复核。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "宁都",
+      "苏区中央局",
+      "毛泽东被排挤",
+      "赣南会议"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1934-CZKS",
+    "title": "第五次反“围剿”失败，中央红军开始长征",
+    "date": "1934-10-10",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-RUIJIN",
+    "summary": "博古、李德指挥下第五次反“围剿”失利，中央红军被迫离开中央苏区，开始战略转移即长征。",
+    "detail": "1933年9月，蒋介石调集约100万兵力发动第五次“围剿”，其中约50万人进攻中央苏区；同月共产国际军事顾问李德来到瑞金。在“左”倾错误的军事指挥下，红军未能打破“围剿”。1934年10月10日，中央红军被迫实行战略转移，开始长征。",
+    "background": "宁都会议后毛泽东已离开红军领导岗位；临时中央政治局1933年初迁入中央苏区。",
+    "impact": "中央红军离开经营多年的中央苏区，革命进入最危急的阶段，也为后来的路线转折埋下伏笔。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1932-NDHY",
+          "note": "毛泽东离开军事领导岗位后，“左”倾军事路线主导作战"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1934-XJZY",
+          "note": "长征初期突破封锁线，在湘江遭受惨重损失"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-BO",
+      "P-JIANG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1934",
+          "locator": "10月10日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1933",
+          "locator": "1月、9月条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第四节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“其中约50万人进攻中央苏区”尚未取得来源，M2 前核对或删除。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "长征",
+      "第五次反围剿",
+      "李德",
+      "战略转移",
+      "瑞金"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1934-XJZY",
+    "title": "湘江战役",
+    "date": "1934-11-25",
+    "endDate": "1934-12-01",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      1,
+      5
+    ],
+    "locationId": "L-QUANZHOU",
+    "summary": "中央红军在湘江两岸突破国民党军第四道封锁线，人数由8.6万余人锐减至3万余人。",
+    "detail": "1934年11月25日至12月1日，中央红军在湖南道县和广西全州县的湘江两岸地区突破国民党军第四道封锁线，是长征中最为惨烈的战役。红军由出发时的8.6万余人减至3万余人。",
+    "background": "长征出发后，红军按原计划向湘西前进，连续突破国民党军封锁线。",
+    "impact": "严重失利成为“左”倾军事路线破产的重要标志，促使红军内部对军事指挥问题展开争论，为遵义会议的召开奠定了干部和思想基础。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1934-CZKS",
+          "note": "长征出发后连续突破封锁线"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1934-LPHY",
+          "note": "失利后中央接连开会，改变进军方向"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-XH-XJZY"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "湘江",
+      "第四道封锁线",
+      "全州",
+      "道县"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1934-LPHY",
+    "title": "黎平会议",
+    "date": "1934-12-18",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "B",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-LIPING",
+    "summary": "中央政治局在贵州黎平开会，采纳毛泽东主张，放弃去湘西的计划，改向黔北进军。",
+    "detail": "1934年12月12日中央在湖南通道召开紧急会议后，12月18日中央政治局在贵州黎平召开会议，通过《中央政治局关于战略方针之决定》，放弃到湘西北同红二、红六军团会合的计划，改向贵州北部进军，并决定到遵义地区后开会总结经验教训。12月31日晚至次日凌晨的猴场会议进一步规定作战方针须向政治局报告，实际上剥夺了博古、李德的军事指挥权。",
+    "background": "湘江战役后，红军若继续去湘西将陷入敌军重围。",
+    "impact": "转兵贵州使红军摆脱险境，也直接为遵义会议的召开作了准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1934-XJZY",
+          "note": "湘江惨败后必须改变进军方向"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1935-ZYHY",
+          "note": "按黎平会议决定，到遵义后召开会议总结经验教训"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU",
+      "P-BO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-ZYHY"
+        },
+        {
+          "sourceId": "SRC-DSJ-1934",
+          "locator": "12月12日、12月18日、12月31日条"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "黎平",
+      "通道",
+      "猴场",
+      "转兵贵州"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1935-ZYHY",
+    "title": "遵义会议",
+    "date": "1935-01-15",
+    "endDate": "1935-01-17",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "locationId": "L-ZUNYI",
+    "summary": "中共中央在长征途中召开政治局扩大会议，集中解决军事和组织问题，增选毛泽东为政治局常委，取消博古、李德的最高军事指挥权，被视为党的历史上生死攸关的转折点。",
+    "detail": "1935年1月15日至17日，中共中央政治局在贵州遵义召开扩大会议。出席的政治局委员有毛泽东、张闻天、周恩来、朱德、陈云、博古，候补委员有王稼祥、刘少奇、邓发、何克全（凯丰），红军总部和各军团负责人刘伯承、李富春、林彪、聂荣臻、彭德怀、杨尚昆、李卓然，以及中央秘书长邓小平；李德及翻译伍修权列席。会议集中解决当时具有决定意义的军事和组织问题，增选毛泽东为中央政治局常委，取消长征前成立的“三人团”，取消博古、李德的最高军事指挥权，仍由朱德、周恩来指挥军事，周恩来为党内委托的对于军事指挥上下最后决心的负责者。",
+    "background": "第五次反“围剿”失败后，中央红军被迫长征，湘江战役损失惨重。1934年12月的通道会议、黎平会议和12月31日的猴场会议，先后采纳毛泽东转兵贵州的主张，并加强政治局对军委的领导。1935年1月7日红军占领遵义，召开会议总结经验教训的条件成熟。",
+    "impact": "会后不久，在扎西会议上由张闻天代替博古在党内负总责；随后成立由毛泽东、周恩来、王稼祥组成的三人小组负责全军军事行动，在事实上确立了毛泽东在党中央和红军的领导地位。红军此后在毛泽东等指挥下四渡赤水，摆脱国民党军的围追堵截。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1934-XJZY",
+          "note": "湘江战役损失惨重，军事指挥错误的问题集中暴露"
+        },
+        {
+          "id": "E1934-LPHY",
+          "note": "黎平会议采纳转兵贵州主张，并决定到遵义地区后开会总结经验教训"
+        },
+        {
+          "id": "E1932-NDHY",
+          "note": "宁都会议后离开军事领导岗位的毛泽东重新进入核心领导层"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1935-SDCS",
+          "note": "新的军事领导下，红军以运动战摆脱围堵"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU",
+      "P-ZHU",
+      "P-ZHANG-WT",
+      "P-BO",
+      "P-PENG"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-ZYHY"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第五节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "扎西会议时间、三人小组成立时间未写具体日期，待用《毛泽东年谱》补核。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "遵义",
+      "长征",
+      "政治局扩大会议",
+      "三人团",
+      "扎西会议",
+      "转折点"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1935-SDCS",
+    "title": "四渡赤水",
+    "date": "1935-01-29",
+    "endDate": "1935-03-22",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "mao",
+      "party"
+    ],
+    "level": "A",
+    "criteria": [
+      1,
+      2,
+      5
+    ],
+    "locationId": "L-CHISHUI",
+    "summary": "遵义会议后，毛泽东等指挥中央红军四次渡过赤水河，灵活变换作战方向，摆脱国民党军围堵，随后抢渡金沙江。",
+    "detail": "1935年1月29日红军从土城、元厚一带一渡赤水进入川南；2月8日至10日在扎西休整，各军团缩编；2月中下旬二渡赤水，回师黔北，再占遵义；3月17日从茅台三渡赤水，再入川南；3月21日至22日四渡赤水回到黔北。此后红军南渡乌江，佯攻贵阳，进军云南，抢渡金沙江。",
+    "background": "遵义会议改变了中央红军的军事领导，但红军仍处在国民党数十万军队的包围之中。",
+    "impact": "四渡赤水是运动战的典型战例，红军由此跳出包围圈，赢得战略主动。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-ZYHY",
+          "note": "遵义会议后形成新的军事领导"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1935-DDSB",
+          "note": "红军此后北上，最终到达陕北"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHOU",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-RMZX-SDCS"
+        }
+      ],
+      "extra": []
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "二渡赤水日期来源记为“2月15日至21日”，南渡乌江后行动的表述待核对。",
+        "sourceIds": [
+          "SRC-RMZX-SDCS"
+        ]
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "四渡赤水",
+      "赤水河",
+      "土城",
+      "扎西",
+      "茅台",
+      "金沙江",
+      "运动战"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1935-DDSB",
+    "title": "中央红军到达陕北",
+    "date": "1935-10-19",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party"
+    ],
+    "level": "B",
+    "criteria": [
+      3,
+      5
+    ],
+    "locationId": "L-WUQI",
+    "summary": "党中央率中央红军抵达陕北吴起镇，中央红军的长征至此结束。",
+    "detail": "1935年10月19日，党中央率领中央红军抵达陕北吴起镇。此时红军由土地革命战争时期发展到的30万人减至不足3万人。",
+    "background": "四渡赤水、抢渡金沙江后，中央红军经过艰苦转战北上。",
+    "impact": "党中央在陕北落脚，陕北成为此后中国革命的大本营。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-SDCS",
+          "note": "摆脱围堵后北上"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1935-WYB",
+          "note": "落脚陕北后，中央在瓦窑堡讨论新形势下的策略"
+        },
+        {
+          "id": "E1936-CZSL",
+          "note": "一年后三大主力会师，长征全部结束"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-XH-WQ"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第五节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "吴起镇",
+      "陕北",
+      "长征结束"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1935-YEJ",
+    "title": "一二·九运动",
+    "date": "1935-12-09",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "nation"
+    ],
+    "level": "B",
+    "criteria": [
+      1,
+      4
+    ],
+    "locationId": "L-BEIPING",
+    "summary": "北平六七千名大中学生在地下党组织领导下举行抗日救国示威，提出“停止内战、一致抗日”等口号。",
+    "detail": "1935年12月9日，北平六七千名大、中学生在中共地下党组织领导下举行抗日救国示威游行，提出“打倒日本帝国主义”“反对华北自治”“停止内战、一致抗日”等口号。",
+    "background": "日本加紧策动“华北自治”，华北危机加深；同年8月1日，中共发表《八一宣言》号召停止内战一致抗日。",
+    "impact": "运动推动了全国抗日救亡运动的高涨。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1931-JYBS",
+          "note": "九一八以来民族危机不断加深"
+        }
+      ],
+      "after": [],
+      "context": [
+        "E1935-WYB"
+      ]
+    },
+    "peopleIds": [],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-IFENG-129"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-PEOPLE-0801"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "sources",
+        "note": "目前仅有补充性来源，M2 前用权威党史资料复核。",
+        "sourceIds": [
+          "SRC-IFENG-129"
+        ]
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "一二九",
+      "北平",
+      "学生运动",
+      "华北危机",
+      "抗日救亡"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1935-WYB",
+    "title": "瓦窑堡会议",
+    "date": "1935-12-17",
+    "endDate": "1935-12-25",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "mao"
+    ],
+    "level": "A",
+    "criteria": [
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-WAYAOBAO",
+    "summary": "中共中央在陕北瓦窑堡召开政治局会议，确立建立抗日民族统一战线的新策略。",
+    "detail": "1935年12月17日至25日，中共中央政治局在陕北瓦窑堡召开会议，通过《中共中央关于目前政治形势与党的任务决议》和《中共中央关于军事战略问题的决议》，确立建立抗日民族统一战线的新策略，并批判了“左”倾错误在政治上和军事上的表现。",
+    "background": "华北事变后民族危机加深；1935年8月1日，中共发表《八一宣言》，号召停止内战、一致抗日；12月9日北平爆发一二·九运动。",
+    "impact": "党的政治策略由“反蒋抗日”逐步转向联合一切可能力量抗日，为后来的第二次国共合作作了准备。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1931-JYBS",
+          "note": "九一八以来民族矛盾上升为主要矛盾"
+        },
+        {
+          "id": "E1935-DDSB",
+          "note": "中央落脚陕北后召开"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1936-XASB",
+          "note": "统一战线策略在西安事变的和平解决中得到运用"
+        }
+      ],
+      "context": [
+        "E1935-YEJ",
+        "I1935-GJQD"
+      ]
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHANG-WT"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-12371-1217"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-PEOPLE-0801"
+        },
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第六节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "impact",
+        "note": "“反蒋抗日”到“逼蒋抗日”等策略演变的具体表述待用《中国共产党简史》核对。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "瓦窑堡",
+      "抗日民族统一战线",
+      "八一宣言"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1936-CZSL",
+    "title": "红军三大主力会师，长征胜利结束",
+    "date": "1936-10-09",
+    "endDate": "1936-10-22",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "party",
+      "nation"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "locationId": "L-HUINING",
+    "summary": "红一、二、四方面军先后在甘肃会宁和宁夏将台堡会师，红军长征胜利结束。",
+    "detail": "1936年10月9日，红一、四方面军在甘肃会宁会师；10月22日，红一、二方面军在宁夏将台堡会师。红军三大主力胜利会师，标志着长征胜利结束。10月26日，红四方面军一部西渡黄河，后称西路军。",
+    "background": "中央红军1935年10月已到达陕北，红二、四方面军随后陆续北上。",
+    "impact": "红军主力集中于西北，为迎接全民族抗战保存了骨干力量。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-DDSB",
+          "note": "中央红军先期到达陕北"
+        }
+      ],
+      "after": [
+        {
+          "id": "E1936-XASB",
+          "note": "两个月后西安事变发生，国内局势转向一致抗日"
+        }
+      ],
+      "context": []
+    },
+    "peopleIds": [
+      "P-MAO",
+      "P-ZHU"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1936",
+          "locator": "10月9日、22日、26日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第五节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [],
+    "imageId": null,
+    "keywords": [
+      "会宁",
+      "将台堡",
+      "三大主力会师",
+      "长征胜利",
+      "西路军"
+    ],
+    "contentVersion": 1
+  },
+  {
+    "id": "E1936-XASB",
+    "title": "西安事变",
+    "date": "1936-12-12",
+    "datePrecision": "day",
+    "stageId": "S03",
+    "lanes": [
+      "nation",
+      "party"
+    ],
+    "level": "S",
+    "criteria": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "locationId": "L-XIAN",
+    "summary": "张学良、杨虎城在西安扣留蒋介石，要求停止内战、一致抗日；事变和平解决，成为时局转换的枢纽。",
+    "detail": "1936年12月12日，张学良、杨虎城在西安扣留蒋介石，发动兵谏。中共中央派周恩来等赴西安参与谈判。12月24日，蒋介石同意停止“剿共”、联共抗日。此前4月9日，周恩来已与张学良在延安会谈联合抗日问题；12月7日，统一的中央革命军事委员会组成，毛泽东任主席。",
+    "background": "九一八事变后东北军被迫退出东北，张学良、杨虎城与红军在西北已有联系；全国抗日救亡运动高涨。",
+    "impact": "事变的和平解决结束了十年内战的局面，推动第二次国共合作的形成。1937年1月中共中央领导机关迁驻延安，7月全民族抗战爆发后国共合作正式实现。",
+    "relations": {
+      "before": [
+        {
+          "id": "E1935-WYB",
+          "note": "党已确立抗日民族统一战线策略"
+        },
+        {
+          "id": "E1931-JYBS",
+          "note": "东北军失去故土，要求抗日"
+        },
+        {
+          "id": "E1936-CZSL",
+          "note": "红军主力已集中西北"
+        }
+      ],
+      "after": [],
+      "context": []
+    },
+    "peopleIds": [
+      "P-JIANG",
+      "P-ZHANG-XL",
+      "P-ZHOU",
+      "P-MAO"
+    ],
+    "evaluation": null,
+    "quotes": [],
+    "sources": {
+      "main": [
+        {
+          "sourceId": "SRC-DSJ-1936",
+          "locator": "4月9日、12月7日、12月12日条"
+        },
+        {
+          "sourceId": "SRC-DSJ-1937",
+          "locator": "1月13日、9月22—23日条"
+        }
+      ],
+      "extra": [
+        {
+          "sourceId": "SRC-JIANSHI",
+          "locator": "第二章第六节（对应章节）"
+        }
+      ]
+    },
+    "uncertain": [
+      {
+        "field": "detail",
+        "note": "“中共中央派周恩来等赴西安参与谈判”及“和平解决”的表述待用《中国共产党简史》核对具体日期。",
+        "sourceIds": []
+      }
+    ],
+    "imageId": null,
+    "keywords": [
+      "西安事变",
+      "张学良",
+      "杨虎城",
+      "兵谏",
+      "和平解决",
+      "国共合作"
+    ],
+    "contentVersion": 1
+  }
+]

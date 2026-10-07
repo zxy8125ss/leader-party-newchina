@@ -1,0 +1,28 @@
+{
+  "name": "leader-party-newchina",
+  "version": "0.1.0",
+  "description": "领袖·政党·新中国 —— 1893—1976 三线历史时间轴学习 PWA",
+  "scripts": {
+    "dev": "vite",
+    "validate": "node scripts/validate.mjs data/content",
+    "fonts": "python3 scripts/subset_fonts.py",
+    "prebuild": "node scripts/validate.mjs data/content",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "vite": "^5.4.21",
+    "vite-plugin-pwa": "^0.20.5"
+  },
+  "dependencies": {
+    "docx": "^9.9.0",
+    "idb": "^8.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "private": true,
+  "type": "module"
+}

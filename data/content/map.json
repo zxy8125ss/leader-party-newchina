@@ -1,0 +1,128 @@
+{
+  "locations": [
+    {
+      "id": "L-NANCHANG",
+      "name": "南昌",
+      "lat": 28.68,
+      "lng": 115.89
+    },
+    {
+      "id": "L-HANKOU",
+      "name": "汉口",
+      "lat": 30.58,
+      "lng": 114.28
+    },
+    {
+      "id": "L-XIANGGAN",
+      "name": "湘赣边界",
+      "lat": 27.6,
+      "lng": 113.85,
+      "note": "秋收起义发生于湘赣边界多地，取大致位置"
+    },
+    {
+      "id": "L-SANWAN",
+      "name": "永新三湾",
+      "lat": 26.97,
+      "lng": 114.13
+    },
+    {
+      "id": "L-JINGGANGSHAN",
+      "name": "井冈山",
+      "lat": 26.57,
+      "lng": 114.17
+    },
+    {
+      "id": "L-MOSCOW",
+      "name": "莫斯科",
+      "lat": 55.75,
+      "lng": 37.62,
+      "note": "境外地点，地图不显示"
+    },
+    {
+      "id": "L-GUTIAN",
+      "name": "上杭古田",
+      "lat": 25.25,
+      "lng": 116.83
+    },
+    {
+      "id": "L-CHANGSHA",
+      "name": "长沙",
+      "lat": 28.2,
+      "lng": 112.94
+    },
+    {
+      "id": "L-SHENYANG",
+      "name": "沈阳",
+      "lat": 41.8,
+      "lng": 123.43
+    },
+    {
+      "id": "L-RUIJIN",
+      "name": "瑞金",
+      "lat": 25.89,
+      "lng": 116.03
+    },
+    {
+      "id": "L-NINGDU",
+      "name": "宁都",
+      "lat": 26.47,
+      "lng": 116.01
+    },
+    {
+      "id": "L-QUANZHOU",
+      "name": "湘江（全州一带）",
+      "lat": 25.93,
+      "lng": 111.07
+    },
+    {
+      "id": "L-LIPING",
+      "name": "黎平",
+      "lat": 26.23,
+      "lng": 109.14
+    },
+    {
+      "id": "L-ZUNYI",
+      "name": "遵义",
+      "lat": 27.69,
+      "lng": 106.92
+    },
+    {
+      "id": "L-CHISHUI",
+      "name": "赤水河（土城一带）",
+      "lat": 28.25,
+      "lng": 105.95
+    },
+    {
+      "id": "L-WUQI",
+      "name": "吴起",
+      "lat": 36.93,
+      "lng": 108.18
+    },
+    {
+      "id": "L-BEIPING",
+      "name": "北平",
+      "lat": 39.9,
+      "lng": 116.4
+    },
+    {
+      "id": "L-WAYAOBAO",
+      "name": "瓦窑堡",
+      "lat": 37.25,
+      "lng": 109.67
+    },
+    {
+      "id": "L-HUINING",
+      "name": "会宁",
+      "lat": 35.69,
+      "lng": 105.05
+    },
+    {
+      "id": "L-XIAN",
+      "name": "西安",
+      "lat": 34.27,
+      "lng": 108.94
+    }
+  ],
+  "routes": [],
+  "images": []
+}

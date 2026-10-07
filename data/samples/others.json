@@ -1,0 +1,35 @@
+{
+  "_说明": "格式样例。stages 只有 S03 有导语；people/quiz/intl/map 仅演示字段，正式内容在 M1 撰写并核对后写入 data/content/。",
+  "stages": [
+    { "id": "S03", "title": "土地革命战争", "start": "1927-08", "end": "1937-07", "intro": "大革命失败后，党以武装斗争反抗国民党统治，开辟农村包围城市的道路，经历反“围剿”、长征和遵义会议，最终推动抗日民族统一战线的形成。", "order": 3 }
+  ],
+  "people": [
+    {
+      "id": "P-ZHOU", "name": "周恩来", "born": "1898-03-05", "died": "1976-01-08", "tier": "core",
+      "activePeriod": "1920年代—1976",
+      "roles": [{ "period": "1935（遵义会议后）", "title": "党内委托的军事指挥最后决心负责者" }],
+      "relationToMao": "长征途中支持毛泽东的军事主张，此后长期共事。",
+      "turningPoints": [{ "eventId": "E1935-ZYHY", "note": "在会上批评军事指挥错误，会后仍负责军事指挥" }],
+      "eventIds": ["E1935-ZYHY"],
+      "relations": [{ "personId": "P-MAO", "type": "战友/同事", "stageIds": ["S03"] }],
+      "sourceIds": ["SRC-JIANSHI"],
+      "imageId": null
+    }
+  ],
+  "quiz": [
+    {
+      "id": "Q-S03-001", "stageId": "S03", "ability": "fact",
+      "question": "遵义会议在组织上作出了哪项决定？",
+      "options": ["选举毛泽东为中共中央主席", "增选毛泽东为中央政治局常委", "撤销周恩来的军事指挥职务", "决定由张国焘统一指挥各路红军"],
+      "answer": 1,
+      "explanation": "遵义会议增选毛泽东为中央政治局常委，取消“三人团”和博古、李德的最高军事指挥权，仍由朱德、周恩来指挥军事。",
+      "eventIds": ["E1935-ZYHY"]
+    }
+  ],
+  "intl": [],
+  "map": {
+    "locations": [{ "id": "L-ZUNYI", "name": "遵义", "lat": 27.69, "lng": 106.92, "note": "遵义会议会址，遵义老城子尹路；坐标为近似值" }],
+    "routes": [],
+    "images": []
+  }
+}
