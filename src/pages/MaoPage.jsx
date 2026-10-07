@@ -58,8 +58,9 @@ export default function MaoPage({ query }) {
                     <div className="life-when"><b>{formatDate(e).replace(/年.*/, '')}</b><span>{ageText(e)}</span></div>
                     <Link to={`/event/${e.id}?from=mao`} className="life-card">
                       <span className="life-meta"><span className={`kind-tag kind-${k}`}>{KIND_NAME[k]}</span><span className="muted small">{formatDate(e)}</span>{e.level !== 'B' && <LevelBadge level={e.level} />}{readSet.has(e.id) && <span className="read-dot">已读</span>}</span>
-                      <span className="life-title">{e.title}</span>
+                      <span className="life-title">{e.title}{e.annotation && <span className="ann-tag">有注解</span>}</span>
                       <span className="life-sum">{e.summary}</span>
+                      {e.quotes?.[0] && <span className="life-quote">“{e.quotes[0].text}”</span>}
                       {e.insight && <span className="life-insight"><em>{k === 'poem' ? '诗中心境' : k === 'work' ? '核心观点' : '他的思考'}</em>{e.insight}</span>}
                     </Link>
                   </li>
@@ -69,7 +70,7 @@ export default function MaoPage({ query }) {
           </section>
         );
       })}
-      <p className="muted small">诗词与著作只转述内容和背景，不收录原文；“核心观点”“诗中心境”是对原作的概括，读原作请查《毛泽东选集》《毛泽东诗词集》。</p>
+      <p className="muted small">毛泽东作品仍在著作权保护期内：著作只摘录简短原句，诗词不收原文，改为背景、意象与读法的注解。读原作请查《毛泽东选集》《毛泽东诗词集》。</p>
     </div>
   );
 }

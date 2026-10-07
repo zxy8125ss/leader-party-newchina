@@ -401,6 +401,30 @@
         "sortDate": {
           "$ref": "#/$defs/isoDate",
           "description": "仅用于排序（如只知道季节时），不显示"
+        },
+        "annotation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": "注解：体裁、背景、意象、读法（转述，不含原文）"
+        },
+        "textSource": {
+          "type": "string",
+          "description": "原文去哪里查"
         }
       },
       "additionalProperties": false

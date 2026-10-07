@@ -56,7 +56,7 @@ export function SourceBlock({ sources, quotes }) {
     <div className="sources">
       <div className="src-group"><b>【主要来源】</b>{sources.main.map((s, i) => <div key={i}>{line(s)}</div>)}</div>
       {sources.extra?.length > 0 && <div className="src-group"><b>【补充来源】</b>{sources.extra.map((s, i) => <div key={i}>{line(s)}</div>)}</div>}
-      {quotes?.length > 0 && (
+      {false && quotes?.length > 0 && (
         <div className="src-group"><b>【引用原文】</b>
           {quotes.map((q, i) => <div key={i}>“{q.text}”——{q.author}，《{q.work}》，{q.year}</div>)}
         </div>
